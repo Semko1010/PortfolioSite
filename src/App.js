@@ -1,7 +1,7 @@
 import Mov from "./Component/mov/Mov"
 import Tasty from "./Component/tasty/Tasty"
 import './App.css';
-import {useState} from "react"
+
 function App() {
   
 

@@ -1,38 +1,87 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
 }
+.header{
+  height: 100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* body{
+  width: 100vw;
+  margin: 0 auto;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  line-height:50px;
+  font-size: 2rem;
+  width:80vw;margin: 0 auto;
+} */
+h1{
+  font-size: 7rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mov{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.movDiv{
+  height: 100vh;
+  
+}
+.mov h2{
+ position: absolute;
+ left: 0;
+ top: 0vh;
+ font-size: 3rem;
+}
+.mov img:nth-of-type(1){
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mov img:nth-of-type(2){
+  width: 40%;
+  position: absolute;
+  right: 0;
+  top: 35vh;
+}
+.mov img:nth-of-type(3){
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 95vh;
+}
+.tasty{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 20vh;
+  position: relative;
+  
+}
+.tasty h2{
+ position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 3rem;
+ }
+.tasty img:nth-of-type(1){
+  width: 25%;
+  position: absolute;
+  right: 0;
+  top: 0vh;
+}
+.tasty img:nth-of-type(2){
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 85vh;
+}
+.tasty img:nth-of-type(3){
+  width: 40%;
+  position: absolute;
+  right: 0;
+  top: 100vh;
 }

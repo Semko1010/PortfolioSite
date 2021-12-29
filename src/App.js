@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import Mov from "./Component/mov/Mov"
+import Tasty from "./Component/tasty/Tasty"
 import './App.css';
-
+import {useState} from "react"
 function App() {
+  const [offset, setOffset] =useState()
+  const handleScroll = () => setOffset(window.pageYOffset)
+  window.addEventListener("scroll", handleScroll)
+
+
+
   return (
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+      <h1>Semir Hamidovic Portfolio</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam sequi itaque mollitia expedita officiis facere nulla accusantium laboriosam eos distinctio numquam possimus iste voluptates voluptatum perferendis consequatur natus, reprehenderit corrupti suscipit voluptas impedit voluptatem corporis accusamus! Inventore ipsum amet mollitia aspernatur? Quod eligendi odio fuga mollitia qui similique architecto! Accusamus, culpa quisquam sapiente nostrum officia beatae officiis veritatis error rerum, at voluptates? Minima, praesentium, est unde aut soluta enim esse debitis voluptatibus labore consequatur neque beatae ea, quaerat necessitatibus tenetur earum ipsam facere iusto quia saepe maxime asperiores quo? Velit eveniet harum veritatis dolores cumque minima asperiores obcaecati corporis ad?</p>
+      </div>
+      <div className="movDiv">
+      <Mov/>
+      </div>
+      <div ClassName="tastyDiv">
+      <Tasty/>
+      </div>
+
     </div>
   );
 }
 
 export default App;
+

@@ -1,13 +1,13 @@
 import {useState} from "react"
 const Mov = () => {
-    let test;
+    
     const [offset, setOffset] =useState()
     const [offset1, setOffset1] =useState()
     const handleScroll1 = () => {
       
-        // 
+        // && Math.floor(window.pageYOffset) <3000
         setOffset1(Math.floor(Math.floor(window.pageYOffset)))
-     if(Math.floor(window.pageYOffset) >1400 && Math.floor(window.pageYOffset) <3000){
+     if(Math.floor(window.pageYOffset) >1400 ){
       setOffset(Math.floor(Math.floor(window.pageYOffset)))
      
      }
@@ -18,7 +18,7 @@ const Mov = () => {
 
 
 
-console.log(window.pageYOffset);
+
     return (
     <div className="mov">
       <h2 style={{transform: `translateX(${offset * 0.1}px) translateY(${offset* 0.1}px)`}}>The Movie App</h2>

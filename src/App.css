@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 
 
 *{
@@ -7,8 +9,22 @@
   padding: 0;
   
 }
+
 body{
   
+}
+.number{
+  position: fixed;
+  font-size: 3rem;
+  left: 1vw;
+  top: 1vh;
+}
+.frameWork{
+  position: fixed;
+  color: red;
+  font-size: 3rem;
+  left: 1vw;
+  bottom: 1vh;
 }
 /*########## Header ##########*/
 .header{
@@ -32,14 +48,21 @@ align-items:center;
 position: relative;
 }
 article h2{
-font-size: 6rem;
+font-size: 20rem;
 position: absolute;
+color:gray;
+opacity: 0.5;
+left: 0vw;
+top: 5vh;
 }
 article p{
 font-size: 3rem;
 font-weight: 300;
 line-height:80px;
 position: absolute;
+top: 35vh;
+right: -8vw;
+
 width:70vw;
 }
 .AboutMeDiv{
@@ -65,6 +88,8 @@ h1{
  left: 0;
  top: 5vh;
  font-size: 7rem;
+ font-family: 'Kaushan Script', cursive;
+  text-shadow: 0 0 20px black;
 }
 .mov img:nth-of-type(1){
   width: 30%;
@@ -95,9 +120,11 @@ h1{
 .tasty h2{
  position: absolute;
   left: 0vw;
-  top: -45vh;
+  top: -30vh;
   transform:translateX(380px);
   font-size: 7rem;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 0 0 20px black;
  }
 .tasty img:nth-of-type(1){
   width: 25%;
@@ -107,16 +134,16 @@ h1{
   
 }
 .tasty img:nth-of-type(2){
-  width: 30%;
+  width: 25%;
   position: absolute;
-  right: 0vw;
+  right: 23vw;
   top: 200vh;
-  
+  z-index: 3;
 }
 .tasty img:nth-of-type(3){
-  width: 35%;
+  width: 25%;
   position: absolute;
   right: -1vw;
-  top: 380vh;
+  top: 330vh;
   
 }

@@ -3,8 +3,9 @@ const Tasty = () => {
     const [offset, setOffset] =useState()
     const [offset1, setOffset1] =useState()
     const handleScroll = () => {
+      // && Math.floor(window.pageYOffset) <6100
       setOffset1(Math.floor(Math.floor(window.pageYOffset)))
-      if(Math.floor(window.pageYOffset) >2500&& Math.floor(window.pageYOffset) <6100){
+      if(Math.floor(window.pageYOffset) >2500){
         setOffset(Math.floor(Math.floor(window.pageYOffset)))
        
        }

@@ -1,26 +1,56 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
 *{
   margin: 0;
   padding: 0;
+  
 }
+body{
+  
+}
+/*########## Header ##########*/
 .header{
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+.header h2{
+ font-size: 3rem;
+ font-weight: 300;
+ }
+/*########## Article ##########*/
 
+article {
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items:center;
+position: relative;
 }
-/* body{
-  width: 100vw;
-  margin: 0 auto;
+article h2{
+font-size: 6rem;
+position: absolute;
 }
-p{
-  line-height:50px;
-  font-size: 2rem;
-  width:80vw;margin: 0 auto;
-} */
+article p{
+font-size: 3rem;
+font-weight: 300;
+line-height:80px;
+position: absolute;
+width:70vw;
+}
+.AboutMeDiv{
+  height:100vh;
+  
+}
 h1{
   font-size: 7rem;
+  font-family: 'Kaushan Script', cursive;
 }
+/*########## MOV ##########*/
 .mov{
   height: 100vh;
   width: 100vw;
@@ -28,32 +58,33 @@ h1{
 }
 .movDiv{
   height: 100vh;
-  
+  position: relative;
 }
 .mov h2{
  position: absolute;
  left: 0;
- top: 0vh;
- font-size: 3rem;
+ top: 5vh;
+ font-size: 7rem;
 }
 .mov img:nth-of-type(1){
   width: 30%;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 3vw;
+  top: 75vh;
 }
 .mov img:nth-of-type(2){
   width: 40%;
   position: absolute;
-  right: 0;
-  top: 35vh;
+  right: 5vw;
+  top: 133vh;
 }
 .mov img:nth-of-type(3){
   width: 50%;
   position: absolute;
-  right: 0;
-  top: 95vh;
+  right: 7vw;
+  top: 205vh;
 }
+/*########## Tasty ##########*/
 .tasty{
   width: 100vw;
   height: 100vh;
@@ -63,25 +94,29 @@ h1{
 }
 .tasty h2{
  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 3rem;
+  left: 0vw;
+  top: -45vh;
+  transform:translateX(380px);
+  font-size: 7rem;
  }
 .tasty img:nth-of-type(1){
   width: 25%;
   position: absolute;
   right: 0;
-  top: 0vh;
+  top: 85vh;
+  
 }
 .tasty img:nth-of-type(2){
-  width: 35%;
+  width: 30%;
   position: absolute;
-  right: 0;
-  top: 85vh;
+  right: 0vw;
+  top: 200vh;
+  
 }
 .tasty img:nth-of-type(3){
-  width: 40%;
+  width: 35%;
   position: absolute;
-  right: 0;
-  top: 100vh;
+  right: -1vw;
+  top: 380vh;
+  
 }

@@ -1,33 +1,35 @@
-import {useState} from "react"
-const Tasty = () => {
-    const [offset, setOffset] =useState()
-    const [offset1, setOffset1] =useState()
-    const handleScroll = () => {
-      // && Math.floor(window.pageYOffset) <6100
-      setOffset1(Math.floor(Math.floor(window.pageYOffset)))
-      if(Math.floor(window.pageYOffset) >2500){
-        setOffset(Math.floor(Math.floor(window.pageYOffset)))
-       
-       }
- 
+import React, { Component } from 'react'
+
+
+class Tasty extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { data:0,scroll:0 }
   }
-  window.addEventListener("scroll", handleScroll)
+
+
+  handleScroll = () => {
+    this.setState({data:window.pageYOffset})
+     if(this.state.data >1700 && this.state.data <4500){
+    this.setState({scroll:this.state.data})
+     
     
-  
-   
-  
+    }
+      }
 
-  
-  
+componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll)
 
-    return (
-    <div className="tasty">
-      <h2 style={{transform: `translateX(${offset* 0.1}px) translateY(${offset* 0.2}px)`}}>The Tasty App</h2>
-      <img style={{transform: `translateY(${-offset *0.4}px)`}}  src="/img/tasty/tasty1.png" alt="" />
-      <img  style={{transform: `translateY(${-offset * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />
-      <img  style={{transform: `translateY(${-offset * 1}px)`}}  src="img/tasty/tasty3.png" alt="" />
+}
+  render() { 
+    return ( <div className="tasty">
+    <h2 style={{transform: `translateX(${this.state.scroll * 0.10}px) translateY(${this.state.scroll * 0.1}px)`}}>The Tasty App</h2>
+    <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />
+    <img  style={{transform: `translateY(${-this.state.scroll * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />
+    <img  style={{transform: `translateY(${-this.state.scroll * 0.9}px)`}}  src="img/tasty/tasty3.png" alt="" />
 
-      </div> );
+    </div>  );
+  }
 }
  
 export default Tasty;

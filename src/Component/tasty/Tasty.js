@@ -23,7 +23,7 @@ componentDidMount() {
 }
   render() { 
     return ( <div className="tasty">
-    <h2 style={{transform: `translateX(${-this.state.scroll * 0.10}px) translateY(${-this.state.scroll * 0.1}px)`}}>The Tasty App</h2>
+    <h2 style={{transform: `translateX(${-this.state.scroll * 0.10}px`}}>The Tasty App</h2>
     <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.9}px)`}}  src="img/tasty/tasty3.png" alt="" />

@@ -9,10 +9,12 @@
   padding: 0;
   
 }
-
+img{
+  border-radius: 50px;
+  
+}
 body{
-  width:1920px;
-  margin: 0 auto;
+
   
 }
 .number{
@@ -39,6 +41,9 @@ body{
 .header h2{
  font-size: 3rem;
  font-weight: 300;
+ opacity: 0;
+ visibility: hidden;
+ transition: visibility 0s, opacity 1.5s linear;
  }
 /*########## Article ##########*/
 
@@ -48,7 +53,7 @@ display: flex;
 justify-content:center;
 align-items:center;
 position: relative;
-
+overflow: hidden;
 }
 article h2{
 font-size: 20rem;
@@ -70,47 +75,93 @@ width:70vw;
 }
 .AboutMeDiv{
   height:100vh;
-  
+  overflow: hidden;
 }
 h1{
   font-size: 7rem;
   font-family: 'Kaushan Script', cursive;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s, opacity 1s linear;
+}
+
+/*########## MONumberFrameworkV ##########*/
+
+.NumberFramework{
+  position:relative;
+}
+
+.NumberFramework p:nth-of-type(1){
+  position:fixed;
+  top: 2vh;
+  left: 2vw;
+  font-size: 1.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  
+}
+.NumberFramework p:nth-of-type(2){
+  position:fixed;
+  bottom: 2vh;
+  left: 2vw;
+  font-size: 1.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 /*########## MOV ##########*/
 .mov{
   height: 100vh;
   width: 100vw;
   position: relative;
+  
 }
 .movDiv{
   height: 100vh;
   position: relative;
+  
 }
 .mov h2{
- position: absolute;
- left: -5vw;
- top: -3vh;
- font-size: 7rem;
- font-family: 'Kaushan Script', cursive;
-  text-shadow: 0 0 20px black;
+position: absolute;
+left: -5vw;
+top: -3vh;
+font-size: 7rem;
+font-family: 'Kaushan Script', cursive;
+text-shadow: 0 0 20px black;
 }
+.mov a{
+color: black;
+text-decoration:none;
+}
+.mov h2:hover{
+ 
+ opacity: 0.5;
+cursor: pointer;
+
+
+}
+
 .mov img:nth-of-type(1){
-  width: 30%;
+  width: 15%;
   position: absolute;
   right: 3vw;
   top: 35vh;
+  
 }
 .mov img:nth-of-type(2){
-  width: 40%;
+  width: 30%;
   position: absolute;
-  right: 5vw;
-  top: 115vh;
+  right: 20vw;
+  top: 118vh;
+  
 }
 .mov img:nth-of-type(3){
-  width: 50%;
+  width: 65%;
   position: absolute;
-  right: 7vw;
-  top: 200vh;
+  right: -5vw;
+  top: 233vh;
+  
 }
 /*########## Tasty ##########*/
 .tasty{
@@ -119,6 +170,7 @@ h1{
   margin-top: 20vh;
   position: relative;
   
+  z-index: 10;
 }
 .tasty h2{
  position: absolute;
@@ -133,7 +185,7 @@ h1{
   width: 25%;
   position: absolute;
   right: 0;
-  top: 20vh;
+  top: 40vh;
   
 }
 .tasty img:nth-of-type(2){
@@ -146,7 +198,7 @@ h1{
 .tasty img:nth-of-type(3){
   width: 25%;
   position: absolute;
-  right: -1vw;
+  right: 1vw;
   top: 280vh;
-  
+  z-index: 3;
 }

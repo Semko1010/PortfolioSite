@@ -13,6 +13,7 @@ function App() {
   return (
    
     <div className="App">
+      <main>
       <div className="header">
         
       <h1>Semir Hamidovic</h1>
@@ -30,7 +31,7 @@ function App() {
       <div className="tastyDiv">
       <Tasty/>
       </div>
-
+      </main>
     </div>
   );
 }

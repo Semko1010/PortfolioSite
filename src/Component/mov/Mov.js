@@ -27,7 +27,7 @@ class Mov extends Component {
     render() { 
         console.log(this.state.data);
         return ( <div className="mov">
-        <h2 style={{transform: `translateX(${ this.state.scroll * 0.10}px) translateY(${this.state.scroll * 0.1}px)`}}><a href="https://zen-wing-081e78.netlify.app" target="_blank">The Movie App</a></h2>
+        <h2 style={{transform: `translateX(${ this.state.scroll * 0.10}px) translateY(${this.state.scroll * 0.1}px)`}}><a href="https://zen-wing-081e78.netlify.app" target="_blank" rel="noreferrer">The Movie App</a></h2>
         
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/mov/Bildschirmfoto 2021-12-29 um 09.59.27.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/mov/Bildschirmfoto 2021-12-29 um 09.58.07.png" alt="" />

@@ -445,7 +445,7 @@ text-shadow: 0 0 20px black;
  .mov h2{
  position: absolute;
  left: -5vw;
- top: -3vh;
+ top: -30vh;
  font-size: 3.5rem;
  font-family: 'Kaushan Script', cursive;
  text-shadow: 0 0 20px black;
@@ -475,8 +475,8 @@ text-shadow: 0 0 20px black;
  /*########## Tasty #########*/
  .tasty h2{
   position: absolute;
-   right: -65vw;
-   top: 20vh;
+   right: -15vw;
+   top: 0vh;
    transform:translateX(380px);
    font-size: 3.5rem;
    font-family: 'Kaushan Script', cursive;
@@ -486,21 +486,124 @@ text-shadow: 0 0 20px black;
    width: 20%;
    position: absolute;
    left: 1vw;
-   top: 10vh;
+   top: 42vh;
    
  }
  .tasty img:nth-of-type(2){
    width: 40%;
    position: absolute;
    left: 20vw;
-   top: 125vh;
+   top: 166vh;
    z-index: 3;
  }
  .tasty img:nth-of-type(3){
    width: 90%;
    position: absolute;
    left: 5vw;
-   top: 240vh;
+   top: 288vh;
+   z-index: 3;
+ }
+ }
+@media (max-width: 375px) {
+  /*########## Header ##########*/
+
+  .header h2{
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 1.5s linear;
+    }
+  h1{
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 1s linear;
+  }
+ /*########## Article ##########*/
+ 
+ article h2{
+ font-size: 4rem;
+ position: absolute;
+ color:gray;
+ opacity: 0.5;
+ left: -60vw;
+ top: 5vh;
+ }
+ article p{
+ font-size: 1rem;
+ font-weight: 300;
+ line-height:40px;
+ position: absolute;
+ top: 15vh;
+ right: -67vw;
+ width:70vw;
+ }
+ 
+
+ 
+ /*########## MOV ##########*/
+ 
+ .mov h2{
+ position: absolute;
+ left: -50vw;
+ top: -10vh;
+ font-size: 1.5rem;
+ font-family: 'Kaushan Script', cursive;
+ text-shadow: 0 0 20px black;
+ }
+ 
+ .mov img:nth-of-type(1){
+   width: 35%;
+   position: absolute;
+   right: 1vw;
+   top: 35vh;
+   
+ }
+ .mov img:nth-of-type(2){
+   width: 55%;
+   position: absolute;
+   right: 35vw;
+   top: 118vh;
+   
+ }
+ .mov img:nth-of-type(3){
+   width: 100%;
+   position: absolute;
+   right: 0vw;
+   top: 209vh;
+   
+ }
+ /*########## Tasty #########*/
+ .tasty h2{
+  position: absolute;
+   right: -15vw;
+   top: -7vh;
+   transform:translateX(380px);
+   font-size: 3.5rem;
+   font-family: 'Kaushan Script', cursive;
+   text-shadow: 0 0 20px black;
+  }
+ .tasty img:nth-of-type(1){
+   width: 20%;
+   position: absolute;
+   left: 1vw;
+   top: 35vh;
+   
+ }
+ .tasty img:nth-of-type(2){
+   width: 40%;
+   position: absolute;
+   left: 20vw;
+   top: 158vh;
+   z-index: 3;
+ }
+ .tasty img:nth-of-type(3){
+   width: 90%;
+   position: absolute;
+   left: 5vw;
+   top: 278vh;
    z-index: 3;
  }
  }

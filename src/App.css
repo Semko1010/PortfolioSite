@@ -159,8 +159,8 @@ cursor: pointer;
 .mov img:nth-of-type(3){
   width: 65%;
   position: absolute;
-  right: -5vw;
-  top: 233vh;
+  right: 1vw;
+  top: 235vh;
   
 }
 /*########## Tasty #########*/
@@ -174,31 +174,31 @@ cursor: pointer;
 }
 .tasty h2{
  position: absolute;
-  left: -5vw;
-  top: -30vh;
+  right: -5vw;
+  top: 20vh;
   transform:translateX(380px);
   font-size: 7rem;
   font-family: 'Kaushan Script', cursive;
   text-shadow: 0 0 20px black;
  }
 .tasty img:nth-of-type(1){
-  width: 25%;
+  width: 15%;
   position: absolute;
-  right: 0;
-  top: 40vh;
+  left: 3vw;
+  top: 45vh;
   
 }
 .tasty img:nth-of-type(2){
-  width: 25%;
+  width: 30%;
   position: absolute;
-  right: 23vw;
+  left: 20vw;
   top: 170vh;
   z-index: 3;
 }
 .tasty img:nth-of-type(3){
-  width: 25%;
+  width: 65%;
   position: absolute;
-  right: 1vw;
-  top: 280vh;
+  left: 1vw;
+  top: 320vh;
   z-index: 3;
 }

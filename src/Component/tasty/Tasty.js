@@ -10,7 +10,7 @@ class Tasty extends Component {
 
   handleScroll = () => {
     this.setState({data:window.pageYOffset})
-     if(this.state.data >1700 && this.state.data <4500){
+     if(this.state.data >1200 && this.state.data <4500){
     this.setState({scroll:this.state.data})
      
     
@@ -24,6 +24,8 @@ componentDidMount() {
   render() { 
     return ( <div className="tasty">
     <h2 style={{transform: `translateX(${-this.state.scroll * 0.10}px`}}>The Tasty App</h2>
+    <h3 style={{transform: `translateX(${-this.state.scroll * 0.10}px) `}}>Front-End Developer • Created with React</h3>
+        <p style={{transform: `translateX(${-this.state.scroll * 0.10}px) `}}>Find your favorite movies and enjoy them with your friends</p>
     <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.9}px)`}}  src="img/tasty/tasty3.png" alt="" />

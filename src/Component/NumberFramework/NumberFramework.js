@@ -22,8 +22,8 @@ class NumberFrameWork extends Component {
         this.setState({framework:"React"})
         let numberPtag = document.querySelector(".NumberFramework p:nth-of-type(1)")
         let frameWorkPtag = document.querySelector(".NumberFramework p:nth-of-type(2)")
-        numberPtag.style = `visibility:visible;opacity:1`
-        frameWorkPtag.style =`visibility:visible;opacity:1`
+        numberPtag.style = `visibility:visible;opacity:1;left: 2vw; top:2vh`
+        frameWorkPtag.style =`visibility:visible;opacity:1;left: 2vw; bottom:2vh`
         
        
     }  
@@ -32,8 +32,8 @@ class NumberFrameWork extends Component {
         let frameWorkPtag = document.querySelector(".NumberFramework p:nth-of-type(2)")
         this.setState({number:2})
         this.setState({framework:"React"})
-        numberPtag.style = `visibility:visible;opacity:1`
-        frameWorkPtag.style =`visibility:visible;opacity:1`
+        numberPtag.style = `visibility:visible;opacity:1;right: 2vw; top:2vh`
+        frameWorkPtag.style =`visibility:visible;opacity:1;right: 2vw; bottom:2vh`
     
     }  
     }

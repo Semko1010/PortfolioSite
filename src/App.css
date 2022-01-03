@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 /*########## Global ##########*/
 *{
@@ -16,6 +15,7 @@ img{
 main{
   overflow: hidden;
 }
+
 .number{
   position: fixed;
   font-size: 3rem;
@@ -67,7 +67,7 @@ font-size: 20rem;
 position: absolute;
 color:gray;
 opacity: 0.5;
-left: -2vw;
+left: -9vw;
 top: 5vh;
 }
 article p{
@@ -76,7 +76,7 @@ font-weight: 300;
 line-height:80px;
 position: absolute;
 top: 35vh;
-right: -12vw;
+right: -10vw;
 
 width:70vw;
 }
@@ -94,8 +94,6 @@ width:70vw;
 
 .NumberFramework p:nth-of-type(1){
   position:fixed;
-  top: 2vh;
-  left: 2vw;
   font-size: 1.5rem;
   visibility: hidden;
   opacity: 0;
@@ -104,8 +102,7 @@ width:70vw;
 }
 .NumberFramework p:nth-of-type(2){
   position:fixed;
-  bottom: 2vh;
-  left: 2vw;
+  
   font-size: 1.5rem;
   visibility: hidden;
   opacity: 0;
@@ -123,13 +120,28 @@ width:70vw;
   position: relative;
   
 }
+.mov h3{
+  position: absolute;
+  left: -5vw;
+  top: 13vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.mov p{
+  position: absolute;
+  left: -5vw;
+  top: 17vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
+
+}
 .mov h2{
 position: absolute;
 left: -5vw;
 top: -3vh;
 font-size: 7rem;
-font-family: 'Kaushan Script', cursive;
-text-shadow: 0 0 20px black;
+font-family: 'IM Fell English SC', serif;
+transition: transform 0.2s ease-out 0s;
 
 }
 .mov a{
@@ -137,8 +149,7 @@ color: black;
 text-decoration:none;
 }
 .mov h2:hover{
- 
- opacity: 0.5;
+opacity: 0.5;
 cursor: pointer;
 
 
@@ -149,21 +160,22 @@ cursor: pointer;
   position: absolute;
   right: 3vw;
   top: 35vh;
-  
+  transition: transform 0.2s ease-out 0s;
+ 
 }
 .mov img:nth-of-type(2){
   width: 30%;
   position: absolute;
   right: 20vw;
   top: 118vh;
-  
+  transition: transform 0.2s ease-out 0s;
 }
 .mov img:nth-of-type(3){
   width: 65%;
   position: absolute;
   right: 5vw;
   top: 235vh;
-  
+  transition: transform 0.2s ease-out 0s;
 }
 /*########## Tasty #########*/
 .tasty{
@@ -176,19 +188,33 @@ cursor: pointer;
 }
 .tasty h2{
  position: absolute;
-  right: -5vw;
+  right: -9vw;
   top: -8vh;
   transform:translateX(380px);
   font-size: 7rem;
-  font-family: 'Kaushan Script', cursive;
-  text-shadow: 0 0 20px black;
+  font-family: 'IM Fell English SC', serif;
+  transition: transform 0.2s ease-out 0s;
  }
+ .tasty h3{
+  position: absolute;
+  top: 8vh;
+  font-size: 1.5rem;
+  right: 2.5vw;
+  transition: transform 0.2s ease-out 0s;
+}
+.tasty p{
+  position: absolute;
+  top: 12vh;
+  font-size: 1.2rem;
+  right: 1vw;
+  transition: transform 0.2s ease-out 0s;
+}
 .tasty img:nth-of-type(1){
   width: 15%;
   position: absolute;
   left: 3vw;
   top: 45vh;
-  
+  transition: transform 0.2s ease-out 0s;
 }
 .tasty img:nth-of-type(2){
   width: 30%;
@@ -196,6 +222,7 @@ cursor: pointer;
   left: 20vw;
   top: 170vh;
   z-index: 3;
+  transition: transform 0.2s ease-out 0s;
 }
 .tasty img:nth-of-type(3){
   width: 65%;
@@ -203,6 +230,7 @@ cursor: pointer;
   left: 5vw;
   top: 320vh;
   z-index: 3;
+  transition: transform 0.2s ease-out 0s;
 }
 @media (max-width: 1680px) {
  /*########## Header ##########*/
@@ -425,7 +453,7 @@ text-shadow: 0 0 20px black;
  position: absolute;
  color:gray;
  opacity: 0.5;
- left: -27vw;
+ left: -45vw;
  top: 5vh;
  }
  article p{
@@ -434,7 +462,7 @@ text-shadow: 0 0 20px black;
  line-height:40px;
  position: absolute;
  top: 20vh;
- right: -33vw;
+ right: -47vw;
  width:70vw;
  }
  
@@ -578,9 +606,9 @@ text-shadow: 0 0 20px black;
  /*########## Tasty #########*/
  .tasty h2{
   position: absolute;
-   right: -40vw;
+   right: -37vw;
    top: -25vh;
-   transform:translateX(380px);
+  
    font-size: 1.5rem;
    font-family: 'Kaushan Script', cursive;
    text-shadow: 0 0 20px black;

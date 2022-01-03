@@ -23,7 +23,7 @@ function App() {
       <div className="AboutMeDiv">
       <AboutMe/>
       </div>
-      <NumberFramework/>
+      
       <div className="movDiv">
       <Mov/>
       </div>

@@ -1,4 +1,4 @@
-import NumberFramework from "./Component/NumberFramework/NumberFramework"
+
 import Mov from "./Component/mov/Mov"
 import AboutMe from "./Component/AboutMe/AbotMe"
 import Tasty from "./Component/tasty/Tasty"

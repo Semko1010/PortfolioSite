@@ -122,15 +122,15 @@ width:70vw;
 }
 .mov h3{
   position: absolute;
-  left: -5vw;
-  top: 13vh;
+  left: -4vw;
+  top: 15vh;
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
   position: absolute;
-  left: -5vw;
-  top: 17vh;
+  left: -4vw;
+  top: 18vh;
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
@@ -138,7 +138,7 @@ width:70vw;
 .mov h2{
 position: absolute;
 left: -5vw;
-top: -3vh;
+top: 3vh;
 font-size: 7rem;
 font-family: 'IM Fell English SC', serif;
 transition: transform 0.2s ease-out 0s;
@@ -151,8 +151,6 @@ text-decoration:none;
 .mov h2:hover{
 opacity: 0.5;
 cursor: pointer;
-
-
 }
 
 .mov img:nth-of-type(1){
@@ -186,8 +184,22 @@ cursor: pointer;
   
   z-index: 10;
 }
+.tastyDiv{
+  height: 100vh;
+  position: relative;
+  
+}
+.tasty a{
+  color: black;
+  text-decoration:none;
+}
+  .tasty h2:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  }
+  
 .tasty h2{
- position: absolute;
+  position: absolute;
   right: -9vw;
   top: -8vh;
   transform:translateX(380px);
@@ -197,16 +209,16 @@ cursor: pointer;
  }
  .tasty h3{
   position: absolute;
-  top: 8vh;
+  top: 5vh;
   font-size: 1.5rem;
-  right: 2.5vw;
+  right: 2vw;
   transition: transform 0.2s ease-out 0s;
 }
 .tasty p{
   position: absolute;
-  top: 12vh;
+  top: 8vh;
   font-size: 1.2rem;
-  right: 1vw;
+  right: 0.5vw;
   transition: transform 0.2s ease-out 0s;
 }
 .tasty img:nth-of-type(1){
@@ -229,6 +241,77 @@ cursor: pointer;
   position: absolute;
   left: 5vw;
   top: 320vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+
+
+ /*########## Music #########*/
+ .music{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 20vh;
+  position: relative;
+  
+  z-index: 10;
+}
+ .musicDiv{
+  position: relative;
+  height: 100vh;
+ 
+}
+
+.music a{
+  color: black;
+  text-decoration:none;
+}
+  .music h2:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  }
+.music h2{
+ position: absolute;
+  left: -15vw;
+  top: -22vh;
+  transform:translateX(380px);
+  font-size: 7rem;
+  font-family: 'IM Fell English SC', serif;
+  transition: transform 0.2s ease-out 0s;
+ }
+ .music h3{
+  position: absolute;
+  top: -8vh;
+  font-size: 1.5rem;
+  left: -14.5vw;
+  transition: transform 0.2s ease-out 0s;
+}
+.music p{
+  position: absolute;
+  top: -4vh;
+  font-size: 1.2rem;
+  left: -14.5vw;
+  transition: transform 0.2s ease-out 0s;
+}
+.music img:nth-of-type(1){
+  width: 15%;
+  position: absolute;
+  right: 3vw;
+  top: 45vh;
+  transition: transform 0.2s ease-out 0s;
+}
+.music img:nth-of-type(2){
+  width: 30%;
+  position: absolute;
+  right: 20vw;
+  top: 215vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+.music img:nth-of-type(3){
+  width: 65%;
+  position: absolute;
+  right: 5vw;
+  top: 396vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }

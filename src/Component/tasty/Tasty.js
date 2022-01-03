@@ -23,7 +23,7 @@ componentDidMount() {
 }
   render() { 
     return ( <div className="tasty">
-    <h2 style={{transform: `translateX(${-this.state.scroll * 0.10}px`}}>The Tasty App</h2>
+    <h2 style={{transform: `translateX(${-this.state.scroll * 0.10}px`}}><a href="https://the-tasty-app.netlify.app/" target="_blank" rel="noreferrer">The Tasty App</a></h2>
     <h3 style={{transform: `translateX(${-this.state.scroll * 0.10}px) `}}>Front-End Developer • Created with React</h3>
         <p style={{transform: `translateX(${-this.state.scroll * 0.10}px) `}}>Find your favorite movies and enjoy them with your friends</p>
     <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />

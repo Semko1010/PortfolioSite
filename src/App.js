@@ -2,7 +2,7 @@
 import Mov from "./Component/mov/Mov"
 import AboutMe from "./Component/AboutMe/AbotMe"
 import Tasty from "./Component/tasty/Tasty"
-
+import Music from "./Component/Music/Music"
 import './App.css';
 
 
@@ -30,6 +30,9 @@ function App() {
       
       <div className="tastyDiv">
       <Tasty/>
+      </div>
+      <div className="musicDiv">
+      <Music/>
       </div>
       </main>
     </div>

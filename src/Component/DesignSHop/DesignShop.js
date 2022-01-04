@@ -11,7 +11,7 @@ class DesignShop extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-         if(this.state.data >3600 && this.state.data <6150){
+         if(this.state.data >3600 && this.state.data <5800){
         this.setState({scroll:this.state.data})
          if(x.matches){
 

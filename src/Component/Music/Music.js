@@ -11,7 +11,7 @@ class Music extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-         if(this.state.data >2500 && this.state.data <5750){
+         if(this.state.data >2500 && this.state.data <4750){
         this.setState({scroll:this.state.data})
          if(x.matches){
 

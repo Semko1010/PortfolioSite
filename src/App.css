@@ -838,9 +838,9 @@ font-family: 'IM Fell English SC', serif;
   }
 .shop h2{
  position: absolute;
-  right: -27vw;
-  top: -49vh;
-font-size: 7rem;
+  right: -15.5vw;
+  top: -46vh;
+font-size: 5rem;
   font-family: 'IM Fell English SC', serif;
   transition: transform 0.2s ease-out 0s;
   
@@ -860,25 +860,25 @@ font-size: 7rem;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(1){
-  width: 15%;
+  width: 13%;
   position: absolute;
   left: 3vw;
   top: 50vh;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(2){
-  width: 30%;
+  width: 27%;
   position: absolute;
-  left: 18vw;
-  top: 260vh;
+  left: 16vw;
+  top: 263vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(3){
-  width: 65%;
+  width: 60%;
   position: absolute;
   left: 5vw;
-  top: 465vh;
+  top: 461vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
@@ -1109,8 +1109,8 @@ font-size: 7rem;
   }
 .shop h2{
  position: absolute;
-  right: -27vw;
-  top: -49vh;
+  right: -37vw;
+  top: -46vh;
 font-size: 3.5rem;
   font-family: 'IM Fell English SC', serif;
   transition: transform 0.2s ease-out 0s;
@@ -1118,30 +1118,30 @@ font-size: 3.5rem;
  }
  .shop h3{
   position: absolute;
-  top: -34vh;
+  top: -39vh;
   font-size: 1.5rem;
-  right: -23vw;
+  right: -67vw;
   transition: transform 0.2s ease-out 0s;
 }
 .shop p{
   position: absolute;
-  top: -31vh;
+  top: -36vh;
   font-size: 1.2rem;
-  right: -8vw;
+  right: -40vw;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(1){
   width: 20%;
   position: absolute;
-  left: 3vw;
-  top: 50vh;
+  left: 1vw;
+  top: 62vh;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(2){
   width: 40%;
   position: absolute;
-  left: 18vw;
-  top: 260vh;
+  left: 21vw;
+  top: 283vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
@@ -1149,7 +1149,7 @@ font-size: 3.5rem;
   width: 90%;
   position: absolute;
   left: 5vw;
-  top: 465vh;
+  top: 472vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }

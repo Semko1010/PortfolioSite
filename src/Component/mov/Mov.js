@@ -11,7 +11,7 @@ class Mov extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-         if(this.state.data >700 && this.state.data <3150){
+         if(this.state.data >700 && this.state.data <2500){
         this.setState({scroll:this.state.data})
          if(x.matches){
 

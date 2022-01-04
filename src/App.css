@@ -358,7 +358,7 @@ font-size: 7rem;
   position: absolute;
   top: -22vh;
   font-size: 1.2rem;
-  right: -3vw;
+  right: -2.9vw;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(1){
@@ -434,7 +434,7 @@ position: absolute;
 left: -5vw;
 top: -3vh;
 font-size: 5.5rem;
-font-family: 'Kaushan Script', cursive;
+
 
 }
 
@@ -463,11 +463,11 @@ font-family: 'Kaushan Script', cursive;
 /*########## Tasty #########*/
 .tasty h2{
  position: absolute;
-  right: -5vw;
+  right: -8vw;
   top: -15vh;
   transform:translateX(380px);
   font-size: 5.5rem;
-  font-family: 'Kaushan Script', cursive;
+  
   
  }
 
@@ -576,6 +576,54 @@ font-family: 'Kaushan Script', cursive;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
+/*########## Shop #########*/
+.shop h2{
+  position: absolute;
+   right: -17vw;
+   top: -37vh;
+ font-size: 7rem;
+   font-family: 'IM Fell English SC', serif;
+   transition: transform 0.2s ease-out 0s;
+   
+  }
+  .shop h3{
+   position: absolute;
+   top: -25vh;
+   font-size: 1.5rem;
+   right: -14vw;
+   transition: transform 0.2s ease-out 0s;
+ }
+ .shop p{
+   position: absolute;
+   top: -22vh;
+   font-size: 1.2rem;
+   right: -1.8vw;
+   transition: transform 0.2s ease-out 0s;
+ }
+.shop img:nth-of-type(1){
+  width: 15%;
+  position: absolute;
+  left: 3vw;
+  top: 50vh;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop img:nth-of-type(2){
+  width: 30%;
+  position: absolute;
+  left: 18vw;
+  top: 260vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop img:nth-of-type(3){
+  width: 65%;
+  position: absolute;
+  left: 5vw;
+  top: 463vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+
 }
 @media (max-width: 1440px) {
   /*########## Header ##########*/
@@ -808,7 +856,7 @@ font-size: 7rem;
   position: absolute;
   top: -31vh;
   font-size: 1.2rem;
-  right: -8vw;
+  right: -8.5vw;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(1){
@@ -878,12 +926,27 @@ font-size: 7rem;
  
  .mov h2{
  position: absolute;
- left: -5vw;
+ left: -12vw;
  top: -10vh;
  font-size: 3.5rem;
- font-family: 'Kaushan Script', cursive;
+
  
  }
+ .mov h3{
+  position: absolute;
+  left: -11vw;
+  top: -2vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.mov p{
+  position: absolute;
+  left: -11vw;
+  top: 1vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
+
+}
  
  .mov img:nth-of-type(1){
    width: 20%;
@@ -909,18 +972,33 @@ font-size: 7rem;
  /*########## Tasty #########*/
  .tasty h2{
   position: absolute;
-   right: -15vw;
-   top: -20vh;
+   right: -17vw;
+   top: -25vh;
    transform:translateX(380px);
    font-size: 3.5rem;
-   font-family: 'Kaushan Script', cursive;
+  
    
+  }
+  .tasty h3{
+    position: absolute;
+    right: -33.5vw;
+    top: -17vh;
+    font-size: 1.5rem;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty p{
+    position: absolute;
+    right: -37vw;
+    top: -14vh;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-out 0s;
+  
   }
  .tasty img:nth-of-type(1){
    width: 20%;
    position: absolute;
    left: 1vw;
-   top: 42vh;
+   top: 44vh;
    
  }
  .tasty img:nth-of-type(2){
@@ -937,6 +1015,145 @@ font-size: 7rem;
    top: 288vh;
    z-index: 3;
  }
+  /*########## Music #########*/
+  .music{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20vh;
+    position: relative;
+    
+    z-index: 10;
+  }
+   .musicDiv{
+    position: relative;
+    height: 100vh;
+   
+  }
+  
+  .music a{
+    color: black;
+    text-decoration:none;
+  }
+    .music h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+  .music h2{
+   position: absolute;
+    left: -46vw;
+    top: -35vh;
+    transform:translateX(380px);
+    font-size: 3.5rem;
+    font-family: 'IM Fell English SC', serif;
+    transition: transform 0.2s ease-out 0s;
+   }
+   .music h3{
+    position: absolute;
+    top: -28vh;
+    font-size: 1.5rem;
+    left: -45.5vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music p{
+    position: absolute;
+    top: -25vh;
+    font-size: 1.2rem;
+    left: -45.5vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(1){
+    width: 20%;
+    position: absolute;
+    right: 1vw;
+    top: 50vh;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(2){
+    width: 40%;
+    position: absolute;
+    right: 21vw;
+    top: 226vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(3){
+    width: 90%;
+    position: absolute;
+    right: 1vw;
+    top: 382vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+/*########## DesignShop #########*/
+.shop{
+  width: 100vw;
+  height: 100vh;
+  margin-top: 20vh;
+  position: relative;
+  
+  z-index: 10;
+}
+ .shopDiv{
+  position: relative;
+  height: 100vh;
+ 
+}
+
+.shop a{
+  color: black;
+  text-decoration:none;
+}
+  .shop h2:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  }
+.shop h2{
+ position: absolute;
+  right: -27vw;
+  top: -49vh;
+font-size: 3.5rem;
+  font-family: 'IM Fell English SC', serif;
+  transition: transform 0.2s ease-out 0s;
+  
+ }
+ .shop h3{
+  position: absolute;
+  top: -34vh;
+  font-size: 1.5rem;
+  right: -23vw;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop p{
+  position: absolute;
+  top: -31vh;
+  font-size: 1.2rem;
+  right: -8vw;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop img:nth-of-type(1){
+  width: 20%;
+  position: absolute;
+  left: 3vw;
+  top: 50vh;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop img:nth-of-type(2){
+  width: 40%;
+  position: absolute;
+  left: 18vw;
+  top: 260vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+.shop img:nth-of-type(3){
+  width: 90%;
+  position: absolute;
+  left: 5vw;
+  top: 465vh;
+  z-index: 3;
+  transition: transform 0.2s ease-out 0s;
+}
+
  }
 @media (max-width: 375px) {
   /*########## Header ##########*/

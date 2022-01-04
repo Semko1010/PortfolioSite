@@ -42,3 +42,6 @@ class Music extends Component {
  
 export default Music;
 
+//lernen wie man lernt
+//trotz it studium wenig kentnisse in der programierung
+//aerbeiten auch mit photoshop

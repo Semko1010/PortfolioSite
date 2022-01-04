@@ -1,0 +1,76 @@
+article {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    overflow: hidden;
+    }
+    article h2{
+    font-size: 20rem;
+    position: absolute;
+    color:gray;
+    opacity: 0.5;
+    left: -9vw;
+    top: 5vh;
+    }
+    article p{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height:80px;
+    position: absolute;
+    top: 35vh;
+    right: -10vw;
+    
+    width:70vw;
+    }
+    .AboutMeDiv{
+      height:100vh;
+      overflow: hidden;
+    }
+
+@media (max-width: 1680px) {
+    /*########## Header ##########*/
+   
+   /*########## Article ##########*/
+   
+   article h2{
+   font-size: 18rem;
+   position: absolute;
+   color:gray;
+   opacity: 0.5;
+   left: -12vw;
+   top: 5vh;
+   }
+   article p{
+   font-size: 2.5rem;
+   font-weight: 300;
+   line-height:80px;
+   position: absolute;
+   top: 35vh;
+   right: -14vw;
+   width:70vw;
+   }
+
+}
+@media (max-width: 1440px) {
+   
+    article h2{
+      font-size: 14rem;
+      position: absolute;
+      color:gray;
+      opacity: 0.5;
+      left: -16vw;
+      top: 5vh;
+      }
+      article p{
+      font-size: 2rem;
+      font-weight: 300;
+      line-height:60px;
+      position: absolute;
+      top: 28vh;
+      right: -19vw;
+      width:70vw;
+      }
+
+}

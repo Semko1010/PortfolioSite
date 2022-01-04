@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Shop.css"
 let x =window.matchMedia("(max-width: 375px)")
 
 class DesignShop extends Component {

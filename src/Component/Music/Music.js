@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Music.css"
 let x =window.matchMedia("(max-width: 375px)")
 
 class Music extends Component {
@@ -11,19 +12,16 @@ class Music extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-         if(this.state.data >2500 && this.state.data <4750){
+        if(this.state.data >2500 && this.state.data <4750){
         this.setState({scroll:this.state.data})
-         if(x.matches){
-
-         }
-        
-        }
-          }
+        if(x.matches){
+}
+}
+}
 
     componentDidMount() {
         window.addEventListener("scroll", this.handleScroll)
-
-    }
+}
     
 
     render() { 
@@ -42,6 +40,3 @@ class Music extends Component {
  
 export default Music;
 
-//lernen wie man lernt
-//trotz it studium wenig kentnisse in der programierung
-//aerbeiten auch mit photoshop

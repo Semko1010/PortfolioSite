@@ -1,0 +1,148 @@
+.mov{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  
+}
+.movDiv{
+  height: 100vh;
+  position: relative;
+  
+}
+.mov h3{
+  position: absolute;
+  left: -4vw;
+  top: 15vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.mov p{
+  position: absolute;
+  left: -4vw;
+  top: 18vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
+
+}
+.mov h2{
+position: absolute;
+left: -5vw;
+top: 3vh;
+font-size: 7rem;
+font-family: 'IM Fell English SC', serif;
+transition: transform 0.2s ease-out 0s;
+
+}
+.mov a{
+color: black;
+text-decoration:none;
+}
+.mov h2:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+.mov img:nth-of-type(1){
+  width: 15%;
+  position: absolute;
+  right: 3vw;
+  top: 35vh;
+  transition: transform 0.2s ease-out 0s;
+ 
+}
+.mov img:nth-of-type(2){
+  width: 30%;
+  position: absolute;
+  right: 18vw;
+  top: 118vh;
+  transition: transform 0.2s ease-out 0s;
+}
+.mov img:nth-of-type(3){
+  width: 65%;
+  position: absolute;
+  right: 5vw;
+  top: 235vh;
+  transition: transform 0.2s ease-out 0s;
+} 
+
+@media (max-width: 1680px) {
+
+
+  .mov h3{
+  position: absolute;
+  left: -4vw;
+  top: 9vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.mov p{
+  position: absolute;
+  left: -4vw;
+  top: 12vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
+
+}
+.mov h2{
+position: absolute;
+left: -5vw;
+top: -3vh;
+font-size: 5.5rem;
+}
+
+
+.mov img:nth-of-type(1){
+  width: 13%;
+  position: absolute;
+  right: 3vw;
+  top: 35vh;
+  
+}
+.mov img:nth-of-type(2){
+  width: 27%;
+  position: absolute;
+  right: 16vw;
+  top: 118vh;
+  
+}
+.mov img:nth-of-type(3){
+  width: 60%;
+  position: absolute;
+  right: 1vw;
+  top: 220vh;
+  
+}
+}
+@media (max-width: 1440px) {
+
+
+  .mov h2{
+    position: absolute;
+    left: -5vw;
+    top: -3vh;
+    font-size: 5rem;
+   font-family: 'IM Fell English SC', serif;
+    }
+    
+    .mov img:nth-of-type(1){
+      width: 13%;
+      position: absolute;
+      right: 3vw;
+      top: 35vh;
+      
+    }
+    .mov img:nth-of-type(2){
+      width: 27%;
+      position: absolute;
+      right: 16vw;
+      top: 118vh;
+      
+    }
+    .mov img:nth-of-type(3){
+      width: 60%;
+      position: absolute;
+      right: 1vw;
+      top: 223vh;
+      
+    }
+}

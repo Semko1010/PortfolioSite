@@ -54,7 +54,7 @@ main{
 }
 /*########## Article ##########*/
 
-article {
+/* article {
 height: 100vh;
 display: flex;
 justify-content:center;
@@ -83,33 +83,12 @@ width:70vw;
 .AboutMeDiv{
   height:100vh;
   overflow: hidden;
-}
+} */
 
 
-/*########## MONumberFrameworkV ##########*/
 
-.NumberFramework{
-  position:relative;
-}
-
-.NumberFramework p:nth-of-type(1){
-  position:fixed;
-  font-size: 1.5rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-  
-}
-.NumberFramework p:nth-of-type(2){
-  position:fixed;
-  
-  font-size: 1.5rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-}
 /*########## MOV ##########*/
-.mov{
+/* .mov{
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -174,9 +153,9 @@ cursor: pointer;
   right: 5vw;
   top: 235vh;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 /*########## Tasty #########*/
-.tasty{
+/* .tasty{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -243,11 +222,11 @@ cursor: pointer;
   top: 320vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 
 
  /*########## Music #########*/
- .music{
+ /* .music{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -314,9 +293,9 @@ cursor: pointer;
   top: 396vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
  /*########## DesignShop #########*/
- .shop{
+ /* .shop{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -383,13 +362,13 @@ font-size: 7rem;
   top: 473vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 @media (max-width: 1680px) {
  /*########## Header ##########*/
 
 /*########## Article ##########*/
 
-article h2{
+/* article h2{
 font-size: 18rem;
 position: absolute;
 color:gray;
@@ -406,15 +385,11 @@ top: 35vh;
 right: -14vw;
 width:70vw;
 }
+ */
 
-/*########## MONumberFrameworkV ##########*/
-
-.NumberFramework{
-  position:relative;
-}
 
 /*########## MOV ##########*/
-.mov h3{
+/* .mov h3{
   position: absolute;
   left: -4vw;
   top: 9vh;
@@ -434,8 +409,6 @@ position: absolute;
 left: -5vw;
 top: -3vh;
 font-size: 5.5rem;
-
-
 }
 
 
@@ -459,9 +432,9 @@ font-size: 5.5rem;
   right: 1vw;
   top: 220vh;
   
-}
+} */
 /*########## Tasty #########*/
-.tasty h2{
+/* .tasty h2{
  position: absolute;
   right: -8vw;
   top: -15vh;
@@ -505,10 +478,10 @@ font-size: 5.5rem;
   left: 1vw;
   top: 304vh;
   z-index: 3;
-}
+} */
 
  /*########## Music #########*/
- .music{
+ /* .music{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -575,9 +548,9 @@ font-size: 5.5rem;
   top: 387vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 /*########## Shop #########*/
-.shop h2{
+/* .shop h2{
   position: absolute;
    right: -17vw;
    top: -37vh;
@@ -622,7 +595,7 @@ font-size: 5.5rem;
   top: 463vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 
 }
 @media (max-width: 1440px) {
@@ -644,7 +617,7 @@ font-size: 5.5rem;
   }
  /*########## Article ##########*/
  
- article h2{
+ /* article h2{
  font-size: 14rem;
  position: absolute;
  color:gray;
@@ -660,13 +633,13 @@ font-size: 5.5rem;
  top: 28vh;
  right: -19vw;
  width:70vw;
- }
+ } */
  
 
  
  /*########## MOV ##########*/
  
- .mov h2{
+ /* .mov h2{
  position: absolute;
  left: -5vw;
  top: -3vh;
@@ -694,9 +667,9 @@ font-family: 'IM Fell English SC', serif;
    right: 1vw;
    top: 223vh;
    
- }
+ } */
  /*########## Tasty #########*/
- .tasty h2{
+ /* .tasty h2{
   position: absolute;
    right: -5vw;
    top: -15vh;
@@ -740,11 +713,11 @@ font-family: 'IM Fell English SC', serif;
    left: 1vw;
    top: 307vh;
    z-index: 3;
- }
+ } */
  
 
  /*########## Music #########*/
- .music{
+ /* .music{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -811,10 +784,10 @@ font-family: 'IM Fell English SC', serif;
   top: 383vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 
 /*########## DesignShop #########*/
-.shop{
+/* .shop{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -881,7 +854,7 @@ font-size: 5rem;
   top: 461vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 }
 @media (max-width: 768px) {
   /*########## Header ##########*/

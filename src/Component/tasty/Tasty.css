@@ -1,0 +1,164 @@
+.tasty{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20vh;
+    position: relative;
+    
+    z-index: 10;
+  }
+  .tastyDiv{
+    height: 100vh;
+    position: relative;
+    
+  }
+  .tasty a{
+    color: black;
+    text-decoration:none;
+  }
+    .tasty h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+    
+  .tasty h2{
+    position: absolute;
+    right: -9vw;
+    top: -8vh;
+    transform:translateX(380px);
+    font-size: 7rem;
+    font-family: 'IM Fell English SC', serif;
+    transition: transform 0.2s ease-out 0s;
+   }
+   .tasty h3{
+    position: absolute;
+    top: 5vh;
+    font-size: 1.5rem;
+    right: 2vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty p{
+    position: absolute;
+    top: 8vh;
+    font-size: 1.2rem;
+    right: 0.5vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty img:nth-of-type(1){
+    width: 15%;
+    position: absolute;
+    left: 3vw;
+    top: 45vh;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty img:nth-of-type(2){
+    width: 30%;
+    position: absolute;
+    left: 18vw;
+    top: 170vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty img:nth-of-type(3){
+    width: 65%;
+    position: absolute;
+    left: 5vw;
+    top: 320vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+
+  @media (max-width: 1680px) {
+    .tasty h2{
+      position: absolute;
+       right: -8vw;
+       top: -15vh;
+       transform:translateX(380px);
+       font-size: 5.5rem;
+       
+       
+      }
+     
+      .tasty h3{
+       position: absolute;
+       top: -2vh;
+       font-size: 1.5rem;
+       right: -4vw;
+       transition: transform 0.2s ease-out 0s;
+     }
+     .tasty p{
+       position: absolute;
+       top: 1vh;
+       font-size: 1.2rem;
+       right: -5.5vw;
+       transition: transform 0.2s ease-out 0s;
+     }
+     .tasty img:nth-of-type(1){
+       width: 13%;
+       position: absolute;
+       left: 3vw;
+       top: 45vh;
+       
+     }
+     .tasty img:nth-of-type(2){
+       width: 27%;
+       position: absolute;
+       left: 16vw;
+       top: 170vh;
+       z-index: 3;
+     }
+     .tasty img:nth-of-type(3){
+       width: 60%;
+       position: absolute;
+       left: 1vw;
+       top: 304vh;
+       z-index: 3;
+     }
+  }
+  @media (max-width: 1440px) {
+   .tasty h2{
+  position: absolute;
+   right: -5vw;
+   top: -15vh;
+   transform:translateX(380px);
+   font-size: 5rem;
+   font-family: 'IM Fell English SC', serif;
+   
+  }
+
+  .tasty h3{
+    position: absolute;
+    top: -3vh;
+    font-size: 1.5rem;
+    right: -4vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .tasty p{
+    position: absolute;
+    top: 0vh;
+    font-size: 1.2rem;
+    right: -6vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+ .tasty img:nth-of-type(1){
+   width: 13%;
+   position: absolute;
+   left: 3vw;
+   top: 45vh;
+   
+ }
+ .tasty img:nth-of-type(2){
+   width: 27%;
+   position: absolute;
+   left: 16vw;
+   top: 170vh;
+   z-index: 3;
+ }
+ .tasty img:nth-of-type(3){
+   width: 60%;
+   position: absolute;
+   left: 1vw;
+   top: 307vh;
+   z-index: 3;
+ }
+ 
+  }

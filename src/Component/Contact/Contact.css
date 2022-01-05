@@ -1,0 +1,161 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    
+    
+    }
+    .contact h2{
+    font-size: 20rem;
+    position: absolute;
+    color:gray;
+    opacity: 0.5;
+    right: -210vw;
+    top: -35vh;
+    transition: transform 0.2s ease-out 0s;
+    }
+  
+  
+    .contact a:nth-of-type(1){
+        position: absolute;
+        top: 0vh;
+        right: 293vw;
+        width: 10%;
+        opacity: 0.8;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .contact a:nth-of-type(2){
+        opacity: 0.8;
+        position: absolute;
+        top: 0vh;
+        right: 272vw;
+        width:10%;
+        
+        transition: transform 0.2s ease-out 0s;
+    }
+    .contact a:nth-of-type(3){
+    
+        opacity: 0.8;
+        position: absolute;
+        top: 0vh;
+        right: 252vw;
+        width:10%;
+        transition: transform 0.2s ease-out 0s;
+    }
+    
+    .contactDiv{
+      height:100vh;
+     z-index: 20;
+    }
+
+    @media (max-width: 1680px) {
+        .contact {
+            height: 100vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            position: relative;
+            
+            
+            }
+            .contact h2{
+            font-size: 20rem;
+            position: absolute;
+            color:gray;
+            opacity: 0.5;
+            right: -223vw;
+            top: 30vh;
+            transition: transform 0.2s ease-out 0s;
+            }
+          
+          
+            .contact a:nth-of-type(1){
+                position: absolute;
+                top: 65vh;
+                right: 303vw;
+                width: 10%;
+                opacity: 0.8;
+                transition: transform 0.2s ease-out 0s;
+            }
+            .contact a:nth-of-type(2){
+                opacity: 0.8;
+                position: absolute;
+                top: 65vh;
+                right: 280vw;
+                width:10%;
+                
+                transition: transform 0.2s ease-out 0s;
+            }
+            .contact a:nth-of-type(3){
+            
+                opacity: 0.8;
+                position: absolute;
+                top: 65vh;
+                right: 258vw;
+                width:10%;
+                transition: transform 0.2s ease-out 0s;
+            }
+            
+            .contactDiv{
+              height:100vh;
+             z-index: 20;
+            }
+        
+      }
+      @media (max-width: 1440px) {
+        .contact {
+            height: 100vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            position: relative;
+            
+            
+            }
+            .contact h2{
+            font-size: 14rem;
+            position: absolute;
+            color:gray;
+            opacity: 0.5;
+            right: -230vw;
+            top: 20vh;
+            transition: transform 0.2s ease-out 0s;
+            }
+          
+          
+            .contact a:nth-of-type(1){
+                position: absolute;
+                top: 52vh;
+                right: 312vw;
+                width: 7%;
+                opacity: 0.8;
+                transition: transform 0.2s ease-out 0s;
+            }
+            .contact a:nth-of-type(2){
+                opacity: 0.8;
+                position: absolute;
+                top: 52vh;
+                right: 293vw;
+                width:7%;
+                
+                transition: transform 0.2s ease-out 0s;
+            }
+            .contact a:nth-of-type(3){
+            
+                opacity: 0.8;
+                position: absolute;
+                top: 52vh;
+                right: 273vw;
+                width:7%;
+                transition: transform 0.2s ease-out 0s;
+            }
+            
+            .contactDiv{
+              height:100vh;
+             z-index: 20;
+            }
+        
+        
+      }

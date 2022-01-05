@@ -6,6 +6,7 @@ import Music from "./Component/Music/Music"
 import DesignShop from "./Component/DesignSHop/DesignShop"
 import Est from "./Component/Est/Est"
 import Skills from "./Component/Skills/Skills"
+import Contact from "./Component/Contact/Contact"
 import './App.css';
 
 
@@ -47,6 +48,9 @@ window.scrollTo(0,0);
       </div>
       <div className="skillsDiv">
         <Skills/>
+      </div>
+      <div className="contactDiv">
+        <Contact/>
       </div>
       </main>
     </div>

@@ -11,13 +11,32 @@ class AboutMe extends Component {
     // && this.state.data <780
     handleScroll = () => {
             this.setState({data:window.pageYOffset})
-             if(this.state.data >6800 && this.state.data <8000){
-            this.setState({scroll:this.state.data})
-            
-            
+           
+            if(window.matchMedia("(max-width: 1440px)").matches){
+                if(this.state.data >5300 && this.state.data <6450){
+                    this.setState({scroll:this.state.data})
+                    console.log("1440");
+                    
+                }
             }
-              }
-
+            else if(window.matchMedia("(max-width: 1680px)").matches){
+                if(this.state.data >5600 && this.state.data <7050){
+                    this.setState({scroll:this.state.data})
+                    console.log("1680");
+                    
+                }
+            }
+            else if(window.matchMedia("(max-width: 1920px)").matches){
+                if(this.state.data >5600 && this.state.data <7950){
+                    this.setState({scroll:this.state.data})
+                    console.log("1920");
+                    
+                }
+            }
+            
+            
+             
+            }
 
     componentDidMount() {
     window.addEventListener("scroll", this.handleScroll)

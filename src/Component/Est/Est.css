@@ -3,13 +3,12 @@
     height: 100vh;
     margin-top: 20vh;
     position: relative;
-    
-    z-index: 10;
+    z-index: 9;
   }
   .estDiv{
     height: 100vh;
     position: relative;
-    
+    z-index: 9;
   }
   .est a{
     color: black;

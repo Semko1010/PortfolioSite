@@ -1,0 +1,131 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    
+    
+    }
+    .skills h2{
+    font-size: 20rem;
+    position: absolute;
+    color:gray;
+    opacity: 0.5;
+    left: -175vw;
+    top: -20vh;
+   
+    }
+    .skills p{
+    font-weight: 300;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(1){
+    font-size: 3rem;
+    font-weight: 300;
+    
+    position: absolute;
+    top: 20vh;
+    right: -240vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(2){
+    font-size: 3rem;
+    font-weight: 300;
+    
+    position: absolute;
+    top: 15vh;
+    right: -240vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(3){
+    font-size: 3rem;
+    font-weight: 300;
+    
+    position: absolute;
+    top: 10vh;
+    right: -240vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(4){
+    font-size: 3rem;
+    font-weight: 300;
+    
+    position: absolute;
+    top: 20vh;
+    right: -215vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(5){
+    font-size: 3rem;
+    font-weight: 300;
+    position: absolute;
+    top: 15vh;
+    right: -215vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    .skills p:nth-last-of-type(6){
+    font-size: 3rem;
+    font-weight: 300;
+    position: absolute;
+    top: 10vh;
+    right: -215vw;
+    width:70vw;
+    font-size: 3rem;
+    }
+    
+    .skillsDiv{
+      height:100vh;
+     z-index: 20;
+    }
+
+@media (max-width: 1680px) {
+    /*########## Header ##########*/
+   
+   /*########## Article ##########*/
+   
+   .skills h2{
+   font-size: 18rem;
+   position: absolute;
+   color:gray;
+   opacity: 0.5;
+   left: -12vw;
+   top: 5vh;
+   }
+   .skills p{
+   font-size: 2.5rem;
+   font-weight: 300;
+   line-height:80px;
+   position: absolute;
+   top: 35vh;
+   right: -14vw;
+   width:70vw;
+   }
+
+}
+@media (max-width: 1440px) {
+   
+  .skills h2{
+      font-size: 14rem;
+      position: absolute;
+      color:gray;
+      opacity: 0.5;
+      left: -16vw;
+      top: 5vh;
+      }
+      .skills p{
+      font-size: 2rem;
+      font-weight: 300;
+      line-height:60px;
+      position: absolute;
+      top: 28vh;
+      right: -19vw;
+      width:70vw;
+      }
+
+}

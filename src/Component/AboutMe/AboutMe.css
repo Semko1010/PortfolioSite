@@ -1,4 +1,4 @@
-article {
+.aboutmearticle {
     height: 100vh;
     display: flex;
     justify-content:center;
@@ -6,7 +6,7 @@ article {
     position: relative;
     overflow: hidden;
     }
-    article h2{
+    .aboutmearticle h2{
     font-size: 20rem;
     position: absolute;
     color:gray;
@@ -14,7 +14,7 @@ article {
     left: -9vw;
     top: 5vh;
     }
-    article p{
+    .aboutmearticle p{
     font-size: 3rem;
     font-weight: 300;
     line-height:80px;
@@ -34,7 +34,7 @@ article {
    
    /*########## Article ##########*/
    
-   article h2{
+   .aboutmearticle h2{
    font-size: 18rem;
    position: absolute;
    color:gray;
@@ -42,7 +42,7 @@ article {
    left: -12vw;
    top: 5vh;
    }
-   article p{
+   .aboutmearticle p{
    font-size: 2.5rem;
    font-weight: 300;
    line-height:80px;
@@ -55,7 +55,7 @@ article {
 }
 @media (max-width: 1440px) {
    
-    article h2{
+  .aboutmearticle h2{
       font-size: 14rem;
       position: absolute;
       color:gray;
@@ -63,7 +63,7 @@ article {
       left: -16vw;
       top: 5vh;
       }
-      article p{
+      .aboutmearticle p{
       font-size: 2rem;
       font-weight: 300;
       line-height:60px;

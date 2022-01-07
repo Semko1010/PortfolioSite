@@ -110,7 +110,7 @@
        width: 60%;
        position: absolute;
        left: 1vw;
-       top: 304vh;
+       top: 308vh;
        z-index: 3;
      }
   }
@@ -162,3 +162,57 @@
  }
  
   }
+
+  @media (max-width: 1440px) {.tasty h2{
+    position: absolute;
+     right: -17vw;
+     top: -25vh;
+     transform:translateX(380px);
+     font-size: 3.5rem;
+    
+     
+    }
+    .tasty h3{
+      position: absolute;
+      right: -33.5vw;
+      top: -17vh;
+      font-size: 1.5rem;
+      transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p{
+      position: absolute;
+      right: -37vw;
+      top: -14vh;
+      font-size: 1.2rem;
+      transition: transform 0.2s ease-out 0s;
+    
+    }
+   .tasty img:nth-of-type(1){
+     width: 20%;
+     position: absolute;
+     left: 1vw;
+     top: 44vh;
+     
+   }
+   .tasty img:nth-of-type(2){
+     width: 40%;
+     position: absolute;
+     left: 20vw;
+     top: 166vh;
+     z-index: 3;
+   }
+   .tasty img:nth-of-type(3){
+     width: 90%;
+     position: absolute;
+     left: 5vw;
+     top: 288vh;
+     z-index: 3;
+   }}
+
+
+
+
+
+
+
+  

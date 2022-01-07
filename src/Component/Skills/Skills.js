@@ -12,14 +12,21 @@ class AboutMe extends Component {
     handleScroll = () => {
             this.setState({data:window.pageYOffset})
            
-            if(window.matchMedia("(max-width: 1440px)").matches){
+            if(window.matchMedia("(max-width: 768px)").matches){
+                if(this.state.data >6300 && this.state.data <7100){
+                    this.setState({scroll:this.state.data})
+                    console.log("768");
+                    
+                }
+            }
+            else if(window.matchMedia("(max-width: 1440px)").matches){
                 if(this.state.data >5300 && this.state.data <6450){
                     this.setState({scroll:this.state.data})
                     console.log("1440");
                     
                 }
             }
-            else if(window.matchMedia("(max-width: 1680px)").matches){
+             else if(window.matchMedia("(max-width: 1680px)").matches){
                 if(this.state.data >5600 && this.state.data <7050){
                     this.setState({scroll:this.state.data})
                     console.log("1680");

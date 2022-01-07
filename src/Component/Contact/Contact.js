@@ -11,19 +11,28 @@ class AboutMe extends Component {
     // && this.state.data <780
     handleScroll = () => {
             this.setState({data:window.pageYOffset})
-            if(window.matchMedia("(max-width: 1440px)").matches){
+            if(window.matchMedia("(max-width: 768px)").matches){
+             if(this.state.data >7000 && this.state.data <7600){
+            this.setState({scroll:this.state.data})
+            console.log("768");
+        }
+    }
+            else if(window.matchMedia("(max-width: 1440px)").matches){
              if(this.state.data >6200 && this.state.data <8800){
             this.setState({scroll:this.state.data})
+            console.log("1440");
         }
     }
-            if(window.matchMedia("(max-width: 1680px)").matches){
+           else if(window.matchMedia("(max-width: 1680px)").matches){
              if(this.state.data >6900 && this.state.data <8800){
             this.setState({scroll:this.state.data})
+            console.log("1680");
         }
     }
-            if(window.matchMedia("(max-width: 1920px)").matches){
+           else if(window.matchMedia("(max-width: 1920px)").matches){
              if(this.state.data >7300 && this.state.data <8800){
             this.setState({scroll:this.state.data})
+            console.log("1920");
         }
             
             }

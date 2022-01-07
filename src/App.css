@@ -875,7 +875,7 @@ font-size: 5rem;
   }
  /*########## Article ##########*/
  
- article h2{
+ /* article h2{
  font-size: 8rem;
  position: absolute;
  color:gray;
@@ -891,13 +891,13 @@ font-size: 5rem;
  top: 20vh;
  right: -47vw;
  width:70vw;
- }
+ } */
  
 
  
  /*########## MOV ##########*/
  
- .mov h2{
+ /* .mov h2{
  position: absolute;
  left: -12vw;
  top: -10vh;
@@ -941,9 +941,9 @@ font-size: 5rem;
    right: 5vw;
    top: 209vh;
    
- }
+ } */
  /*########## Tasty #########*/
- .tasty h2{
+ /* .tasty h2{
   position: absolute;
    right: -17vw;
    top: -25vh;
@@ -987,7 +987,7 @@ font-size: 5rem;
    left: 5vw;
    top: 288vh;
    z-index: 3;
- }
+ } */
   /*########## Music #########*/
   .music{
     width: 100vw;
@@ -1038,7 +1038,7 @@ font-size: 5rem;
     width: 20%;
     position: absolute;
     right: 1vw;
-    top: 50vh;
+    top: 52vh;
     transition: transform 0.2s ease-out 0s;
   }
   .music img:nth-of-type(2){
@@ -1107,14 +1107,14 @@ font-size: 3.5rem;
   width: 20%;
   position: absolute;
   left: 1vw;
-  top: 62vh;
+  top: 64vh;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(2){
   width: 40%;
   position: absolute;
   left: 21vw;
-  top: 283vh;
+  top: 282vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
@@ -1147,7 +1147,7 @@ font-size: 3.5rem;
   }
  /*########## Article ##########*/
  
- article h2{
+ /* article h2{
  font-size: 4rem;
  position: absolute;
  color:gray;
@@ -1163,7 +1163,7 @@ font-size: 3.5rem;
  top: 15vh;
  right: -67vw;
  width:70vw;
- }
+ } */
  
 
  

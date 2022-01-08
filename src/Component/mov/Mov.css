@@ -200,7 +200,7 @@ font-size: 5.5rem;
 @media (max-width: 375px) {
   .mov h2{
     position: absolute;
-    left: -37vw;
+    left: -22vw;
     top: -24vh;
     font-size: 2.5rem;
     
@@ -209,16 +209,16 @@ font-size: 5.5rem;
     .mov h3{
       position: absolute;
       width:290px;
-      left: -36vw;
-      top: -16vh;
+      left: -21vw;
+      top: -18vh;
       font-size: 1.5rem;
       transition: transform 0.2s ease-out 0s;
     }
     .mov p{
       position: absolute;
       width:290px;
-      left: -36vw;
-      top: -8vh;
+      left: -21vw;
+      top: -11vh;
       font-size: 1rem;
       transition: transform 0.2s ease-out 0s;
     

@@ -12,7 +12,7 @@
     color:gray;
     opacity: 0.5;
     left: -9vw;
-    top: 5vh;
+    top: 0vh;
     }
     .aboutmearticle p{
     font-size: 3rem;
@@ -40,7 +40,7 @@
    color:gray;
    opacity: 0.5;
    left: -12vw;
-   top: 5vh;
+   top: 0vh;
    }
    .aboutmearticle p{
    font-size: 2.5rem;
@@ -61,7 +61,7 @@
       color:gray;
       opacity: 0.5;
       left: -16vw;
-      top: 5vh;
+      top: 0vh;
       }
       .aboutmearticle p{
       font-size: 2rem;

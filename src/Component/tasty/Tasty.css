@@ -215,23 +215,23 @@
    @media (max-width: 375px) {
    .tasty h2{
     position: absolute;
-     right: -25vw;
-     top: -45vh;
+     right: -28vw;
+     top: -35vh;
     font-size: 2.5rem;
 }
 .tasty h3{
   position: absolute;
   width:290px;
-  right: -38.5vw;
-  top: -38vh;
+  right: -41.5vw;
+  top: -29vh;
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .tasty p{
   position: absolute;
   width:290px;
-  right: -38vw;
-  top: -31vh;
+  right: -42vw;
+  top: -22vh;
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
@@ -240,21 +240,21 @@
      width: 35%;
      position: absolute;
      left: 2vw;
-     top: 35vh;
+     top: 48vh;
      
    }
    .tasty img:nth-of-type(2){
      width: 60%;
      position: absolute;
-     left: 38vw;
-     top: 158vh;
+     left: 37vw;
+     top: 172vh;
      z-index: 3;
    }
    .tasty img:nth-of-type(3){
      width: 100%;
      position: absolute;
      left: 0vw;
-     top: 278vh;
+     top: 296vh;
      z-index: 3;
    }
 

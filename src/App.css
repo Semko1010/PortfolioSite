@@ -989,7 +989,7 @@ font-size: 5rem;
    z-index: 3;
  } */
   /*########## Music #########*/
-  .music{
+  /* .music{
     width: 100vw;
     height: 100vh;
     margin-top: 20vh;
@@ -1056,7 +1056,7 @@ font-size: 5rem;
     top: 382vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
-  }
+  } */
 /*########## DesignShop #########*/
 .shop{
   width: 100vw;

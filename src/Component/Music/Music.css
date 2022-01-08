@@ -207,3 +207,75 @@
         transition: transform 0.2s ease-out 0s;
       }
   }
+
+
+  @media (max-width: 1440px) {
+  .music{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20vh;
+    position: relative;
+    
+    z-index: 10;
+  }
+   .musicDiv{
+    position: relative;
+    height: 100vh;
+   
+  }
+  
+  .music a{
+    color: black;
+    text-decoration:none;
+  }
+    .music h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+  .music h2{
+   position: absolute;
+    left: -46vw;
+    top: -35vh;
+    transform:translateX(380px);
+    font-size: 3.5rem;
+    font-family: 'IM Fell English SC', serif;
+    transition: transform 0.2s ease-out 0s;
+   }
+   .music h3{
+    position: absolute;
+    top: -28vh;
+    font-size: 1.5rem;
+    left: -45.5vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music p{
+    position: absolute;
+    top: -25vh;
+    font-size: 1.2rem;
+    left: -45.5vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(1){
+    width: 20%;
+    position: absolute;
+    right: 1vw;
+    top: 52vh;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(2){
+    width: 40%;
+    position: absolute;
+    right: 21vw;
+    top: 226vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(3){
+    width: 90%;
+    position: absolute;
+    right: 1vw;
+    top: 382vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+}

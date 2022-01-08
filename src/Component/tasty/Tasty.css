@@ -163,7 +163,8 @@
  
   }
 
-  @media (max-width: 1440px) {.tasty h2{
+  @media (max-width: 768px) {
+    .tasty h2{
     position: absolute;
      right: -17vw;
      top: -25vh;

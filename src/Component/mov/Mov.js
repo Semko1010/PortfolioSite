@@ -12,13 +12,16 @@ class Mov extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
+        if(window.matchMedia("(max-width: 375px)").matches){
+         if(this.state.data >400 && this.state.data <2500){
+        this.setState({scroll:this.state.data})
+        }
+    }
+        if(window.matchMedia("(max-width: 1920px)").matches){
          if(this.state.data >700 && this.state.data <2500){
         this.setState({scroll:this.state.data})
-         if(x.matches){
-
-         }
-        
         }
+    }
           }
 
     componentDidMount() {

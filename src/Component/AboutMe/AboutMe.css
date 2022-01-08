@@ -95,3 +95,24 @@
       }
 
 }
+@media (max-width: 375px) {
+   
+  .aboutmearticle h2{
+      font-size: 4rem;
+      position: absolute;
+      color:gray;
+      opacity: 0.5;
+      left: -43vw;
+      top: 5vh;
+      }
+      .aboutmearticle p{
+      font-size: 1.1rem;
+      font-weight: 300;
+      line-height:25px;
+      position: absolute;
+      top: 17vh;
+      right: -45vw;
+      width:70vw;
+      }
+
+}

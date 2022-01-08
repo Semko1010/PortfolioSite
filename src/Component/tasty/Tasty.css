@@ -212,8 +212,53 @@
 
 
 
+   @media (max-width: 375px) {
+   .tasty h2{
+    position: absolute;
+     right: -25vw;
+     top: -45vh;
+    font-size: 2.5rem;
+}
+.tasty h3{
+  position: absolute;
+  width:290px;
+  right: -38.5vw;
+  top: -38vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.tasty p{
+  position: absolute;
+  width:290px;
+  right: -38vw;
+  top: -31vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
 
+}
+   .tasty img:nth-of-type(1){
+     width: 35%;
+     position: absolute;
+     left: 2vw;
+     top: 35vh;
+     
+   }
+   .tasty img:nth-of-type(2){
+     width: 60%;
+     position: absolute;
+     left: 38vw;
+     top: 158vh;
+     z-index: 3;
+   }
+   .tasty img:nth-of-type(3){
+     width: 100%;
+     position: absolute;
+     left: 0vw;
+     top: 278vh;
+     z-index: 3;
+   }
 
+  }
 
 
   

@@ -1169,7 +1169,7 @@ font-size: 3.5rem;
  
  /*########## MOV ##########*/
  
- .mov h2{
+ /* .mov h2{
  position: absolute;
  left: -20vw;
  top: -5vh;
@@ -1198,9 +1198,9 @@ font-size: 3.5rem;
    right: 0vw;
    top: 209vh;
    
- }
+ } */
  /*########## Tasty #########*/
- .tasty h2{
+ /* .tasty h2{
   position: absolute;
    right: -37vw;
    top: -25vh;
@@ -1229,5 +1229,5 @@ font-size: 3.5rem;
    left: 5vw;
    top: 278vh;
    z-index: 3;
- }
+ } */
  }

@@ -11,11 +11,22 @@ class AboutMe extends Component {
     // && this.state.data <780
     handleScroll = () => {
             this.setState({data:window.pageYOffset})
+           if(window.matchMedia("(max-width: 375px)").matches){
+             if(this.state.data >0 && this.state.data <420){
+            this.setState({scroll:this.state.data})
+            }
+        }
+           else if(window.matchMedia("(max-width: 768px)").matches){
              if(this.state.data >0 && this.state.data <920){
             this.setState({scroll:this.state.data})
-            
-            
             }
+}
+           else if(window.matchMedia("(max-width: 1920px)").matches){
+             if(this.state.data >0 && this.state.data <920){
+            this.setState({scroll:this.state.data})
+            }
+}
+
               }
 
 

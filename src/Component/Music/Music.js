@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Music.css"
-let x =window.matchMedia("(max-width: 375px)")
+
 
 class Music extends Component {
     constructor(props) {

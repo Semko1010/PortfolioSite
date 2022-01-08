@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Mov.css"
-let x =window.matchMedia("(max-width: 375px)")
+
 
 class Mov extends Component {
     constructor(props) {

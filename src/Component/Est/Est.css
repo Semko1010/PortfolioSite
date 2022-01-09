@@ -381,7 +381,7 @@
       }
       .est p{
         position: absolute;
-        top: -35vh;
+        top: -34vh;
         font-size: 1.2rem;
         left: -116vw;
         transition: transform 0.2s ease-out 0s;

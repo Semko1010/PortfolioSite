@@ -390,7 +390,7 @@
   .music p{
     position: absolute;
     width:290px;
-    top: -31vh;
+    top: -30vh;
     font-size: 1.2rem;
     left: -66.5vw;
     transition: transform 0.2s ease-out 0s;

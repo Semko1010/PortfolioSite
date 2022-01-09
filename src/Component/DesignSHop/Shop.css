@@ -355,9 +355,9 @@
   .shop h2{
    position: absolute;
     right: -94vw;
-    top: -50vh;
-  font-size: 3rem;
-    font-family: 'IM Fell English SC', serif;
+    top: -51vh;
+    font-size: 3rem;
+    
     transition: transform 0.2s ease-out 0s;
     
    }
@@ -371,7 +371,7 @@
   }
   .shop p{
     position: absolute;
-    top: -34vh;
+    top: -33vh;
     font-size: 1.2rem;
     right: -105vw;
     transition: transform 0.2s ease-out 0s;

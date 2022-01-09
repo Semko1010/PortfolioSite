@@ -256,6 +256,53 @@
    }
 
 }
+@media (max-width: 360px) {
+   .tasty h2{
+    position: absolute;
+     right: -52vw;
+     top: -38vh;
+    font-size: 3rem;
+}
+.tasty h3{
+  position: absolute;
+  width:290px;
+  right: -58.5vw;
+  top: -27vh;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-out 0s;
+}
+.tasty p{
+  position: absolute;
+  width:290px;
+  right: -59vw;
+  top: -19vh;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-out 0s;
+
+}
+   .tasty img:nth-of-type(1){
+     width: 35%;
+     position: absolute;
+     left: 2vw;
+     top: 48vh;
+     
+   }
+   .tasty img:nth-of-type(2){
+     width: 60%;
+     position: absolute;
+     left: 37vw;
+     top: 170vh;
+     z-index: 3;
+   }
+   .tasty img:nth-of-type(3){
+     width: 100%;
+     position: absolute;
+     left: 0vw;
+     top: 291vh;
+     z-index: 3;
+   }
+
+}
 
 
   

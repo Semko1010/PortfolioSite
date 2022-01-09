@@ -1,3 +1,4 @@
+@media (max-width: 1920px) {
 .contact {
     height: 100vh;
     display: flex;
@@ -30,7 +31,7 @@
         opacity: 0.8;
         position: absolute;
         top: 0vh;
-        right: 272vw;
+        right: 271vw;
         width:10%;
         
         transition: transform 0.2s ease-out 0s;
@@ -40,7 +41,7 @@
         opacity: 0.8;
         position: absolute;
         top: 0vh;
-        right: 252vw;
+        right: 250vw;
         width:10%;
         transition: transform 0.2s ease-out 0s;
     }
@@ -49,7 +50,7 @@
     height:30vh;
     z-index: 20;
     }
-
+}
     @media (max-width: 1680px) {
         .contact {
             height: 100vh;
@@ -65,7 +66,7 @@
             position: absolute;
             color:gray;
             opacity: 0.5;
-            right: -235vw;
+            right: -231vw;
             top: 30vh;
             transition: transform 0.2s ease-out 0s;
             }
@@ -83,7 +84,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 65vh;
-                right: 293vw;
+                right: 291vw;
                 width:10%;
                 
                 transition: transform 0.2s ease-out 0s;
@@ -93,13 +94,13 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 65vh;
-                right: 268vw;
+                right: 266vw;
                 width:10%;
                 transition: transform 0.2s ease-out 0s;
             }
             
             .contactDiv{
-              height:100vh;
+              height:90vh;
              z-index: 20;
             }
         

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Shop.css"
-let x =window.matchMedia("(max-width: 375px)")
+
 
 class DesignShop extends Component {
     constructor(props) {
@@ -12,14 +12,18 @@ class DesignShop extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-         if(this.state.data >3600 && this.state.data <5800){
+        if(window.matchMedia("(max-width: 375px)").matches){
+        if(this.state.data >3100 && this.state.data <5800){
         this.setState({scroll:this.state.data})
-         if(x.matches){
+    }
+}
+        else if(window.matchMedia("(max-width: 1920px)").matches){
+        if(this.state.data >3100 && this.state.data <5800){
+        this.setState({scroll:this.state.data})
+    }
+}
+    }
 
-         }
-        
-        }
-          }
 
     componentDidMount() {
         window.addEventListener("scroll", this.handleScroll)

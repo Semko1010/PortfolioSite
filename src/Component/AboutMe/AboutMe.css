@@ -1,3 +1,5 @@
+@media (max-width: 1920px) {
+
 .aboutmearticle {
     height: 100vh;
     display: flex;
@@ -29,7 +31,7 @@
       height:100vh;
       overflow: hidden;
     }
-
+  }
 @media (max-width: 1680px) {
     /*########## Header ##########*/
    
@@ -41,7 +43,7 @@
    color:gray;
    opacity: 0.5;
    left: -12vw;
-   top: 0vh;
+   top: 5vh;
    transition: transform 0.2s ease-out 0s;
    }
    .aboutmearticle p{
@@ -85,12 +87,12 @@
       color:gray;
       opacity: 0.5;
       left: -46vw;
-      top: 5vh;
+      top: 8vh;
       }
       .aboutmearticle p{
       font-size: 2rem;
       font-weight: 300;
-      line-height:60px;
+      line-height:40px;
       position: absolute;
       top: 23vh;
       right: -45vw;
@@ -114,7 +116,7 @@
       line-height:25px;
       position: absolute;
       top: 17vh;
-      right: -45vw;
+      right: -42vw;
       width:70vw;
       }
 

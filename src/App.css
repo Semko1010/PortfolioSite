@@ -1060,7 +1060,7 @@ font-size: 5rem;
     transition: transform 0.2s ease-out 0s;
   } */
 /*######## DesignShop #########*/
-.shop{
+/* .shop{
   width: 100vw;
   height: 100vh;
   margin-top: 20vh;
@@ -1127,7 +1127,7 @@ font-size: 3.5rem;
   top: 472vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
-}
+} */
 
  }
 @media (max-width: 375px) {

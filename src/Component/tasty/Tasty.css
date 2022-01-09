@@ -259,24 +259,24 @@
 @media (max-width: 360px) {
    .tasty h2{
     position: absolute;
-     right: -52vw;
+     right: -46vw;
      top: -38vh;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .tasty h3{
   position: absolute;
   width:290px;
-  right: -58.5vw;
+  right: -52.5vw;
   top: -27vh;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 }
 .tasty p{
   position: absolute;
   width:290px;
-  right: -59vw;
+  right: -53vw;
   top: -18vh;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: transform 0.2s ease-out 0s;
 
 }

@@ -107,7 +107,7 @@
       position: absolute;
       color:gray;
       opacity: 0.5;
-      left: -43vw;
+      left: -42vw;
       top: 5vh;
       }
       .aboutmearticle p{
@@ -116,8 +116,8 @@
       line-height:25px;
       position: absolute;
       top: 17vh;
-      right: -42vw;
-      width:70vw;
+      right: -36vw;
+      width:60vw;
       }
 
 }

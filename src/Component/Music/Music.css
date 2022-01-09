@@ -373,17 +373,17 @@
     }
   .music h2{
    position: absolute;
-    left: -74vw;
+    left: -66vw;
     top: -47vh;
     transform:translateX(380px);
-    font-size: 3rem;
+    font-size: 2.5rem;
     transition: transform 0.2s ease-out 0s;
    }
    .music h3{
     position: absolute;
     width:290px;
     top: -38vh;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     left: -66.5vw;
     transition: transform 0.2s ease-out 0s;
   }
@@ -391,7 +391,7 @@
     position: absolute;
     width:290px;
     top: -30vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
     left: -66.5vw;
     transition: transform 0.2s ease-out 0s;
   }

@@ -354,9 +354,9 @@
     }
   .shop h2{
    position: absolute;
-    right: -94vw;
+    right: -90vw;
     top: -51vh;
-    font-size: 3rem;
+    font-size: 2.5rem;
     
     transition: transform 0.2s ease-out 0s;
     
@@ -365,15 +365,15 @@
     position: absolute;
     width:290px;
     top: -42vh;
-    font-size: 1.5rem;
-    right: -105vw;
+    font-size: 1.2rem;
+    right: -98vw;
     transition: transform 0.2s ease-out 0s;
   }
   .shop p{
     position: absolute;
     top: -33vh;
-    font-size: 1.2rem;
-    right: -105vw;
+    font-size: 1rem;
+    right: -98vw;
     transition: transform 0.2s ease-out 0s;
     width:290px;
   }

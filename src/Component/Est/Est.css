@@ -365,24 +365,24 @@
         
       .est h2{
         position: absolute;
-        left: -121vw;
+        left: -114vw;
         top: -56vh;
         transform:translateX(380px);
-        font-size: 3rem;
+        font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{
         position: absolute;
         width:290px;
         top: -46vh;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         left: -116vw;
         transition: transform 0.2s ease-out 0s;
       }
       .est p{
         position: absolute;
-        top: -34vh;
-        font-size: 1.2rem;
+        top: -38vh;
+        font-size: 1rem;
         left: -116vw;
         transition: transform 0.2s ease-out 0s;
       }

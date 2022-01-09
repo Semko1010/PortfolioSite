@@ -11,6 +11,12 @@ class AboutMe extends Component {
     // && this.state.data <780
     handleScroll = () => {
             this.setState({data:window.pageYOffset})
+            if(window.matchMedia("(max-width: 360px)").matches){
+             if(this.state.data >4800 && this.state.data <7600){
+            this.setState({scroll:this.state.data})
+            console.log("768");
+        }
+    }
             if(window.matchMedia("(max-width: 375px)").matches){
              if(this.state.data >5400 && this.state.data <7600){
             this.setState({scroll:this.state.data})

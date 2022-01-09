@@ -12,7 +12,12 @@ class DesignShop extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-        if(window.matchMedia("(max-width: 375px)").matches){
+        if(window.matchMedia("(max-width: 360px)").matches){
+        if(this.state.data >2900 && this.state.data <5800){
+        this.setState({scroll:this.state.data})
+    }
+}
+        else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >3100 && this.state.data <5800){
         this.setState({scroll:this.state.data})
     }

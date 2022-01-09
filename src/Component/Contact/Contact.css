@@ -287,7 +287,7 @@
             position: absolute;
             color:gray;
             opacity: 0.5;
-            right: -739vw;
+            right: -712vw;
             top: -15vh;
             transition: transform 0.2s ease-out 0s;
             z-index: 999;
@@ -297,7 +297,7 @@
             .contact a:nth-of-type(1){
                 position: absolute;
                 top: 0vh;
-                right: 820vw;
+                right: 796vw;
                 width: 15%;
                 opacity: 0.8;
                 transition: transform 0.2s ease-out 0s;
@@ -306,7 +306,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 0vh;
-                right: 792vw;
+                right: 769vw;
                 width:15%;
                 
                 transition: transform 0.2s ease-out 0s;
@@ -316,7 +316,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 0vh;
-                right: 766vw;
+                right: 745vw;
                 width:15%;
                 transition: transform 0.2s ease-out 0s;
             }

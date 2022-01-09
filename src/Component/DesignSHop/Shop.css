@@ -186,6 +186,77 @@
 
 
 
+  @media (max-width: 768px) {
+  .shop{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20vh;
+    position: relative;
+    
+    z-index: 10;
+  }
+   .shopDiv{
+    position: relative;
+    height: 100vh;
+   
+  }
+  
+  .shop a{
+    color: black;
+    text-decoration:none;
+  }
+    .shop h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+  .shop h2{
+   position: absolute;
+    right: -40vw;
+    top: -50vh;
+  font-size: 3.5rem;
+  transition: transform 0.2s ease-out 0s;
+    
+   }
+   .shop h3{
+    position: absolute;
+    
+    top: -42vh;
+    font-size: 1.5rem;
+    right: -66vw;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .shop p{
+    position: absolute;
+    top: -39vh;
+    font-size: 1.2rem;
+    right: -36vw;
+    transition: transform 0.2s ease-out 0s;
+    width:290px;
+  }
+  .shop img:nth-of-type(1){
+    width: 20%;
+    position: absolute;
+    left: 1vw;
+    top: 56vh;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .shop img:nth-of-type(2){
+    width: 40%;
+    position: absolute;
+    left: 21vw;
+    top: 270vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .shop img:nth-of-type(3){
+    width: 90%;
+    position: absolute;
+    left: 0vw;
+    top: 458vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+}
   @media (max-width: 375px) {
   .shop{
     width: 100vw;
@@ -211,10 +282,10 @@
     }
   .shop h2{
    position: absolute;
-    right: -94vw;
+    right: -102vw;
     top: -50vh;
   font-size: 3rem;
-    font-family: 'IM Fell English SC', serif;
+    
     transition: transform 0.2s ease-out 0s;
     
    }

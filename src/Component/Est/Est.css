@@ -25,7 +25,7 @@
     top: -52vh;
     transform:translateX(380px);
     font-size: 7rem;
-    font-family: 'IM Fell English SC', serif;
+    /* font-family: 'IM Fell English SC', serif; */
     transition: transform 0.2s ease-out 0s;
    }
    .est h3{
@@ -94,10 +94,9 @@
         top: -52vh;
         transform:translateX(380px);
         font-size: 7rem;
-        font-family: 'IM Fell English SC', serif;
         transition: transform 0.2s ease-out 0s;
-       }
-       .est h3{
+}
+      .est h3{
         position: absolute;
         top: -39vh;
         font-size: 1.5rem;
@@ -160,14 +159,13 @@
         
       .est h2{
         position: absolute;
-        left: -33vw;
+        left: -34vw;
         top: -52vh;
         transform:translateX(380px);
         font-size: 7rem;
-        font-family: 'IM Fell English SC', serif;
         transition: transform 0.2s ease-out 0s;
-       }
-       .est h3{
+}
+      .est h3{
         position: absolute;
         top: -39vh;
         font-size: 1.5rem;
@@ -234,10 +232,9 @@
         top: -56vh;
         transform:translateX(380px);
         font-size: 3.5rem;
-        font-family: 'IM Fell English SC', serif;
         transition: transform 0.2s ease-out 0s;
-       }
-       .est h3{
+}
+      .est h3{
         position: absolute;
         top: -49vh;
         font-size: 1.5rem;

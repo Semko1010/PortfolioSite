@@ -12,7 +12,7 @@
     position: absolute;
     color:gray;
     opacity: 0.5;
-    right: -210vw;
+    right: -208vw;
     top: -35vh;
     transition: transform 0.2s ease-out 0s;
     }
@@ -46,8 +46,8 @@
     }
     
     .contactDiv{
-      height:100vh;
-     z-index: 20;
+    height:30vh;
+    z-index: 20;
     }
 
     @media (max-width: 1680px) {
@@ -65,7 +65,7 @@
             position: absolute;
             color:gray;
             opacity: 0.5;
-            right: -223vw;
+            right: -235vw;
             top: 30vh;
             transition: transform 0.2s ease-out 0s;
             }
@@ -74,7 +74,7 @@
             .contact a:nth-of-type(1){
                 position: absolute;
                 top: 65vh;
-                right: 303vw;
+                right: 318vw;
                 width: 10%;
                 opacity: 0.8;
                 transition: transform 0.2s ease-out 0s;
@@ -83,7 +83,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 65vh;
-                right: 280vw;
+                right: 293vw;
                 width:10%;
                 
                 transition: transform 0.2s ease-out 0s;
@@ -93,7 +93,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 65vh;
-                right: 258vw;
+                right: 268vw;
                 width:10%;
                 transition: transform 0.2s ease-out 0s;
             }
@@ -119,7 +119,7 @@
             position: absolute;
             color:gray;
             opacity: 0.5;
-            right: -230vw;
+            right: -222vw;
             top: 20vh;
             transition: transform 0.2s ease-out 0s;
             }
@@ -128,7 +128,7 @@
             .contact a:nth-of-type(1){
                 position: absolute;
                 top: 52vh;
-                right: 316vw;
+                right: 311vw;
                 width: 7%;
                 opacity: 0.8;
                 transition: transform 0.2s ease-out 0s;
@@ -137,7 +137,7 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 52vh;
-                right: 295vw;
+                right: 289vw;
                 width:7%;
                 
                 transition: transform 0.2s ease-out 0s;
@@ -147,13 +147,13 @@
                 opacity: 0.8;
                 position: absolute;
                 top: 52vh;
-                right: 273vw;
+                right: 268vw;
                 width:7%;
                 transition: transform 0.2s ease-out 0s;
             }
             
             .contactDiv{
-              height:100vh;
+              height:80vh;
              z-index: 25;
             }
         

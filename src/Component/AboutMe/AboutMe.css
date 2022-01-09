@@ -13,6 +13,7 @@
     opacity: 0.5;
     left: -9vw;
     top: 0vh;
+    transition: transform 0.2s ease-out 0s;
     }
     .aboutmearticle p{
     font-size: 3rem;
@@ -20,9 +21,9 @@
     line-height:80px;
     position: absolute;
     top: 35vh;
-    right: -10vw;
-    
+    right: -12vw;
     width:70vw;
+    transition: transform 0.2s ease-out 0s;
     }
     .AboutMeDiv{
       height:100vh;
@@ -41,6 +42,7 @@
    opacity: 0.5;
    left: -12vw;
    top: 0vh;
+   transition: transform 0.2s ease-out 0s;
    }
    .aboutmearticle p{
    font-size: 2.5rem;
@@ -50,6 +52,7 @@
    top: 35vh;
    right: -14vw;
    width:70vw;
+   transition: transform 0.2s ease-out 0s;
    }
 
 }
@@ -60,7 +63,7 @@
       position: absolute;
       color:gray;
       opacity: 0.5;
-      left: -16vw;
+      left: -6vw;
       top: 0vh;
       }
       .aboutmearticle p{
@@ -69,7 +72,7 @@
       line-height:60px;
       position: absolute;
       top: 28vh;
-      right: -19vw;
+      right: -11vw;
       width:70vw;
       }
 

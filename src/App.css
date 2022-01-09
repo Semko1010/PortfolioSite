@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /*########## Global ##########*/
 *{
   margin: 0;
@@ -15,7 +15,9 @@ img{
 main{
   overflow: hidden;
 }
-
+body{
+  background-color: rgb(239, 239, 239);
+}
 .number{
   position: fixed;
   font-size: 3rem;

@@ -21,6 +21,11 @@ class AboutMe extends Component {
             this.setState({scroll:this.state.data})
             }
 }
+           else if(window.matchMedia("(max-width: 1440px)").matches){
+             if(this.state.data >0 && this.state.data <650){
+            this.setState({scroll:this.state.data})
+            }
+}
            else if(window.matchMedia("(max-width: 1920px)").matches){
              if(this.state.data >0 && this.state.data <920){
             this.setState({scroll:this.state.data})

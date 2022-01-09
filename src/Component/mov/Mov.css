@@ -25,9 +25,9 @@
 
 }
 .mov h2{
-position: absolute;
+/* position: absolute;
 left: -5vw;
-top: 3vh;
+top: 3vh; */
 font-size: 7rem;
 /* font-family: 'IM Fell English SC', serif; */
 transition: transform 0.2s ease-out 0s;
@@ -69,9 +69,9 @@ cursor: pointer;
 
 
   .mov h3{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 9vh;
+  top: 9vh; */
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
@@ -84,9 +84,9 @@ cursor: pointer;
 
 }
 .mov h2{
-position: absolute;
+/* position: absolute;
 left: -5vw;
-top: -3vh;
+top: -3vh; */
 font-size: 5.5rem;
 }
 
@@ -117,9 +117,9 @@ font-size: 5.5rem;
 
 
   .mov h2{
-    position: absolute;
+    /* position: absolute;
     left: -5vw;
-    top: -3vh;
+    top: -3vh; */
     font-size: 5rem;
   
     }
@@ -150,9 +150,9 @@ font-size: 5.5rem;
 
 @media (max-width: 768px) {
   .mov h2{
-    position: absolute;
+    /* position: absolute;
     left: -12vw;
-    top: -10vh;
+    top: -10vh; */
     font-size: 3.5rem;
    
     
@@ -199,9 +199,9 @@ font-size: 5.5rem;
 
 @media (max-width: 375px) {
   .mov h2{
-    position: absolute;
+    /* position: absolute;
     left: -31vw;
-    top: -26vh;
+    top: -26vh; */
     font-size: 3rem;
     
     
@@ -248,27 +248,31 @@ font-size: 5.5rem;
 }
 @media (max-width: 360px) {
   .mov h2{
-    position: absolute;
+    /* position: absolute;
     left: -31vw;
-    top: -26vh;
+    top: -26vh; */
     font-size: 3rem;
+    
 }
     .mov h3{
-      position: absolute;
+      /* position: absolute; */
       width:290px;
-      left: -21vw;
-      top: -16vh;
+      /* left: -21vw;
+      top: -16vh; */
       font-size: 1.5rem;
       transition: transform 0.2s ease-out 0s;
     }
     .mov p{
-      position: absolute;
+      /* position: absolute; */
       width:290px;
-      left: -21vw;
-      top: -8vh;
+      /* left: -21vw;
+      top: -8vh; */
       font-size: 1rem;
       transition: transform 0.2s ease-out 0s;
     
+    }
+    .movText{
+      text-align: start;
     }
     
     .mov img:nth-of-type(1){

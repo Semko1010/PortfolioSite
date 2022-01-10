@@ -1,3 +1,4 @@
+@media (max-width: 19280px) {
 .est{
     width: 100vw;
     height: 100vh;
@@ -65,7 +66,7 @@
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
-
+}
 
   @media (max-width: 1680px) {
     .est{
@@ -159,10 +160,10 @@
         
       .est h2{
         position: absolute;
-        left: -34vw;
+        left: -33vw;
         top: -52vh;
         transform:translateX(380px);
-        font-size: 7rem;
+        font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{

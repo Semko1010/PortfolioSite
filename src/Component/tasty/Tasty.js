@@ -11,7 +11,7 @@ class Tasty extends Component {
   handleScroll = () => {
     this.setState({data:window.pageYOffset})
     if(window.matchMedia("(max-width: 360px)").matches){
-     if(this.state.data >1200 && this.state.data <3650){
+     if(this.state.data >0 && this.state.data <3650){
     this.setState({scroll:this.state.data})
      
   }

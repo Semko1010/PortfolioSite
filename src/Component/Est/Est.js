@@ -13,7 +13,7 @@ class Music extends Component {
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
         if(window.matchMedia("(max-width: 360px)").matches){
-        if(this.state.data >3750 && this.state.data <7050){
+        if(this.state.data >3700 && this.state.data <7050){
         this.setState({scroll:this.state.data})
 
 }

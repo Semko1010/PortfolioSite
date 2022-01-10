@@ -1,3 +1,37 @@
+@media (max-width: 2560px) {
+
+.aboutmearticle {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    overflow: hidden;
+    }
+    .aboutmearticle h2{
+    font-size: 20rem;
+    position: absolute;
+    color:gray;
+    opacity: 0.5;
+    left: 5vw;
+    top: 0vh;
+    transition: transform 0.2s ease-out 0s;
+    }
+    .aboutmearticle p{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height:80px;
+    position: absolute;
+    top: 35vh;
+    right: 4vw;
+    width:50vw;
+    transition: transform 0.2s ease-out 0s;
+    }
+    .AboutMeDiv{
+      height:100vh;
+      overflow: hidden;
+    }
+  }
 @media (max-width: 1920px) {
 
 .aboutmearticle {

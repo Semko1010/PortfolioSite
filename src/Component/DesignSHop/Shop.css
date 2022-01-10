@@ -371,7 +371,7 @@
   }
   .shop p{
     position: absolute;
-    top: -33vh;
+    top: -35vh;
     font-size: 1rem;
     right: -98vw;
     transition: transform 0.2s ease-out 0s;

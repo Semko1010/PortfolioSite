@@ -1,3 +1,4 @@
+@media (max-width: 1920px) {
 .skills {
     height: 100vh;
     display: flex;
@@ -13,7 +14,7 @@
     color:gray;
     opacity: 0.5;
     left: -173vw;
-    top: -23vh;
+    top: -10vh;
     transition: transform 0.2s ease-out 0s;
     }
     .skills p{
@@ -86,7 +87,7 @@
       height:100vh;
      z-index: 20;
     }
-
+  }
 @media (max-width: 1680px) {
     .skills {
         height: 100vh;
@@ -103,7 +104,7 @@
         color:gray;
         opacity: 0.5;
         left: -180vw;
-        top: 30vh;
+        top: 45vh;
         transition: transform 0.2s ease-out 0s;
         }
         .skills p{
@@ -195,7 +196,7 @@
         color:gray;
         opacity: 0.5;
         left: -194vw;
-        top: 40vh;
+        top: 60vh;
         transition: transform 0.2s ease-out 0s;
         }
         .skills p{

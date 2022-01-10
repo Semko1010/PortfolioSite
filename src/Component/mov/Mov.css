@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100vw;
   position: relative;
+  text-align: start;
   
 }
 .movDiv{
@@ -11,27 +12,28 @@
   
 }
 .mov h3{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 15vh;
+  top: 15vh; */
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 18vh;
+  top: 18vh; */
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
 }
 .mov h2{
-position: absolute;
+/* position: absolute;
 left: -5vw;
-top: 3vh;
+top: 3vh; */
 font-size: 7rem;
 /* font-family: 'IM Fell English SC', serif; */
 transition: transform 0.2s ease-out 0s;
+margin-right: 0vw;
 
 }
 .mov a{
@@ -79,24 +81,24 @@ cursor: pointer;
   
 }
 .mov h3{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 15vh;
+  top: 15vh; */
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 18vh;
+  top: 18vh; */
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
 }
 .mov h2{
-position: absolute;
+/* position: absolute;
 left: -5vw;
-top: 3vh;
+top: 3vh; */
 font-size: 7rem;
 /* font-family: 'IM Fell English SC', serif; */
 transition: transform 0.2s ease-out 0s;
@@ -336,7 +338,7 @@ font-size: 5.5rem;
       position: absolute;
       width:290px;
       left: -21vw;
-      top: -7vh;
+      top: -9vh;
       font-size: 1rem;
       transition: transform 0.2s ease-out 0s;
     

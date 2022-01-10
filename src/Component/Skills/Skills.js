@@ -34,21 +34,21 @@ class AboutMe extends Component {
                 }
             }
             else if(window.matchMedia("(max-width: 1440px)").matches){
-                if(this.state.data >5300 && this.state.data <6450){
+                if(this.state.data >5300 && this.state.data <6950){
                     this.setState({scroll:this.state.data})
                     console.log("1440");
                     
                 }
             }
              else if(window.matchMedia("(max-width: 1680px)").matches){
-                if(this.state.data >5600 && this.state.data <7050){
+                if(this.state.data >5600 && this.state.data <8050){
                     this.setState({scroll:this.state.data})
                     console.log("1680");
                     
                 }
             }
             else if(window.matchMedia("(max-width: 1920px)").matches){
-                if(this.state.data >5600 && this.state.data <7950){
+                if(this.state.data >5600 && this.state.data <8950){
                     this.setState({scroll:this.state.data})
                     console.log("1920");
                     

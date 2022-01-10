@@ -77,7 +77,7 @@
    color:gray;
    opacity: 0.5;
    left: -12vw;
-   top: 5vh;
+   top: 16vh;
    transition: transform 0.2s ease-out 0s;
    }
    .aboutmearticle p{
@@ -100,7 +100,7 @@
       color:gray;
       opacity: 0.5;
       left: -6vw;
-      top: 0vh;
+      top: 11vh;
       }
       .aboutmearticle p{
       font-size: 2rem;

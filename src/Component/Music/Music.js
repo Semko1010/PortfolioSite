@@ -37,6 +37,18 @@ class Music extends Component {
         }
 
 }
+        else if(window.matchMedia("(max-width: 1680px)").matches){
+        if(this.state.data >2500 && this.state.data <5750){
+        this.setState({scroll:this.state.data})
+        if(this.state.data >3600){
+            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
+            
+        }
+        if(this.state.data <3600 || this.state.data >4450){
+            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
+        }
+        }
+    }
         else if(window.matchMedia("(max-width: 1920px)").matches){
         if(this.state.data >2500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
@@ -50,6 +62,7 @@ class Music extends Component {
         }
 
 }
+
 }
 
     componentDidMount() {

@@ -73,7 +73,7 @@
     width: 65%;
     position: absolute;
     right: 5vw;
-    top: 331vh;
+    top: 335vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }

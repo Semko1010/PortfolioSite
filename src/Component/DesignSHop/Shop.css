@@ -70,7 +70,7 @@
     width: 65%;
     position: absolute;
     right: 5vw;
-    top: 548vh;
+    top: 552vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -171,14 +171,14 @@
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 106vh;
+        top: 104vh;
         transition: transform 0.2s ease-out 0s;
       }
       .shop img:nth-of-type(2){
         width: 27%;
         position: absolute;
         right: 16vw;
-        top: 325vh;
+        top: 320vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -186,7 +186,7 @@
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 529vh;
+        top: 524vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }

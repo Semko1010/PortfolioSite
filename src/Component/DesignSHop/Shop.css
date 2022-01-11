@@ -267,7 +267,7 @@
     
     position: relative;
     
-    z-index: 10;
+    z-index: -2;
   }
    .shopDiv{
     position: relative;
@@ -309,14 +309,14 @@
     width: 35%;
     position: absolute;
     left: 1vw;
-    top: 75vh;
+    top: 96vh;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(2){
     width: 60%;
     position: absolute;
     left: 36vw;
-    top: 293vh;
+    top: 256vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -324,7 +324,7 @@
     width: 100%;
     position: absolute;
     left: 0vw;
-    top: 483vh;
+    top: 406vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }

@@ -10,9 +10,7 @@
   .tastyDiv{
     height: 100vh;
     position: relative;
-    text-align: start;
-    
-  }
+}
   .tastyText{
     margin: 0 0 0 5vw;
     visibility: hidden;
@@ -217,6 +215,10 @@
 }
 
 @media (max-width: 375px) {
+  .tastyDiv{
+    height: 70vh;
+    position: relative;
+}
    .tasty h2{
     
     font-size: 3rem;
@@ -239,22 +241,22 @@
      width: 35%;
      position: absolute;
      left: 2vw;
-     top: 48vh;
-     
+     top: 68vh;
+     z-index: 100;
    }
    .tasty img:nth-of-type(2){
      width: 60%;
      position: absolute;
      left: 37vw;
-     top: 172vh;
-     z-index: 3;
+     top: 174vh;
+     z-index: 100;
    }
    .tasty img:nth-of-type(3){
      width: 100%;
      position: absolute;
      left: 0vw;
-     top: 291vh;
-     z-index: 3;
+     top: 280vh;
+     z-index: 100;
    }
 
 }

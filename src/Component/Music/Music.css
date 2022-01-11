@@ -227,7 +227,7 @@
     margin: 0vh 0 0 0;
     position: relative;
     
-    z-index: 10;
+    z-index: 1;
   }
    .musicDiv{
     position: relative;
@@ -294,18 +294,11 @@
   }
 }
   @media (max-width: 375px) {
-  .music{
-    width: 100vw;
-    height: 100vh;
-    
-    position: relative;
-    
-    z-index: 10;
-  }
+
    .musicDiv{
     position: relative;
-    height: 100vh;
-   
+    height: 70vh;
+ 
   }
   .musicText{
     margin: 0 0 0 5vw;
@@ -319,10 +312,8 @@
     cursor: pointer;
     }
   .music h2{
-   /* position: absolute;
-    left: -76vw;
-    top: -47vh; */
-    transform:translateX(380px);
+   
+    
     font-size: 3rem;
     transition: transform 0.2s ease-out 0s;
    }
@@ -350,24 +341,27 @@
     width: 35%;
     position: absolute;
     right: 1vw;
-    top: 52vh;
+    top: 78vh;
     transition: transform 0.2s ease-out 0s;
+    z-index: 20;
   }
   .music img:nth-of-type(2){
     width: 60%;
     position: absolute;
     right: 37vw;
-    top: 226vh;
+    top: 215vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
+    z-index: 20;
   }
   .music img:nth-of-type(3){
     width: 100%;
     position: absolute;
     right: 0vw;
-    top: 382vh;
+    top: 344vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
+    z-index: 20;
   }
 }
   @media (max-width: 360px) {

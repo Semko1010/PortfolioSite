@@ -19,9 +19,16 @@ class Music extends Component {
         }
     }
         else if(window.matchMedia("(max-width: 375px)").matches){
-        if(this.state.data >2350 && this.state.data <4750){
+        if(this.state.data >1850 && this.state.data <4750){
         this.setState({scroll:this.state.data})
         
+        }
+        if(this.state.data >2100){
+            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
+            
+        }
+        if(this.state.data <2100 || this.state.data >3100){
+            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
         }
     }
         else if(window.matchMedia("(max-width: 768px)").matches){

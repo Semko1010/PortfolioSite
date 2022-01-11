@@ -103,7 +103,7 @@
         position: absolute;
         color:gray;
         opacity: 0.5;
-        left: -185vw;
+        left: -200vw;
         top: 90vh;
         transition: transform 0.2s ease-out 0s;
         }

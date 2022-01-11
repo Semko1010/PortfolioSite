@@ -42,7 +42,7 @@ class AboutMe extends Component {
         }
     }
            else if(window.matchMedia("(max-width: 1920px)").matches){
-             if(this.state.data >7300 && this.state.data <8800){
+             if(this.state.data >7300 && this.state.data <9100){
             this.setState({scroll:this.state.data})
             console.log("1920");
         }

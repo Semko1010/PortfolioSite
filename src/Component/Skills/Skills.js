@@ -27,14 +27,14 @@ class AboutMe extends Component {
                 }
             }
             else if(window.matchMedia("(max-width: 768px)").matches){
-                if(this.state.data >6300 && this.state.data <7100){
+                if(this.state.data >5700 && this.state.data <7100){
                     this.setState({scroll:this.state.data})
                     console.log("768");
                     
                 }
             }
             else if(window.matchMedia("(max-width: 1440px)").matches){
-                if(this.state.data >5300 && this.state.data <6950){
+                if(this.state.data >5500 && this.state.data <6950){
                     this.setState({scroll:this.state.data})
                     console.log("1440");
                     

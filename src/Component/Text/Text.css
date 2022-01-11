@@ -1,21 +1,17 @@
-.test{
-    
-}
-.textNewDiv{
+
+/* .textNewDiv{
     
 position:fixed;
 
 top: 20vh;
 left: 10vw;
 
-/* visibility: hidden;
-transition: visibility 1s, opacity 3s linear; */
 border: 2px solid black;
   background: linear-gradient(to bottom, rgb(109, 109, 109) 50%, #fff 50%);
   background-size: 100% 200%;
   background-position: bottom left;
   transition: all .5s ease-out;
-}
+} */
 /* .textNewDiv:hover{
     border: 2px solid limegreen;
     background-position: top left;

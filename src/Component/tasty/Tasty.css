@@ -211,31 +211,26 @@
   width: 90%;
   position: absolute;
   right: 5vw;
-  top: 326vh;
+  top: 323vh;
   z-index: 3;
   }
 }
 
 @media (max-width: 375px) {
    .tasty h2{
-    position: absolute;
-     right: -52vw;
-     top: -38vh;
+    
     font-size: 3rem;
 }
 .tasty h3{
-  position: absolute;
+  
   width:290px;
-  right: -58.5vw;
-  top: -29vh;
+  
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .tasty p{
-  position: absolute;
+ 
   width:290px;
-  right: -59vw;
-  top: -22vh;
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 

@@ -22,6 +22,19 @@ class DesignShop extends Component {
         this.setState({scroll:this.state.data})
     }
 }
+        else if(window.matchMedia("(max-width: 768px)").matches){
+        if(this.state.data >3100 && this.state.data <6800){
+        this.setState({scroll:this.state.data})
+        
+    }
+    if(this.state.data >4250){
+        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
+        
+    }
+    if(this.state.data <4250 || this.state.data >5100){
+        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
+    }
+}
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})

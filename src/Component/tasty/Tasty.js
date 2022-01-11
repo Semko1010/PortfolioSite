@@ -15,6 +15,31 @@ class Tasty extends Component {
     this.setState({scroll:this.state.data})
      
   }
+  
+    }
+    else if(window.matchMedia("(max-width: 375px)").matches){
+     if(this.state.data >1200 && this.state.data <4650){
+    this.setState({scroll:this.state.data})
+    if(this.state.data >1700){
+      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
+      
+  }
+  if(this.state.data <1700 || this.state.data >3100){
+      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+  }
+  }
+    }
+    else if(window.matchMedia("(max-width: 768px)").matches){
+     if(this.state.data >1200 && this.state.data <4650){
+    this.setState({scroll:this.state.data})
+    if(this.state.data >2200){
+      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
+      
+  }
+  if(this.state.data <2200 || this.state.data >3100){
+      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+  }
+  }
     }
     else if(window.matchMedia("(max-width: 1440px)").matches){
      if(this.state.data >1200 && this.state.data <4650){

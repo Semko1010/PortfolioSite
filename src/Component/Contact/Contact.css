@@ -174,7 +174,7 @@
             color:gray;
             opacity: 0.5;
             right: -420vw;
-            top: 20vh;
+            top: 30vh;
             transition: transform 0.2s ease-out 0s;
             z-index: -1;
             }

@@ -272,8 +272,7 @@ font-size: 5.5rem;
    }
    .movText{
     margin: 0 0 0 5vw;
-    
-  }
+}
     
     .mov img:nth-of-type(1){
       width: 20%;
@@ -300,16 +299,15 @@ font-size: 5.5rem;
 }
 
 @media (max-width: 375px) {
+  .movText{
+    margin: 0 0 0 5vw;
+    
+}
   .mov h2{
-    
     font-size: 3rem;
-    
-    
-    }
+}
     .mov h3{
-      
       width:290px;
-      
       font-size: 1.5rem;
       transition: transform 0.2s ease-out 0s;
     }

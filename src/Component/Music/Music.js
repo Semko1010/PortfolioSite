@@ -19,20 +19,20 @@ class Music extends Component {
         }
     }
         else if(window.matchMedia("(max-width: 375px)").matches){
-        if(this.state.data >1850 && this.state.data <4750){
+        if(this.state.data >0 && this.state.data <4750){
         this.setState({scroll:this.state.data})
         
         }
-        if(this.state.data >2100){
+        if(this.state.data >2150){
             document.querySelector(".musicText").style ="visibility:visible;opacity:1"
             
         }
-        if(this.state.data <2100 || this.state.data >3100){
+        if(this.state.data <2150 || this.state.data >3100){
             document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
         }
     }
         else if(window.matchMedia("(max-width: 768px)").matches){
-        if(this.state.data >2500 && this.state.data <5750){
+        if(this.state.data >1500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
         if(this.state.data >3200){
             document.querySelector(".musicText").style ="visibility:visible;opacity:1"

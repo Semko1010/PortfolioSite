@@ -294,10 +294,15 @@
   }
 }
   @media (max-width: 375px) {
-
+    .musicText{
+      margin: 0 0 0 5vw;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 1s linear
+    }
    .musicDiv{
     position: relative;
-    height: 70vh;
+    height: 85vh;
  
   }
   .musicText{
@@ -341,7 +346,7 @@
     width: 35%;
     position: absolute;
     right: 1vw;
-    top: 78vh;
+    top: 85vh;
     transition: transform 0.2s ease-out 0s;
     z-index: 20;
   }
@@ -349,7 +354,7 @@
     width: 60%;
     position: absolute;
     right: 37vw;
-    top: 215vh;
+    top: 235vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
     z-index: 20;
@@ -358,7 +363,7 @@
     width: 100%;
     position: absolute;
     right: 0vw;
-    top: 344vh;
+    top: 370vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
     z-index: 20;

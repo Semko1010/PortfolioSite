@@ -18,19 +18,19 @@ class Tasty extends Component {
   
     }
     else if(window.matchMedia("(max-width: 375px)").matches){
-     if(this.state.data >1200 && this.state.data <4650){
+     if(this.state.data >0 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >1700){
+    if(this.state.data >1450){
       document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
       
   }
-  if(this.state.data <1700 || this.state.data >3100){
+  if(this.state.data <1450 || this.state.data >3100){
       document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
   }
   }
     }
     else if(window.matchMedia("(max-width: 768px)").matches){
-     if(this.state.data >1200 && this.state.data <4650){
+     if(this.state.data >800 && this.state.data <4650){
     this.setState({scroll:this.state.data})
     if(this.state.data >2200){
       document.querySelector(".tastyText").style ="visibility:visible;opacity:1"

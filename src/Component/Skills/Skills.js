@@ -76,13 +76,15 @@ class AboutMe extends Component {
         
         return ( <article className="skills">
                            <h2 style={{transform: `translateX(${this.state.scroll * 0.5}px)`}}>Skills</h2>
+                         
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>HTML</p>
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>CSS</p>
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>Javascript</p>
+                         
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>React</p>
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>React Native</p>
                             <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>Node.Js</p>
-                            
+                     
                         </article> );
     }
 }

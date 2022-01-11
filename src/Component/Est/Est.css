@@ -266,16 +266,23 @@
     
   }
   @media (max-width: 375px) {
+
+    .estText{
+      margin: 0 0 0 5vw;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 1s linear
+    }
     .est{
         width: 100vw;
         
         position: relative;
-        z-index: 9;
+        z-index: -4;
       }
       .estDiv{
         
         position: relative;
-        z-index: 9;
+        z-index: -4;
       }
       .est a{
         color: black;
@@ -288,7 +295,7 @@
         
       .est h2{
         
-        transform:translateX(380px);
+        
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
 }
@@ -311,14 +318,14 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 93vh;
+        top: 122vh;
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(2){
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 356vh;
+        top: 336vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -326,7 +333,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 580vh;
+        top: 524vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }

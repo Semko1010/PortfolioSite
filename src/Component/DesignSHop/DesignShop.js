@@ -21,11 +21,11 @@ class DesignShop extends Component {
         if(this.state.data >1000 && this.state.data <5800){
         this.setState({scroll:this.state.data})
     }
-    if(this.state.data >2700){
+    if(this.state.data >2850){
         document.querySelector(".shopText").style ="visibility:visible;opacity:1"
         
     }
-    if(this.state.data <2700 || this.state.data >5100){
+    if(this.state.data <2850 || this.state.data >5100){
         document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
     }
 }

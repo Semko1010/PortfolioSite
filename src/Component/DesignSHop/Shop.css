@@ -269,9 +269,15 @@
     
     z-index: -2;
   }
+  .shopText{
+    margin: 0 0 0 5vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear
+  }
    .shopDiv{
     position: relative;
-    height: 100vh;
+    height: 85vh;
    
   }
   
@@ -309,24 +315,27 @@
     width: 35%;
     position: absolute;
     left: 1vw;
-    top: 96vh;
+    top: 105vh;
     transition: transform 0.2s ease-out 0s;
+    z-index: 50;
   }
   .shop img:nth-of-type(2){
     width: 60%;
     position: absolute;
     left: 36vw;
-    top: 256vh;
+    top: 285vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
+    z-index: 50;
   }
   .shop img:nth-of-type(3){
     width: 100%;
     position: absolute;
     left: 0vw;
-    top: 406vh;
+    top: 447vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
+    z-index: 50;
   }
 }
   @media (max-width: 360px) {

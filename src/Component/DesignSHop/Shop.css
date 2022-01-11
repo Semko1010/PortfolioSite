@@ -2,7 +2,7 @@
 .shop{
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+    margin: 20vh 0 0 0;
     position: relative;
     
     z-index: 10;
@@ -12,7 +12,12 @@
     height: 100vh;
    
   }
-  
+  .shopText{
+    margin: 0 0 0 5vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.5s, opacity 1.5s linear
+  }
   .shop a{
     color: black;
     text-decoration:none;
@@ -22,94 +27,99 @@
     cursor: pointer;
     }
   .shop h2{
-   position: absolute;
+   /* position: absolute;
     right: -17vw;
-    top: -37vh;
+    top: -37vh; */
   font-size: 7rem;
     /* font-family: 'IM Fell English SC', serif; */
     transition: transform 0.2s ease-out 0s;
     
    }
    .shop h3{
-    position: absolute;
+    /* position: absolute;
     top: -25vh;
+    right: -11vw; */
     font-size: 1.5rem;
-    right: -11vw;
+    
     transition: transform 0.2s ease-out 0s;
   }
   .shop p{
-    position: absolute;
+    /* position: absolute;
     top: -22vh;
+    right: -0.1vw; */
     font-size: 1.2rem;
-    right: -0.1vw;
+    
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(1){
     width: 15%;
     position: absolute;
-    left: 3vw;
-    top: 50vh;
+    right: 3vw;
+    top: 109vh;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(2){
     width: 30%;
     position: absolute;
-    left: 18vw;
-    top: 260vh;
+    right: 18vw;
+    top: 327vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(3){
     width: 65%;
     position: absolute;
-    left: 5vw;
-    top: 473vh;
+    right: 5vw;
+    top: 548vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
 }
   @media (max-width: 1680px) {
-    .shop h2{
-  position: absolute;
-  right: -21vw;
-  top: -39vh;
+  .shop h2{
   font-size: 7rem;
   transition: transform 0.2s ease-out 0s;
 }
+.shop{
+  width: 100vw;
+  height: 100vh;
+  margin: 10vh 0 0 0;
+  position: relative;
+  
+  z-index: 10;
+}
   .shop h3{
-  position: absolute;
-  top: -25vh;
+  
   font-size: 1.5rem;
-  right: -14vw;
+  
   transition: transform 0.2s ease-out 0s;
 }
   .shop p{
-  position: absolute;
-  top: -22vh;
+
   font-size: 1.2rem;
-  right: -1.6vw;
+
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(1){
   width: 13%;
   position: absolute;
-  left: 3vw;
-  top: 50vh;
+  right: 3vw;
+  top: 107vh;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(2){
   width: 27%;
   position: absolute;
-  left: 16vw;
-  top: 263vh;
+  right: 16vw;
+  top: 326vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
 .shop img:nth-of-type(3){
-  width: 60;
+  width: 60%;
   position: absolute;
-  left: 5vw;
-  top: 463vh;
+  right: 5vw;
+  top: 532vh;
   z-index: 3;
   transition: transform 0.2s ease-out 0s;
 }
@@ -118,7 +128,7 @@
     .shop{
         width: 100vw;
         height: 100vh;
-        margin-top: 20vh;
+        
         position: relative;
         
         z-index: 10;
@@ -128,7 +138,9 @@
         height: 100vh;
        
       }
-      
+      .shopText{
+        margin: 0 0 0 10vw;
+      }
       .shop a{
         color: black;
         text-decoration:none;
@@ -138,47 +150,43 @@
         cursor: pointer;
         }
       .shop h2{
-      position: absolute;
-      right: -18.5vw;
-      top: -46vh;
+     
       font-size: 5rem;
       transition: transform 0.2s ease-out 0s;
         
 }
       .shop h3{
-        position: absolute;
-        top: -34vh;
+       
         font-size: 1.5rem;
-        right: -23vw;
+        
         transition: transform 0.2s ease-out 0s;
       }
       .shop p{
-        position: absolute;
-        top: -31vh;
+       
         font-size: 1.2rem;
-        right: -8.5vw;
+       
         transition: transform 0.2s ease-out 0s;
       }
       .shop img:nth-of-type(1){
         width: 13%;
         position: absolute;
-        left: 3vw;
-        top: 50vh;
+        right: 3vw;
+        top: 106vh;
         transition: transform 0.2s ease-out 0s;
       }
       .shop img:nth-of-type(2){
         width: 27%;
         position: absolute;
-        left: 16vw;
-        top: 260vh;
+        right: 16vw;
+        top: 325vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
       .shop img:nth-of-type(3){
         width: 60%;
         position: absolute;
-        left: 5vw;
-        top: 461vh;
+        right: 5vw;
+        top: 529vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -190,7 +198,7 @@
   .shop{
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+    margin: 0vh 0 0 0;
     position: relative;
     
     z-index: 10;
@@ -210,49 +218,44 @@
     cursor: pointer;
     }
   .shop h2{
-   position: absolute;
-    right: -40vw;
-    top: -50vh;
+ 
   font-size: 3.5rem;
   transition: transform 0.2s ease-out 0s;
     
    }
    .shop h3{
-    position: absolute;
     
-    top: -42vh;
     font-size: 1.5rem;
-    right: -66vw;
+   
     transition: transform 0.2s ease-out 0s;
   }
   .shop p{
-    position: absolute;
-    top: -39vh;
+   
     font-size: 1.2rem;
-    right: -36vw;
+   
     transition: transform 0.2s ease-out 0s;
-    width:290px;
+    width:350px;
   }
   .shop img:nth-of-type(1){
     width: 20%;
     position: absolute;
-    left: 1vw;
-    top: 56vh;
+    right: 1vw;
+    top: 104vh;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(2){
     width: 40%;
     position: absolute;
-    left: 21vw;
-    top: 270vh;
+    right: 21vw;
+    top: 315vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(3){
     width: 90%;
     position: absolute;
-    left: 0vw;
-    top: 458vh;
+    right: 0vw;
+    top: 503vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -261,7 +264,7 @@
   .shop{
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+    
     position: relative;
     
     z-index: 10;
@@ -281,27 +284,24 @@
     cursor: pointer;
     }
   .shop h2{
-   position: absolute;
-    right: -102vw;
-    top: -50vh;
+  
   font-size: 3rem;
     
     transition: transform 0.2s ease-out 0s;
     
    }
    .shop h3{
-    position: absolute;
+    
     width:290px;
-    top: -42vh;
+   
     font-size: 1.5rem;
-    right: -105vw;
+   
     transition: transform 0.2s ease-out 0s;
   }
   .shop p{
-    position: absolute;
-    top: -35vh;
+    
     font-size: 1.2rem;
-    right: -105vw;
+   
     transition: transform 0.2s ease-out 0s;
     width:290px;
   }
@@ -333,7 +333,7 @@
   .shop{
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+    
     position: relative;
     
     z-index: 10;
@@ -353,27 +353,24 @@
     cursor: pointer;
     }
   .shop h2{
-   position: absolute;
-    right: -90vw;
-    top: -51vh;
+   
     font-size: 2.5rem;
     
     transition: transform 0.2s ease-out 0s;
     
    }
    .shop h3{
-    position: absolute;
+   
     width:290px;
-    top: -42vh;
+  
     font-size: 1.2rem;
-    right: -98vw;
+    
     transition: transform 0.2s ease-out 0s;
   }
   .shop p{
-    position: absolute;
-    top: -35vh;
+   
     font-size: 1rem;
-    right: -98vw;
+   
     transition: transform 0.2s ease-out 0s;
     width:290px;
   }

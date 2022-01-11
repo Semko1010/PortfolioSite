@@ -11,6 +11,10 @@
   position: relative;
   
 }
+.movText{
+  margin: 0 0 0 5vw;
+  
+}
 .mov h3{
   /* position: absolute;
   left: -4vw;
@@ -80,6 +84,13 @@ cursor: pointer;
   position: relative;
   
 }
+.movText{
+  margin: 0 0 0 5vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1.5s, opacity 1.5s linear
+}
+
 .mov h3{
   /* position: absolute;
   left: -4vw;
@@ -140,24 +151,24 @@ cursor: pointer;
 
 
   .mov h3{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 9vh;
+  top: 9vh; */
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
-  position: absolute;
+  /* position: absolute;
   left: -4vw;
-  top: 12vh;
+  top: 12vh; */
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
 }
 .mov h2{
-position: absolute;
+/* position: absolute;
 left: -5vw;
-top: -3vh;
+top: -3vh; */
 font-size: 5.5rem;
 }
 
@@ -185,16 +196,38 @@ font-size: 5.5rem;
 }
 }
 @media (max-width: 1440px) {
-
+  .mov h3{
+    /* position: absolute;
+    left: -4vw;
+    top: 9vh; */
+    font-size: 1.5rem;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .mov p{
+    /* position: absolute;
+    left: -4vw;
+    top: 12vh; */
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-out 0s;
+  
+  }
 
   .mov h2{
-    position: absolute;
+    /* position: absolute;
     left: -5vw;
-    top: -3vh;
+    top: -3vh; */
     font-size: 5rem;
   
     }
-    
+    .movDiv{
+      height: 100vh;
+      position: relative;
+      
+    }
+    .movText{
+      margin: 0 0 0 10vw;
+      
+    }
     .mov img:nth-of-type(1){
       width: 13%;
       position: absolute;
@@ -221,48 +254,46 @@ font-size: 5.5rem;
 
 @media (max-width: 768px) {
   .mov h2{
-    position: absolute;
-    left: -12vw;
-    top: -10vh;
+    
     font-size: 3.5rem;
    
     
     }
     .mov h3{
-     position: absolute;
-     left: -11vw;
-     top: -2vh;
+     
      font-size: 1.5rem;
      transition: transform 0.2s ease-out 0s;
    }
    .mov p{
-     position: absolute;
-     left: -11vw;
-     top: 1vh;
+     
      font-size: 1.2rem;
      transition: transform 0.2s ease-out 0s;
    
    }
+   .movText{
+    margin: 0 0 0 5vw;
+    
+  }
     
     .mov img:nth-of-type(1){
       width: 20%;
       position: absolute;
       right: 1vw;
-      top: 35vh;
+      top: 45vh;
       
     }
     .mov img:nth-of-type(2){
       width: 40%;
       position: absolute;
       right: 21vw;
-      top: 118vh;
+      top: 133vh;
       
     }
     .mov img:nth-of-type(3){
       width: 90%;
       position: absolute;
       right: 5vw;
-      top: 209vh;
+      top: 228vh;
       
     }
 
@@ -270,28 +301,22 @@ font-size: 5.5rem;
 
 @media (max-width: 375px) {
   .mov h2{
-    position: absolute;
-    left: -31vw;
-    top: -26vh;
+    
     font-size: 3rem;
     
     
     }
     .mov h3{
-      position: absolute;
+      
       width:290px;
-      left: -21vw;
-      top: -18vh;
+      
       font-size: 1.5rem;
       transition: transform 0.2s ease-out 0s;
     }
     .mov p{
-      position: absolute;
-      width:290px;
-      left: -21vw;
-      top: -11vh;
-      font-size: 1rem;
-      transition: transform 0.2s ease-out 0s;
+    width:290px;
+    font-size: 1rem;
+    transition: transform 0.2s ease-out 0s;
     
     }
     

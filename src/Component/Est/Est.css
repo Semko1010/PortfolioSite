@@ -1,4 +1,4 @@
-@media (max-width: 19280px) {
+@media (max-width: 1920px) {
 .est{
     width: 100vw;
     height: 100vh;
@@ -11,6 +11,12 @@
     position: relative;
     z-index: 9;
   }
+  .estText{
+    margin: 0 0 0 5vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.5s, opacity 1.5s linear
+  }
   .est a{
     color: black;
     text-decoration:none;
@@ -21,40 +27,36 @@
     }
     
   .est h2{
-    position: absolute;
-    left: -24vw;
-    top: -52vh;
-    transform:translateX(380px);
+    
+    
     font-size: 7rem;
     /* font-family: 'IM Fell English SC', serif; */
     transition: transform 0.2s ease-out 0s;
    }
    .est h3{
-    position: absolute;
-    top: -39vh;
+    
     font-size: 1.5rem;
-    left: -23vw;
+   
     transition: transform 0.2s ease-out 0s;
   }
   .est p{
-    position: absolute;
-    top: -36vh;
+   
     font-size: 1.2rem;
-    left: -23vw;
+   
     transition: transform 0.2s ease-out 0s;
   }
   .est img:nth-of-type(1){
     width: 15%;
     position: absolute;
     right: 3vw;
-    top: 56vh;
+    top: 132vh;
     transition: transform 0.2s ease-out 0s;
   }
   .est img:nth-of-type(2){
     width: 30%;
     position: absolute;
     right: 18vw;
-    top: 308vh;
+    top: 399vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -62,7 +64,7 @@
     width: 65%;
     position: absolute;
     right: 5vw;
-    top: 552vh;
+    top: 655vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -71,9 +73,9 @@
   @media (max-width: 1680px) {
     .est{
         width: 100vw;
-        margin-top: 20vh;
         position: relative;
         z-index: 9;
+        margin:10vh 0 0 0;
       }
       .estDiv{
         height: 20vh;
@@ -90,39 +92,35 @@
         }
         
       .est h2{
-        position: absolute;
-        left: -24vw;
-        top: -52vh;
-        transform:translateX(380px);
+       
+        
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{
-        position: absolute;
-        top: -39vh;
+       
         font-size: 1.5rem;
-        left: -23vw;
+      
         transition: transform 0.2s ease-out 0s;
       }
       .est p{
-        position: absolute;
-        top: -36vh;
+        
         font-size: 1.2rem;
-        left: -23vw;
+       
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(1){
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 56vh;
+        top: 131vh;
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(2){
         width: 27%;
         position: absolute;
         right: 16vw;
-        top: 308vh;
+        top: 398vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -130,7 +128,7 @@
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 540vh;
+        top: 640vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -140,7 +138,7 @@
     .est{
         width: 100vw;
         
-        margin-top: 20vh;
+        
         position: relative;
         z-index: 9;
       }
@@ -159,39 +157,36 @@
         }
         
       .est h2{
-        position: absolute;
-        left: -33vw;
-        top: -52vh;
-        transform:translateX(380px);
+        
+        
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{
-        position: absolute;
-        top: -39vh;
+       
+     
         font-size: 1.5rem;
-        left: -32vw;
+       
         transition: transform 0.2s ease-out 0s;
       }
       .est p{
-        position: absolute;
-        top: -36vh;
+        
         font-size: 1.2rem;
-        left: -32vw;
+     
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(1){
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 56vh;
+        top: 130vh;
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(2){
         width: 27%;
         position: absolute;
         right: 16vw;
-        top: 307vh;
+        top: 390vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -199,7 +194,7 @@
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 538vh;
+        top: 627vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -209,7 +204,7 @@
     .est{
         width: 100vw;
         
-        margin-top: 20vh;
+        margin: 0vh 0 0 0;
         position: relative;
         z-index: 9;
       }
@@ -228,39 +223,35 @@
         }
         
       .est h2{
-        position: absolute;
-        left: -78vw;
-        top: -56vh;
-        transform:translateX(380px);
+       
+        
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{
-        position: absolute;
-        top: -49vh;
+        
         font-size: 1.5rem;
-        left: -77vw;
+        
         transition: transform 0.2s ease-out 0s;
       }
       .est p{
-        position: absolute;
-        top: -46vh;
+        
         font-size: 1.2rem;
-        left: -77vw;
+       
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(1){
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 78vh;
+        top: 130vh;
         transition: transform 0.2s ease-out 0s;
       }
       .est img:nth-of-type(2){
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 336vh;
+        top: 377vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -268,7 +259,7 @@
         width: 90%;
         position: absolute;
         right: 5vw;
-        top: 558vh;
+        top: 596vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
       }
@@ -277,7 +268,7 @@
   @media (max-width: 375px) {
     .est{
         width: 100vw;
-        margin-top: 20vh;
+        
         position: relative;
         z-index: 9;
       }
@@ -296,19 +287,17 @@
         }
         
       .est h2{
-        position: absolute;
-        left: -126vw;
-        top: -56vh;
+        
         transform:translateX(380px);
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
 }
       .est h3{
-        position: absolute;
+      
         width:290px;
-        top: -47vh;
+        
         font-size: 1.5rem;
-        left: -116vw;
+       
         transition: transform 0.2s ease-out 0s;
       }
       .est p{
@@ -346,7 +335,7 @@
   @media (max-width: 360px) {
     .est{
         width: 100vw;
-        margin-top: 20vh;
+        
         position: relative;
         z-index: 9;
       }

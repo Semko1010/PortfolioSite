@@ -7,6 +7,7 @@ import DesignShop from "./Component/DesignSHop/DesignShop"
 import Est from "./Component/Est/Est"
 import Skills from "./Component/Skills/Skills"
 import Contact from "./Component/Contact/Contact"
+import Text from "./Component/Text/Text"
 import './App.css';
 
 

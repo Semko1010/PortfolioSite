@@ -24,7 +24,7 @@ class AboutMe extends Component {
         }
     }
             else if(window.matchMedia("(max-width: 768px)").matches){
-             if(this.state.data >7000 && this.state.data <7600){
+             if(this.state.data >6000 && this.state.data <7600){
             this.setState({scroll:this.state.data})
             console.log("768");
         }

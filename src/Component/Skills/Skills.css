@@ -14,7 +14,7 @@
     color:gray;
     opacity: 0.5;
     left: -173vw;
-    top: -10vh;
+    top: 20vh;
     transition: transform 0.2s ease-out 0s;
     }
     .skills p{
@@ -26,7 +26,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 20vh;
+    top: 40vh;
     right: -237vw;
     width:70vw;
     font-size: 3rem;
@@ -36,7 +36,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 15vh;
+    top: 35vh;
     right: -237vw;
     width:70vw;
     font-size: 3rem;
@@ -46,7 +46,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 10vh;
+    top: 30vh;
     right: -237vw;
     width:70vw;
     font-size: 3rem;
@@ -56,7 +56,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 20vh;
+    top: 40vh;
     right: -215vw;
     width:70vw;
     font-size: 3rem;
@@ -66,7 +66,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 15vh;
+    top: 35vh;
     right: -215vw;
     width:70vw;
     font-size: 3rem;
@@ -76,7 +76,7 @@
     font-size: 3rem;
     font-weight: 300;
     position: absolute;
-    top: 10vh;
+    top: 30vh;
     right: -215vw;
     width:70vw;
     font-size: 3rem;
@@ -103,8 +103,8 @@
         position: absolute;
         color:gray;
         opacity: 0.5;
-        left: -180vw;
-        top: 45vh;
+        left: -185vw;
+        top: 90vh;
         transition: transform 0.2s ease-out 0s;
         }
         .skills p{
@@ -116,8 +116,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 75vh;
-        right: -235vw;
+        top: 90vh;
+        right: -260vw;
         width:70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
@@ -126,8 +126,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 70vh;
-        right: -235vw;
+        top: 95vh;
+        right: -260vw;
         width:70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
@@ -136,8 +136,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 65vh;
-        right: -230vw;
+        top: 100vh;
+        right: -255vw;
         width:65vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
@@ -146,8 +146,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 75vh;
-        right: -215vw;
+        top: 100vh;
+        right: -240vw;
         width:70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
@@ -156,8 +156,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 70vh;
-        right: -215vw;
+        top: 95vh;
+        right: -240vw;
         width:70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
@@ -166,8 +166,8 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 65vh;
-        right: -215vw;
+        top: 90vh;
+        right: -240vw;
         width:70vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
@@ -196,7 +196,7 @@
         color:gray;
         opacity: 0.5;
         left: -194vw;
-        top: 60vh;
+        top: 90vh;
         transition: transform 0.2s ease-out 0s;
         }
         .skills p{
@@ -208,7 +208,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 70vh;
+        top: 90vh;
         right: -250vw;
         width:70vw;
         font-size: 3rem;
@@ -218,7 +218,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 77vh;
+        top: 95vh;
         right: -250vw;
         width:70vw;
         font-size: 3rem;
@@ -228,7 +228,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 84vh;
+        top: 100vh;
         right: -250vw;
         width:70vw;
         font-size: 3rem;
@@ -238,7 +238,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 70vh;
+        top: 90vh;
         right: -225vw;
         width:70vw;
         font-size: 3rem;
@@ -248,7 +248,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 77vh;
+        top: 95vh;
         right: -225vw;
         width:70vw;
         font-size: 3rem;
@@ -258,7 +258,7 @@
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
-        top: 84vh;
+        top: 100vh;
         right: -225vw;
         width:70vw;
         font-size: 3rem;
@@ -287,8 +287,8 @@
         position: absolute;
         color:gray;
         opacity: 0.5;
-        left: -433vw;
-        top: 25vh;
+        left: -410vw;
+        top: 85vh;
         transition: transform 0.2s ease-out 0s;
         }
       
@@ -296,8 +296,8 @@
         font-weight: 300;
         font-size: 2rem;
         position: absolute;
-        top: 45vh;
-        right: -487vw;
+        top: 95vh;
+        right: -460vw;
         width:70vw;
        
         transition: transform 0.2s ease-out 0s;
@@ -306,8 +306,8 @@
           font-weight: 300;
           font-size: 2rem;
         position: absolute;
-        top: 50vh;
-        right: -487vw;
+        top: 90vh;
+        right: -460vw;
         width:70vw;
         
         transition: transform 0.4s ease-out 0s;
@@ -316,8 +316,8 @@
           font-weight: 300;
           font-size: 2rem;
         position: absolute;
-        top: 55vh;
-        right: -487vw;
+        top: 85vh;
+        right: -460vw;
         width:70vw;
         
         transition: transform 0.6s ease-out 0s;
@@ -326,8 +326,8 @@
           font-weight: 300;
           font-size: 2rem;
         position: absolute;
-        top: 45vh;
-        right: -462vw;
+        top: 95vh;
+        right: -435vw;
         width:70vw;
        
         transition: transform 0.2s ease-out 0s;
@@ -336,8 +336,8 @@
           font-weight: 300;
           font-size: 2rem;
         position: absolute;
-        top: 50vh;
-        right: -462vw;
+        top: 90vh;
+        right: -435vw;
         width:70vw;
       
         transition: transform 0.4s ease-out 0s;
@@ -346,8 +346,8 @@
           font-weight: 300;
           font-size: 2rem;
         position: absolute;
-        top: 55vh;
-        right: -462vw;
+        top: 85vh;
+        right: -435vw;
         width:70vw;
        
         transition: transform 0.6s ease-out 0s;

@@ -3,16 +3,21 @@
 .tasty{
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
     position: relative;
     z-index: 10;
-    
+    margin: 20vh 0 0 0;
   }
   .tastyDiv{
     height: 100vh;
     position: relative;
     text-align: start;
     
+  }
+  .tastyText{
+    margin: 0 0 0 5vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.5s, opacity 1.5s linear
   }
   .tasty a{
     color: black;
@@ -27,7 +32,7 @@
     /* position: absolute;
     right: -10vw;
     top: -8vh; */
-    transform:translateX(380px);
+    
     font-size: 7rem;
     /* font-family: 'IM Fell English SC', serif; */
     transition: transform 0.2s ease-out 0s;
@@ -52,163 +57,161 @@
   .tasty img:nth-of-type(1){
     width: 15%;
     position: absolute;
-    left: 3vw;
-    top: 45vh;
+    right: 3vw;
+    top: 59vh;
     transition: transform 0.2s ease-out 0s;
   }
   .tasty img:nth-of-type(2){
     width: 30%;
     position: absolute;
-    left: 18vw;
-    top: 170vh;
+    right: 18vw;
+    top: 182vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
   .tasty img:nth-of-type(3){
     width: 65%;
     position: absolute;
-    left: 5vw;
-    top: 320vh;
+    right: 5vw;
+    top: 331vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
 }
 @media (max-width: 1680px) {
     .tasty h2{
-      position: absolute;
-      right: -8vw;
-      top: -15vh;
-      transform:translateX(380px);
-      font-size: 5.5rem;
+    font-size: 5.5rem;
 }
-     
+.tasty{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  margin: 10vh 0 0 0;
+}
+
       .tasty h3{
-       position: absolute;
-       top: -2vh;
+     
        font-size: 1.5rem;
-       right: -2.8vw;
+       
        transition: transform 0.2s ease-out 0s;
      }
      .tasty p{
-       position: absolute;
-       top: 1vh;
+       
        font-size: 1.2rem;
-       right: -4.5vw;
+       
        transition: transform 0.2s ease-out 0s;
      }
      .tasty img:nth-of-type(1){
        width: 13%;
        position: absolute;
-       left: 3vw;
-       top: 45vh;
+       right: 3vw;
+       top: 60vh;
        
      }
      .tasty img:nth-of-type(2){
        width: 27%;
        position: absolute;
-       left: 16vw;
-       top: 170vh;
+       right: 16vw;
+       top: 182vh;
        z-index: 3;
      }
      .tasty img:nth-of-type(3){
        width: 60%;
        position: absolute;
-       left: 1vw;
-       top: 308vh;
+       right: 1vw;
+       top: 316vh;
        z-index: 3;
      }
 }
 @media (max-width: 1440px) {
   .tasty h2{
-  position: absolute;
-  right: -3vw;
-  top: -15vh;
-  transform:translateX(380px);
   font-size: 5rem;
  
 }
 
   .tasty h3{
-    position: absolute;
-    top: -3vh;
+  
     font-size: 1.5rem;
-    right: -1vw;
+    
     transition: transform 0.2s ease-out 0s;
   }
   .tasty p{
-    position: absolute;
-    top: 0vh;
+  
     font-size: 1.2rem;
-    right: -3vw;
+    
     transition: transform 0.2s ease-out 0s;
+  }
+  .tastyText{
+    margin: 0 0 0 10vw;
   }
  .tasty img:nth-of-type(1){
    width: 13%;
    position: absolute;
-   left: 3vw;
-   top: 45vh;
+   right: 3vw;
+   top: 56vh;
    
  }
  .tasty img:nth-of-type(2){
    width: 27%;
    position: absolute;
-   left: 16vw;
-   top: 170vh;
+   right: 16vw;
+   top: 182vh;
    z-index: 3;
  }
  .tasty img:nth-of-type(3){
    width: 60%;
    position: absolute;
-   left: 1vw;
-   top: 307vh;
+   right: 1vw;
+   top: 318vh;
    z-index: 3;
  }
  
 }
 @media (max-width: 768px) {
     .tasty h2{
-    position: absolute;
-     right: -19vw;
-     top: -25vh;
-     transform:translateX(380px);
-     font-size: 3.5rem;
-    
-     
-    }
+    font-size: 3.5rem;
+}
     .tasty h3{
-      position: absolute;
-      right: -33.5vw;
-      top: -17vh;
+      
       font-size: 1.5rem;
       transition: transform 0.2s ease-out 0s;
     }
+    .tasty{
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      z-index: 10;
+      margin: 0vh 0 0 0;
+    }
     .tasty p{
-      position: absolute;
-      right: -37vw;
-      top: -14vh;
+      
       font-size: 1.2rem;
       transition: transform 0.2s ease-out 0s;
     
     }
+    .tastyText{
+      margin: 0 0 0 5vw;
+    }
    .tasty img:nth-of-type(1){
      width: 20%;
      position: absolute;
-     left: 1vw;
-     top: 44vh;
+     right: 1vw;
+     top: 66vh;
      
    }
    .tasty img:nth-of-type(2){
     width: 40%;
     position: absolute;
-    left: 21vw;
-    top: 166vh;
+    right: 21vw;
+    top: 197vh;
     z-index: 3;
   }
   .tasty img:nth-of-type(3){
   width: 90%;
   position: absolute;
-  left: 5vw;
-  top: 288vh;
+  right: 5vw;
+  top: 326vh;
   z-index: 3;
   }
 }

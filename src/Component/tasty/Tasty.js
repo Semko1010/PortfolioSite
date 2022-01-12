@@ -86,11 +86,11 @@ class Tasty extends Component {
     else if(window.matchMedia("(max-width: 2560px)").matches){
      if(this.state.data >1200 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >2550){
+    if(this.state.data >3350){
       document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
       
   }
-  if(this.state.data <2550 || this.state.data >3480){
+  if(this.state.data <3350 || this.state.data >4700){
       document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
   }
   }

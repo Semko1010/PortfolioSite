@@ -92,11 +92,11 @@ class Mov extends Component {
          if(this.state.data >700 && this.state.data <3500){
         this.setState({scroll:this.state.data})
         }
-        if(this.state.data >1250){
+        if(this.state.data >1700){
             document.querySelector(".movText").style ="visibility:visible;opacity:1"
             
         }
-        if(this.state.data <1250 || this.state.data >2150){
+        if(this.state.data <1700 || this.state.data >2900){
             document.querySelector(".movText").style ="visibility:hidden;opacity:0"
         }
 

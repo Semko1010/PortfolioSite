@@ -90,13 +90,13 @@ class Music extends Component {
 
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >2500 && this.state.data <5750){
+        if(this.state.data >2500 && this.state.data <8750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >3850){
+        if(this.state.data >5100){
             document.querySelector(".musicText").style ="visibility:visible;opacity:1"
             
         }
-        if(this.state.data <3850 || this.state.data >4750){
+        if(this.state.data <5100 || this.state.data >6400){
             document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
         }
         }
@@ -111,7 +111,7 @@ class Music extends Component {
     
 
     render() { 
-        console.log(this.state.data);
+       
         return ( <div className="music">
             <div className="musicText">
         <h2 ><a href="https://semko1010.github.io/musikProject/assets/html/inspiration.html" target="_blank" rel="noreferrer">Beyond Music</a></h2>

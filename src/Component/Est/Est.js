@@ -92,15 +92,15 @@ if(this.state.data <6400 || this.state.data >7350){
 }
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >4150 && this.state.data <9550){
+        if(this.state.data >4150 && this.state.data <11550){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >6400){
+if(this.state.data >8550){
     document.querySelector(".estText").style ="visibility:visible;opacity:1"
     
 }
-if(this.state.data <6400 || this.state.data >7350){
+if(this.state.data <8550 || this.state.data >9850){
     document.querySelector(".estText").style ="visibility:hidden;opacity:0"
 }
 }
@@ -112,7 +112,7 @@ if(this.state.data <6400 || this.state.data >7350){
     
 
     render() { 
-        console.log(this.state.data);
+        
         return ( <div className="est">
             <div className="estText">
         <h2 ><a href="https://semko1010.github.io/musikProject/assets/html/inspiration.html" target="_blank" rel="noreferrer">Tax calculator</a></h2>

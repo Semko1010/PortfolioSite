@@ -89,15 +89,15 @@ class DesignShop extends Component {
     }
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >3100 && this.state.data <8000){
+        if(this.state.data >3100 && this.state.data <10000){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >5100){
+    if(this.state.data >6900){
         document.querySelector(".shopText").style ="visibility:visible;opacity:1"
         
     }
-    if(this.state.data <5100 || this.state.data >6050){
+    if(this.state.data <6900 || this.state.data >8050){
         document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
     }
 }
@@ -111,7 +111,7 @@ class DesignShop extends Component {
 
 
     render() { 
-        console.log(this.state.data);
+        
         return ( <div className="shop">
             <div className="shopText">
         <h2 ><a href="https://semko1010.github.io/designShop/" target="_blank" rel="noreferrer">Design Shop</a></h2>

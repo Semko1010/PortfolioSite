@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+    @media (max-width: 1920px) {
 .contact {
     height: 100vh;
     display: flex;
@@ -102,8 +102,8 @@
              z-index: 20;
             }
         
-      }
-      @media (max-width: 1440px) {
+}
+    @media (max-width: 1440px) {
         .contact {
             height: 100vh;
             display: flex;
@@ -157,8 +157,8 @@
             }
         
         
-      }
-      @media (max-width: 768px) {
+}
+    @media (max-width: 768px) {
         .contact {
             height: 100vh;
             display: flex;
@@ -213,20 +213,20 @@
             }
         
         
-      }
-      @media (max-width: 375px) {
+}
+    @media (max-width: 375px) {
         .contact {
-            height: 60vh;
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            flex-direction: column;
-            position: static;
+        height: 60vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        position: static;
 }
         .contact div{
-           width: 100vw;
-           display: flex;
-           justify-content:space-evenly;
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
 }
             .contact h2{
             font-size: 4rem;
@@ -254,11 +254,9 @@
                 top: 40vh;
                 right: 40vw;
                 width:15%;
-                
                 transition: transform 0.2s ease-out 0s;
             }
             .contact a:nth-of-type(3){
-            
                 opacity: 0.8;
                 position: static;
                 top: 40vh;
@@ -273,31 +271,36 @@
             }
         
         
-      }
-      @media (max-width: 360px) {
+}
+    @media (max-width: 360px) {
         .contact {
-            height: 100vh;
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            position: relative;
-            
-            
-            }
+        height: 60vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        position: static;
+}
+.contact div{
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+}
             .contact h2{
-            font-size: 4rem;
-            position: absolute;
-            color:gray;
-            opacity: 0.5;
-            top: -15vh;
-            transition: transform 0.2s ease-out 0s;
-            z-index: 999;
+                font-size: 4rem;
+                position: static;
+                color:gray;
+                opacity: 0.5;
+                right: 18vw;
+                top: 30vh;
+                transition: transform 0.2s ease-out 0s;
+                z-index: 999;
             }
           
           
             .contact a:nth-of-type(1){
-                position: absolute;
-                top: 0vh;
+                position: static;
+                top: 40vh;
                 right: 65vw;
                 width: 15%;
                 opacity: 0.8;
@@ -305,27 +308,25 @@
             }
             .contact a:nth-of-type(2){
                 opacity: 0.8;
-                position: absolute;
-                top: 0vh;
-                right: 38vw;
+                position: static;
+                top: 40vh;
+                right: 40vw;
                 width:15%;
-                
                 transition: transform 0.2s ease-out 0s;
             }
             .contact a:nth-of-type(3){
-            
                 opacity: 0.8;
-                position: absolute;
-                top: 0vh;
-                right: 14vw;
+                position: static;
+                top: 40vh;
+                right: 17vw;
                 width:15%;
                 transition: transform 0.2s ease-out 0s;
             }
             
             .contactDiv{
-              height:10vh;
+              height:40vh;
              z-index: 20;
             }
         
         
-      }
+}

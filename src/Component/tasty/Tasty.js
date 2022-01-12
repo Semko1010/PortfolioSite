@@ -83,6 +83,18 @@ class Tasty extends Component {
   }
   }
     }
+    else if(window.matchMedia("(max-width: 2560px)").matches){
+     if(this.state.data >1200 && this.state.data <4650){
+    this.setState({scroll:this.state.data})
+    if(this.state.data >2550){
+      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
+      
+  }
+  if(this.state.data <2550 || this.state.data >3480){
+      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+  }
+  }
+    }
       }
 
 componentDidMount() {

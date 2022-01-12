@@ -1,3 +1,78 @@
+@media (max-width: 2560px) {
+.music{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: 20vh 0 0 0;
+    z-index: 10;
+  }
+   .musicDiv{
+    position: relative;
+    height: 100vh;
+   
+  }
+  .musicText{
+    margin: 0 0 0 5vw;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1.5s, opacity 1.5s linear
+  }
+  .music a{
+    color: black;
+    text-decoration:none;
+  }
+    .music h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+  .music h2{
+   /* position: absolute;
+    left: -15vw;
+    top: -22vh; */
+    font-size: 7rem;
+    /* font-family: 'IM Fell English SC', serif; */
+    transition: transform 0.2s ease-out 0s;
+   }
+   .music h3{
+    /* position: absolute;
+    top: -8vh;
+    left: -14.5vw; */
+    font-size: 1.5rem;
+    
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music p{
+    /* position: absolute;
+    top: -5vh;
+    left: -14.5vw; */
+    font-size: 1.2rem;
+    
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(1){
+    width: 13%;
+    position: absolute;
+    right: 3vw;
+    top: 83vh;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(2){
+    width: 25%;
+    position: absolute;
+    right: 18vw;
+    top: 254vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+  .music img:nth-of-type(3){
+    width: 65%;
+    position: absolute;
+    right: 5vw;
+    top: 450vh;
+    z-index: 3;
+    transition: transform 0.2s ease-out 0s;
+  }
+}
 @media (max-width: 1920px) {
 .music{
     width: 100vw;

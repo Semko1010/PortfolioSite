@@ -88,6 +88,19 @@ class Mov extends Component {
         }
 
     }
+        else if(window.matchMedia("(max-width: 2560px)").matches){
+         if(this.state.data >700 && this.state.data <3500){
+        this.setState({scroll:this.state.data})
+        }
+        if(this.state.data >1250){
+            document.querySelector(".movText").style ="visibility:visible;opacity:1"
+            
+        }
+        if(this.state.data <1250 || this.state.data >2150){
+            document.querySelector(".movText").style ="visibility:hidden;opacity:0"
+        }
+
+    }
           }
 
     componentDidMount() {

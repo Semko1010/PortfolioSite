@@ -32,7 +32,7 @@ class AboutMe extends Component {
             }
 }
            else if(window.matchMedia("(max-width: 2560px)").matches){
-             if(this.state.data >0 && this.state.data <920){
+             if(this.state.data >0){
             this.setState({scroll:this.state.data})
             }
 }

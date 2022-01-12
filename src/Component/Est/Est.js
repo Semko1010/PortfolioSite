@@ -91,6 +91,19 @@ if(this.state.data <6400 || this.state.data >7350){
     document.querySelector(".estText").style ="visibility:hidden;opacity:0"
 }
 }
+        else if(window.matchMedia("(max-width: 2560px)").matches){
+        if(this.state.data >4150 && this.state.data <9550){
+        this.setState({scroll:this.state.data})
+
+}
+if(this.state.data >6400){
+    document.querySelector(".estText").style ="visibility:visible;opacity:1"
+    
+}
+if(this.state.data <6400 || this.state.data >7350){
+    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
+}
+}
 }
 
     componentDidMount() {

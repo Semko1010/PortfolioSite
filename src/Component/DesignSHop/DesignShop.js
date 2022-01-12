@@ -88,6 +88,19 @@ class DesignShop extends Component {
         document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
     }
 }
+        else if(window.matchMedia("(max-width: 2560px)").matches){
+        if(this.state.data >3100 && this.state.data <8000){
+        this.setState({scroll:this.state.data})
+        
+    }
+    if(this.state.data >5100){
+        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
+        
+    }
+    if(this.state.data <5100 || this.state.data >6050){
+        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
+    }
+}
     }
 
 

@@ -304,11 +304,11 @@ font-size: 5.5rem;
    
 }
   .mov h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
     .mov h3{
       width:290px;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       transition: transform 0.2s ease-out 0s;
     }
     .mov p{
@@ -318,7 +318,7 @@ font-size: 5.5rem;
     
     }
     .movDiv{
-    height: 85vh;
+    height: 100vh;
     position: relative;
     }
     .mov img:nth-of-type(1){
@@ -345,7 +345,7 @@ font-size: 5.5rem;
 }
 @media (max-width: 360px) {
   .movDiv{
-    height: 95vh;
+    height: 100vh;
     position: relative;
     }
   .mov h2{
@@ -376,14 +376,14 @@ font-size: 5.5rem;
       width: 60%;
       position: absolute;
       left: 2vw;
-      top: 113vh;
+      top: 128vh;
       
     }
     .mov img:nth-of-type(3){
       width: 100%;
       position: absolute;
       right: 0vw;
-      top: 201vh;
+      top: 215vh;
       
     }
 }

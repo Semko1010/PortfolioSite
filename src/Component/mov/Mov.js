@@ -16,25 +16,25 @@ class Mov extends Component {
          if(this.state.data >0 && this.state.data <2500){
         this.setState({scroll:this.state.data})
         }
-        if(this.state.data >600){
+        if(this.state.data >0){
             document.querySelector(".movText").style ="visibility:visible;opacity:1"
             
         }
-        if(this.state.data <600 || this.state.data >1240){
-            document.querySelector(".movText").style ="visibility:hidden;opacity:0"
-        }
+        // if(this.state.data <600 || this.state.data >1240){
+        //     document.querySelector(".movText").style ="visibility:hidden;opacity:0"
+        // }
     }
         else if(window.matchMedia("(max-width: 375px)").matches){
          if(this.state.data >0 && this.state.data <2500){
         this.setState({scroll:this.state.data})
         }
-        if(this.state.data >650){
+        if(this.state.data >0){
             document.querySelector(".movText").style ="visibility:visible;opacity:1"
             
         }
-        if(this.state.data <650 || this.state.data >1330){
-            document.querySelector(".movText").style ="visibility:hidden;opacity:0"
-        }
+        // if(this.state.data <650 || this.state.data >1330){
+        //     document.querySelector(".movText").style ="visibility:visible;opacity:1"
+        // }
     }
         else if(window.matchMedia("(max-width: 768px)").matches){
          if(this.state.data >700 && this.state.data <3500){

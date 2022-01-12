@@ -16,13 +16,13 @@ class DesignShop extends Component {
         if(this.state.data >0 && this.state.data <5800){
         this.setState({scroll:this.state.data})
     }
-    if(this.state.data >2650){
+    if(this.state.data >0){
         document.querySelector(".shopText").style ="visibility:visible;opacity:1"
         
     }
-    if(this.state.data <2650 || this.state.data >3330){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    // if(this.state.data <2650 || this.state.data >3330){
+    //     document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
+    // }
 }
         else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >1000 && this.state.data <5800){

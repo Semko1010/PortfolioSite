@@ -15,24 +15,24 @@ class Tasty extends Component {
     this.setState({scroll:this.state.data})
      
   }
-  if(this.state.data >1450){
+  if(this.state.data >0){
     document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
     
 }
-if(this.state.data <1450 || this.state.data >1880){
-    document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-}
+// if(this.state.data <1450 || this.state.data >1880){
+//     document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+// }
     }
     else if(window.matchMedia("(max-width: 375px)").matches){
      if(this.state.data >0 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >1450){
+    if(this.state.data >0){
       document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
       
   }
-  if(this.state.data <1450 || this.state.data >3100){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+  // if(this.state.data <1450 || this.state.data >3100){
+  //     document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+  // }
   }
     }
     else if(window.matchMedia("(max-width: 768px)").matches){

@@ -345,11 +345,11 @@
     
     position: relative;
     
-    z-index: 10;
+    z-index: -16;
   }
    .shopDiv{
     position: relative;
-    height: 100vh;
+    height: 95vh;
    
   }
   
@@ -362,39 +362,32 @@
     cursor: pointer;
     }
   .shop h2{
-   
-    font-size: 2.5rem;
-    
-    transition: transform 0.2s ease-out 0s;
+  font-size: 2rem;
+  transition: transform 0.2s ease-out 0s;
     
    }
-   .shop h3{
-   
-    width:290px;
-  
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
+  .shop h3{
+  width:290px;
+  font-size: 1rem;
+  transition: transform 0.2s ease-out 0s;
   }
   .shop p{
-   
-    font-size: 1rem;
-   
-    transition: transform 0.2s ease-out 0s;
-    width:290px;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease-out 0s;
+  width:290px;
   }
   .shop img:nth-of-type(1){
     width: 35%;
     position: absolute;
     left: 1vw;
-    top: 75vh;
+    top: 105vh;
     transition: transform 0.2s ease-out 0s;
   }
   .shop img:nth-of-type(2){
     width: 60%;
     position: absolute;
     left: 36vw;
-    top: 293vh;
+    top: 291vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }
@@ -402,7 +395,7 @@
     width: 100%;
     position: absolute;
     left: 0vw;
-    top: 483vh;
+    top: 459vh;
     z-index: 3;
     transition: transform 0.2s ease-out 0s;
   }

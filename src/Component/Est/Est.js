@@ -17,6 +17,13 @@ class Music extends Component {
         this.setState({scroll:this.state.data})
 
 }
+if(this.state.data >3500){
+    document.querySelector(".estText").style ="visibility:visible;opacity:1"
+    
+}
+if(this.state.data <3500 || this.state.data >4050){
+    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
+}
 }
         else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >2000 && this.state.data <7050){

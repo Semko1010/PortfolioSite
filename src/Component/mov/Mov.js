@@ -12,7 +12,19 @@ class Mov extends Component {
 
     handleScroll = () => {
         this.setState({data:window.pageYOffset})
-        if(window.matchMedia("(max-width: 375px)").matches){
+        if(window.matchMedia("(max-width: 360px)").matches){
+         if(this.state.data >0 && this.state.data <2500){
+        this.setState({scroll:this.state.data})
+        }
+        if(this.state.data >600){
+            document.querySelector(".movText").style ="visibility:visible;opacity:1"
+            
+        }
+        if(this.state.data <600 || this.state.data >1240){
+            document.querySelector(".movText").style ="visibility:hidden;opacity:0"
+        }
+    }
+        else if(window.matchMedia("(max-width: 375px)").matches){
          if(this.state.data >0 && this.state.data <2500){
         this.setState({scroll:this.state.data})
         }

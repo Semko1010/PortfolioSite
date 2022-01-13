@@ -69,7 +69,7 @@ handleScroll1 = () =>{
 
     if(elPosition.top < screenPosition){
         
-        document.querySelector(".musicText").style ="visibility:visible;opacity:1"
+        document.querySelector(".musicText").style ="visibility:visible;opacity:1;transform: translateX(0);"
     }
     if(elPosition.top > screenPosition){
         

@@ -70,7 +70,7 @@ handleScroll1 = () =>{
 
     if(elPosition.top < screenPosition){
        
-        document.querySelector(".estText").style ="visibility:visible;opacity:1"
+        document.querySelector(".estText").style ="visibility:visible;opacity:1;transform: translateX(0);"
 }   
     if(elPosition.top > screenPosition){
         

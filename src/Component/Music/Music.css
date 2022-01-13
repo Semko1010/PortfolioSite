@@ -15,7 +15,15 @@
     margin: 0 0 0 5vw;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 1.5s, opacity 1.5s linear
+    transition: visibility 1.5s, opacity 1.5s linear;
+    margin: 0 0 0 5vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  display: inline-block;
+  transition: all 1s ease-out;
+  border-radius: 10px;
+  transform: translateX(-20vw);
   }
   .music a{
     color: black;
@@ -78,9 +86,7 @@
   }
   .musicText{
     margin: 0 0 0 5vw;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1.5s, opacity 1.5s linear
+   
   }
   .music a{
     color: black;

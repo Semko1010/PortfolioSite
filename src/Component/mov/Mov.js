@@ -66,7 +66,7 @@ class Mov extends Component {
             let elPosition = el.getBoundingClientRect();
             let screenPosition = window.innerHeight;
 console.log(elPosition);
-            if(elPosition.y+200 < screenPosition){
+            if(elPosition.top+200 < screenPosition){
                 
                 document.querySelector(".movText").style ="visibility:visible;opacity:1;background-position: bottom left;transform: translateX(0);"
                 
@@ -75,7 +75,7 @@ console.log(elPosition);
                 
                 document.querySelector(".movText").style ="visibility:hidden;opacity:0"
             }
-            if(elPosition.bottom < screenPosition){
+            if(elPosition.bottom+100 < screenPosition){
                 document.querySelector(".movText").style ="visibility:hidden;opacity:0;"
             }
             }

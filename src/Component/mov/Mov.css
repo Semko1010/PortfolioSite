@@ -17,9 +17,10 @@
   opacity: 0;
   transition: visibility 1s, opacity 1s linear;
   display: inline-block;
-  background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
+  /* background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
   background-size: 100% 200%;
   background-position: top left;
+  transition: all 1s ease-out; */
   transition: all 1s ease-out;
   border-radius: 10px;
  
@@ -40,7 +41,9 @@
 font-size: 10rem;
 transition: transform 0.2s ease-out 0s;
 margin-right: 0vw;
-
+}
+.mov h2:hover{
+transform: translateX(50px);
 }
 .mov a{
 color: black;

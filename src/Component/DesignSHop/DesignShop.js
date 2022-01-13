@@ -67,7 +67,7 @@ class DesignShop extends Component {
     
         if(elPosition.top < screenPosition){
             
-            document.querySelector(".shopText").style ="visibility:visible;opacity:1"
+            document.querySelector(".shopText").style ="visibility:visible;opacity:1;transform: translateX(0);"
         }
         if(elPosition.top > screenPosition){
             

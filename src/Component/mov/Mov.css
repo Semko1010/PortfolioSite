@@ -15,7 +15,15 @@
   margin: 0 0 0 5vw;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 1s, opacity 1s linear
+  transition: visibility 1s, opacity 1s linear;
+  display: inline-block;
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
+  background-size: 100% 200%;
+  background-position: top left;
+  transition: all 1s ease-out;
+  border-radius: 10px;
+ 
+  transform: translateX(-20vw);
 }
 .mov h3{
   
@@ -79,10 +87,9 @@ cursor: pointer;
   
 }
 .movText{
-  margin: 0 0 0 5vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear
+  margin: 0 0 0 10vw;
+ 
+  
 }
 
 .mov h3{
@@ -202,16 +209,7 @@ font-size: 7rem;
     }
     .movText{
       margin: 0 0 0 10vw;
-      display: inline-block;
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 1s, opacity 1s linear;
-      background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
-      background-size: 100% 200%;
-      background-position: top left;
-      transition: all 1.5s ease-out;
-      border-radius: 20px;
-
+      
     }
     .mov img:nth-of-type(1){
       width: 13%;
@@ -236,9 +234,7 @@ font-size: 7rem;
     }
 }
 
-.test123{
 
-}
 
 @media (max-width: 768px) {
   .mov h2{
@@ -288,8 +284,7 @@ font-size: 7rem;
 
 @media (max-width: 375px) {
   .movText{
-   
-    margin: 0 0 0 5vw;
+  margin: 0 0 0 5vw;
     
 }
   .mov h2{

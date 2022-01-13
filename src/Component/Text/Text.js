@@ -1,8 +1,6 @@
 // import React, { Component } from 'react'
 // import "./Text.css"
-// const mystyle = {
-//     background: 'linear-gradient(to bottom, rgb(109, 109, 109) 50%, #fff 50%);background-size: 100% 200%;background-position: bottom left;transition: all .5s ease-out;'
-//  }
+
 // class Text extends React.Component {
 //     state={h2:"",p1:"",p2:"",data:0}
 
@@ -43,10 +41,62 @@
         
         
 // }
+// handleScroll1 = () =>{
+//     let el = document.querySelector(".movDiv")
+//     let elPosition = el.getBoundingClientRect();
+//     let screenPosition = window.innerHeight;
+//     let tasty = document.querySelector(".tastyDiv")
+//     let elPositionTasty = tasty.getBoundingClientRect();
 
+//     if(elPosition.top < screenPosition){
+//         this.setState({h2:"The Movie App"})
+//         this.setState({p1:"Front-End Developer • Created with React"})
+//         this.setState({p2:"Find your favorite movies and enjoy them with your friends"})
+//         document.querySelector(".textNewDiv").style.backgroundPosition = "top left"
+//         document.querySelector(".textNewDiv").style.opacity = 1
+//         document.querySelector(".textNewDiv").style.visibility = "visible"
+//         console.log("test");
+        
+//     }
+//     if(elPosition.top > screenPosition){
+        
+//         document.querySelector(".textNewDiv").style.opacity = 0
+//         document.querySelector(".textNewDiv").style.visibility = "hidden"
+       
+//     }
+//     if(elPosition.bottom < screenPosition){
+        
+//         document.querySelector(".textNewDiv").style.opacity = 0
+//         document.querySelector(".textNewDiv").style.visibility = "hidden"
+//     }
+
+   
+//     if(elPositionTasty.top < screenPosition){
+//         this.setState({h2:"The Tasty App"})
+//         this.setState({p1:"Front-End Developer • Created with React"})
+//         this.setState({p2:"Find your favorite movies and enjoy them with your friends"})
+//         document.querySelector(".textNewDiv").style.backgroundPosition = "top left"
+//         document.querySelector(".textNewDiv").style.opacity = 1
+//         document.querySelector(".textNewDiv").style.visibility = "visible"
+//         console.log("test");
+        
+//     }
+//     if(elPositionTasty.top > screenPosition){
+        
+//         document.querySelector(".textNewDiv").style.opacity = 0
+//         document.querySelector(".textNewDiv").style.visibility = "hidden"
+       
+//     }
+//     if(elPositionTasty.bottom < screenPosition){
+        
+//         document.querySelector(".textNewDiv").style.opacity = 0
+//         document.querySelector(".textNewDiv").style.visibility = "hidden"
+//     }
+//     }
 
 //     componentDidMount() {
-//         window.addEventListener("scroll", this.handleScroll)
+//         window.addEventListener("scroll", this.handleScroll1)
+       
 // }
 //     render() { 
 

@@ -19,17 +19,17 @@
 }
 .mov h3{
   
-  font-size: 1.5rem;
+  font-size: 4rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
  
-  font-size: 1.2rem;
+  font-size: 3rem;
   transition: transform 0.2s ease-out 0s;
 
 }
 .mov h2{
-font-size: 7rem;
+font-size: 10rem;
 transition: transform 0.2s ease-out 0s;
 margin-right: 0vw;
 
@@ -145,25 +145,16 @@ cursor: pointer;
 
 
   .mov h3{
-  /* position: absolute;
-  left: -4vw;
-  top: 9vh; */
   font-size: 1.5rem;
   transition: transform 0.2s ease-out 0s;
 }
 .mov p{
-  /* position: absolute;
-  left: -4vw;
-  top: 12vh; */
   font-size: 1.2rem;
   transition: transform 0.2s ease-out 0s;
 
 }
 .mov h2{
-/* position: absolute;
-left: -5vw;
-top: -3vh; */
-font-size: 5.5rem;
+font-size: 7rem;
 }
 
 
@@ -191,25 +182,16 @@ font-size: 5.5rem;
 }
 @media (max-width: 1440px) {
   .mov h3{
-    /* position: absolute;
-    left: -4vw;
-    top: 9vh; */
     font-size: 1.5rem;
     transition: transform 0.2s ease-out 0s;
   }
   .mov p{
-    /* position: absolute;
-    left: -4vw;
-    top: 12vh; */
     font-size: 1.2rem;
     transition: transform 0.2s ease-out 0s;
   
   }
 
   .mov h2{
-    /* position: absolute;
-    left: -5vw;
-    top: -3vh; */
     font-size: 5rem;
   
     }
@@ -220,7 +202,16 @@ font-size: 5.5rem;
     }
     .movText{
       margin: 0 0 0 10vw;
-      
+      display: inline-block;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 1s, opacity 1s linear;
+      background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
+      background-size: 100% 200%;
+      background-position: top left;
+      transition: all 1.5s ease-out;
+      border-radius: 20px;
+
     }
     .mov img:nth-of-type(1){
       width: 13%;
@@ -245,6 +236,9 @@ font-size: 5.5rem;
     }
 }
 
+.test123{
+
+}
 
 @media (max-width: 768px) {
   .mov h2{
@@ -294,14 +288,16 @@ font-size: 5.5rem;
 
 @media (max-width: 375px) {
   .movText{
-    margin: 0 0 0 5vw;
    
+    margin: 0 0 0 5vw;
+    
 }
   .mov h2{
     font-size: 2.5rem;
 }
     .mov h3{
-      width:290px;
+      margin:2vh 0 0 0;
+      width:350px;
       font-size: 1.3rem;
       transition: transform 0.2s ease-out 0s;
     }

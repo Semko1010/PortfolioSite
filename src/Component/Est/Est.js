@@ -17,13 +17,7 @@ class Music extends Component {
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >0){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-// if(this.state.data <3500 || this.state.data >4050){
-//     document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-// }
+
 }
         else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >2000 && this.state.data <7050){
@@ -31,82 +25,64 @@ if(this.state.data >0){
 
 
 }
-if(this.state.data >3550){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-if(this.state.data <3550 || this.state.data >6150){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-}
+
 }
         else if(window.matchMedia("(max-width: 768px)").matches){
         if(this.state.data >4150 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >5250){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-if(this.state.data <5250 || this.state.data >6150){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-}
+
 }
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >4150 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >5000){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-if(this.state.data <5000 || this.state.data >5800){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-}
+
 }
         else if(window.matchMedia("(max-width: 1680px)").matches){
         if(this.state.data >4150 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >5800){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-if(this.state.data <5800 || this.state.data >6750){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-}
+
 }
         else if(window.matchMedia("(max-width: 1920px)").matches){
         if(this.state.data >4150 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >6400){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
-}
-if(this.state.data <6400 || this.state.data >7350){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
-}
+
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
         if(this.state.data >4150 && this.state.data <11550){
         this.setState({scroll:this.state.data})
 
 }
-if(this.state.data >8550){
-    document.querySelector(".estText").style ="visibility:visible;opacity:1"
-    
+
 }
-if(this.state.data <8550 || this.state.data >9850){
-    document.querySelector(".estText").style ="visibility:hidden;opacity:0"
 }
+handleScroll1 = () =>{
+    let el = document.querySelector(".est")
+    let elPosition = el.getBoundingClientRect();
+    let screenPosition = window.innerHeight;
+
+    if(elPosition.top < screenPosition){
+       
+        document.querySelector(".estText").style ="visibility:visible;opacity:1"
+}   
+    if(elPosition.top > screenPosition){
+        
+        document.querySelector(".estText").style ="visibility:hidden;opacity:0"
+}   
+if(elPosition.bottom < screenPosition){
+        document.querySelector(".estText").style ="visibility:hidden;opacity:0"
 }
 }
 
     componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll1)
     window.addEventListener("scroll", this.handleScroll)
 }
     

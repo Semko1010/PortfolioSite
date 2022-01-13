@@ -16,95 +16,70 @@ class DesignShop extends Component {
         if(this.state.data >0 && this.state.data <5800){
         this.setState({scroll:this.state.data})
     }
-    if(this.state.data >0){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    // if(this.state.data <2650 || this.state.data >3330){
-    //     document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    // }
+    
 }
         else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >1000 && this.state.data <5800){
         this.setState({scroll:this.state.data})
     }
-    if(this.state.data >2850){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <2850 || this.state.data >5100){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    
 }
         else if(window.matchMedia("(max-width: 768px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >4250){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <4250 || this.state.data >5100){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+   
 }
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >4050){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <4050 || this.state.data >4800){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    
 }
         else if(window.matchMedia("(max-width: 1680px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >4800){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <4800 || this.state.data >5600){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    
 }
         else if(window.matchMedia("(max-width: 1920px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >5100){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <5100 || this.state.data >6050){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
         if(this.state.data >3100 && this.state.data <10000){
         this.setState({scroll:this.state.data})
         
     }
-    if(this.state.data >6900){
-        document.querySelector(".shopText").style ="visibility:visible;opacity:1"
-        
-    }
-    if(this.state.data <6900 || this.state.data >8050){
-        document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
-    }
+    
 }
     }
-
+    handleScroll1 = () =>{
+        let el = document.querySelector(".shopDiv")
+        let elPosition = el.getBoundingClientRect();
+        let screenPosition = window.innerHeight;
+    
+        if(elPosition.top < screenPosition){
+            
+            document.querySelector(".shopText").style ="visibility:visible;opacity:1"
+        }
+        if(elPosition.top > screenPosition){
+            
+            document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
+        }
+        if(elPosition.bottom < screenPosition){
+            document.querySelector(".shopText").style ="visibility:hidden;opacity:0"
+        }
+        }
 
     componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll1)
         window.addEventListener("scroll", this.handleScroll)
 
     }

@@ -17,95 +17,71 @@ class Music extends Component {
         this.setState({scroll:this.state.data})
         
         }
-        if(this.state.data >0){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        // if(this.state.data <2050 || this.state.data >2650){
-        //     document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        // }
+       
     }
         else if(window.matchMedia("(max-width: 375px)").matches){
         if(this.state.data >0 && this.state.data <4750){
         this.setState({scroll:this.state.data})
         
         }
-        if(this.state.data >0){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        // if(this.state.data <2150 || this.state.data >3100){
-        //     document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        // }
+       
     }
         else if(window.matchMedia("(max-width: 768px)").matches){
         if(this.state.data >1500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >3200){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        if(this.state.data <3200 || this.state.data >4100){
-            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        }
+        
         }
 
 }
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >2500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >3000){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        if(this.state.data <3000 || this.state.data >3800){
-            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        }
+       
         }
 
 }
         else if(window.matchMedia("(max-width: 1680px)").matches){
         if(this.state.data >2500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >3600){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        if(this.state.data <3600 || this.state.data >4450){
-            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        }
+       
         }
     }
         else if(window.matchMedia("(max-width: 1920px)").matches){
         if(this.state.data >2500 && this.state.data <5750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >3850){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        if(this.state.data <3850 || this.state.data >4750){
-            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        }
+        
         }
 
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
         if(this.state.data >2500 && this.state.data <8750){
         this.setState({scroll:this.state.data})
-        if(this.state.data >5100){
-            document.querySelector(".musicText").style ="visibility:visible;opacity:1"
-            
-        }
-        if(this.state.data <5100 || this.state.data >6400){
-            document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
-        }
+       
         }
 
 }
 
 }
+handleScroll1 = () =>{
+    let el = document.querySelector(".musicDiv")
+    let elPosition = el.getBoundingClientRect();
+    let screenPosition = window.innerHeight;
+
+    if(elPosition.top < screenPosition){
+        
+        document.querySelector(".musicText").style ="visibility:visible;opacity:1"
+    }
+    if(elPosition.top > screenPosition){
+        
+        document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
+    }
+    if(elPosition.bottom < screenPosition){
+        document.querySelector(".musicText").style ="visibility:hidden;opacity:0"
+    }
+    }
 
     componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll1)
         window.addEventListener("scroll", this.handleScroll)
 }
     

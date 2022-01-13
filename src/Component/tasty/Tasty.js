@@ -15,89 +15,66 @@ class Tasty extends Component {
     this.setState({scroll:this.state.data})
      
   }
-  if(this.state.data >0){
-    document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-    
-}
-// if(this.state.data <1450 || this.state.data >1880){
-//     document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-// }
+  
+
     }
     else if(window.matchMedia("(max-width: 375px)").matches){
      if(this.state.data >0 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >0){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  // if(this.state.data <1450 || this.state.data >3100){
-  //     document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  // }
+  
   }
     }
     else if(window.matchMedia("(max-width: 768px)").matches){
-     if(this.state.data >800 && this.state.data <4650){
+    if(this.state.data >800 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >2200){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  if(this.state.data <2200 || this.state.data >3100){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+   
   }
     }
     else if(window.matchMedia("(max-width: 1440px)").matches){
      if(this.state.data >1200 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >2050){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  if(this.state.data <2050 || this.state.data >2830){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+    
   }
     }
     else if(window.matchMedia("(max-width: 1680px)").matches){
      if(this.state.data >1200 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >2450){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  if(this.state.data <2450 || this.state.data >3300){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+    
   }
     }
     else if(window.matchMedia("(max-width: 1920px)").matches){
      if(this.state.data >1200 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >2550){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  if(this.state.data <2550 || this.state.data >3480){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+   
   }
     }
     else if(window.matchMedia("(max-width: 2560px)").matches){
-     if(this.state.data >1200 && this.state.data <4650){
+    if(this.state.data >1200 && this.state.data <4650){
     this.setState({scroll:this.state.data})
-    if(this.state.data >3350){
-      document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
-      
-  }
-  if(this.state.data <3350 || this.state.data >4700){
-      document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
-  }
+  
   }
     }
       }
 
+      handleScroll1 = () =>{
+        let el = document.querySelector(".tastyDiv")
+        let elPosition = el.getBoundingClientRect();
+        let screenPosition = window.innerHeight;
+
+        if(elPosition.top < screenPosition){
+            console.log("test");
+            document.querySelector(".tastyText").style ="visibility:visible;opacity:1"
+        }
+        if(elPosition.top > screenPosition){
+            console.log("test");
+            document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+        }
+        if(elPosition.bottom < screenPosition){
+            document.querySelector(".tastyText").style ="visibility:hidden;opacity:0"
+        }
+        }
 componentDidMount() {
+  window.addEventListener("scroll", this.handleScroll1)
     window.addEventListener("scroll", this.handleScroll)
 
 }

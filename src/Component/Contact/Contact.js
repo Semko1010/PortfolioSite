@@ -24,19 +24,19 @@ class AboutMe extends Component {
         }
     }
             else if(window.matchMedia("(max-width: 768px)").matches){
-             if(this.state.data >6000 && this.state.data <7600){
+             if(this.state.data >2000 && this.state.data <7600){
             this.setState({scroll:this.state.data})
             console.log("768");
         }
     }
             else if(window.matchMedia("(max-width: 1440px)").matches){
-             if(this.state.data >6200 && this.state.data <8800){
+             if(this.state.data >2000 && this.state.data <8800){
             this.setState({scroll:this.state.data})
             console.log("1440");
         }
     }
            else if(window.matchMedia("(max-width: 1680px)").matches){
-             if(this.state.data >6900 && this.state.data <8800){
+             if(this.state.data >2000 && this.state.data <8800){
             this.setState({scroll:this.state.data})
             console.log("1680");
         }

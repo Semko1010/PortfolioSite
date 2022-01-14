@@ -83,9 +83,9 @@ class AboutMe extends Component {
         return ( <article className="contact">
                            <h2 style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>Contact</h2>
                             <div>
-                        <a href="https://github.com/Semko1010" target="_blank"><img src="./img/contact/github.svg" alt="" s/></a>
-                        <a href="https://www.linkedin.com/in/semir-hamidovic/" target="_blank"><img src="./img/contact/linkedin.svg" alt="" /></a> 
-                        <a href="mailto:semir01020@gmail.com" target="_blank"><img src="./img/contact/at-solid.svg" alt="" /></a>   
+                        <a href="https://github.com/Semko1010" target="_blank" rel="noreferrer"><img src="./img/contact/github.svg" alt="" s/></a>
+                        <a href="https://www.linkedin.com/in/semir-hamidovic/" target="_blank" rel="noreferrer"><img src="./img/contact/linkedin.svg" alt="" /></a> 
+                        <a href="mailto:semir01020@gmail.com" target="_blank" rel="noreferrer"><img src="./img/contact/at-solid.svg" alt="" /></a>   
                         </div>
                         </article> );
     }

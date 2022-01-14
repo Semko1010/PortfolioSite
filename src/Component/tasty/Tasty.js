@@ -83,7 +83,7 @@ componentDidMount() {
       <div className="tastyText">
     <h2 ><a href="https://the-tasty-app.netlify.app/" target="_blank" rel="noreferrer">The Tasty App</a></h2>
     <h3 >Front-End Developer • Created with React</h3>
-    <p >Find your favorite movies and enjoy them with your friends</p>
+    <p >cook your favorite dishes with your friends</p>
     </div>
     <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />

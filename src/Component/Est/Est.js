@@ -91,7 +91,7 @@ if(elPosition.bottom < screenPosition){
         
         return ( <div className="est">
             <div className="estText">
-        <h2 ><a href="https://semko1010.github.io/musikProject/assets/html/inspiration.html" target="_blank" rel="noreferrer">Tax calculator</a></h2>
+        <h2 ><a href="https://semko1010.github.io/einkommensSteuer/" target="_blank" rel="noreferrer">Tax calculator</a></h2>
         <h3 >Front-End Developer • Created with HTML/SASS/Javascript</h3>
         <p >Calculate your tax</p>
         </div>

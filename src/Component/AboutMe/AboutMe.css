@@ -1,210 +1,203 @@
 @media (max-width: 2560px) {
-
-.aboutmearticle {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    overflow: hidden;
-    }
-    .aboutmearticle h2{
-    font-size: 20rem;
-    position: absolute;
-    color:gray;
-    opacity: 0.5;
-    left: 5vw;
-    top: 20vh;
-    transition: transform 0.2s ease-out 0s;
-    }
-    .aboutmearticle p{
-    font-size: 3rem;
-    font-weight: 300;
-    line-height:80px;
-    position: absolute;
-    top: 35vh;
-    right: 4vw;
-    width:50vw;
-    transition: transform 0.2s ease-out 0s;
-    }
-    .AboutMeDiv{
-      height:100vh;
-      overflow: hidden;
-    }
-  }
-@media (max-width: 1920px) {
-
-.aboutmearticle {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    overflow: hidden;
-    }
-    .aboutmearticle h2{
-    font-size: 20rem;
-    position: absolute;
-    color:gray;
-    opacity: 0.5;
-    left: -9vw;
-    top: 15vh;
-    transition: transform 0.2s ease-out 0s;
-    }
-    .aboutmearticle p{
-    font-size: 3rem;
-    font-weight: 300;
-    line-height:80px;
-    position: absolute;
-    top: 35vh;
-    right: -12vw;
-    width:70vw;
-    transition: transform 0.2s ease-out 0s;
-    }
-    .AboutMeDiv{
-      height:100vh;
-      overflow: hidden;
-    }
-  }
-@media (max-width: 1680px) {
-    /*########## Header ##########*/
-   
-   /*########## Article ##########*/
-   
-   .aboutmearticle h2{
-   font-size: 18rem;
-   position: absolute;
-   color:gray;
-   opacity: 0.5;
-   left: -12vw;
-   top: 16vh;
-   transition: transform 0.2s ease-out 0s;
-   }
-   .aboutmearticle p{
-   font-size: 2.5rem;
-   font-weight: 300;
-   line-height:80px;
-   position: absolute;
-   top: 35vh;
-   right: -14vw;
-   width:70vw;
-   transition: transform 0.2s ease-out 0s;
-   }
-
-}
-@media (max-width: 1440px) {
-   
-  .aboutmearticle h2{
-      font-size: 14rem;
-      position: absolute;
-      color:gray;
-      opacity: 0.5;
-      left: -6vw;
-      top: 11vh;
-      }
-      .aboutmearticle p{
-      font-size: 2rem;
-      font-weight: 300;
-      line-height:60px;
-      position: absolute;
-      top: 28vh;
-      right: -10vw;
-      width:70vw;
-      }
-
-}
-@media (max-width: 1024px) {
-   
-  .aboutmearticle h2{
-      font-size: 8rem;
-      position: absolute;
-      color:gray;
-      opacity: 0.5;
-      left: -22vw;
-      top: 17vh;
-      }
-      .aboutmearticle p{
-      font-size: 2rem;
-      font-weight: 300;
-      line-height:40px;
-      position: absolute;
-      top: 23vh;
-      right: -45vw;
-      width:70vw;
-      }
-
-}
-@media (max-width: 768px) {
-   
-  .aboutmearticle h2{
-      font-size: 8rem;
-      position: absolute;
-      color:gray;
-      opacity: 0.5;
-      left: -46vw;
-      top: 15vh;
-      }
-      .aboutmearticle p{
-      font-size: 2rem;
-      font-weight: 300;
-      line-height:40px;
-      position: absolute;
-      top: 23vh;
-      right: -45vw;
-      width:70vw;
-      }
-
-}
-@media (max-width: 375px) {
-   
-  .aboutmearticle h2{
-      font-size: 4rem;
-      position: absolute;
-      color:gray;
-      opacity: 0.5;
-      left: -42vw;
-      top: 13vh;
-      }
-      .aboutmearticle p{
-      font-size: 1.1rem;
-      font-weight: 300;
-      line-height:25px;
-      position: absolute;
-      top: 17vh;
-      right: -36vw;
-      width:60vw;
-      }
-      .aboutmearticle {
+    .aboutmearticle {
         height: 100vh;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         position: relative;
         overflow: hidden;
-        }
-      .AboutMeDiv{
-        height:60vh;
+    }
+    .aboutmearticle h2 {
+        font-size: 20rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: 5vw;
+        top: 20vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .aboutmearticle p {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 80px;
+        position: absolute;
+        top: 35vh;
+        right: 4vw;
+        width: 50vw;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .AboutMeDiv {
+        height: 100vh;
         overflow: hidden;
-      }
+    }
 }
-@media (max-width: 360px) {
-   
-  .aboutmearticle h2{
-      font-size: 4rem;
-      position: absolute;
-      color:gray;
-      opacity: 0.5;
-      left: -47vw;
-      top: 13vh;
-      }
-      .aboutmearticle p{
-      font-size: 1.1rem;
-      font-weight: 300;
-      line-height:25px;
-      position: absolute;
-      top: 17vh;
-      right: -49vw;
-      width:70vw;
-      }
 
+@media (max-width: 1920px) {
+    .aboutmearticle {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .aboutmearticle h2 {
+        font-size: 20rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -9vw;
+        top: 15vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .aboutmearticle p {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 80px;
+        position: absolute;
+        top: 35vh;
+        right: -12vw;
+        width: 70vw;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .AboutMeDiv {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1680px) {
+    /*########## Header ##########*/
+    /*########## Article ##########*/
+    .aboutmearticle h2 {
+        font-size: 18rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -12vw;
+        top: 16vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .aboutmearticle p {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 80px;
+        position: absolute;
+        top: 35vh;
+        right: -14vw;
+        width: 70vw;
+        transition: transform 0.2s ease-out 0s;
+    }
+}
+
+@media (max-width: 1440px) {
+    .aboutmearticle h2 {
+        font-size: 14rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -6vw;
+        top: 11vh;
+    }
+    .aboutmearticle p {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 60px;
+        position: absolute;
+        top: 28vh;
+        right: -10vw;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .aboutmearticle h2 {
+        font-size: 8rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -22vw;
+        top: 17vh;
+    }
+    .aboutmearticle p {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 40px;
+        position: absolute;
+        top: 23vh;
+        right: -45vw;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutmearticle h2 {
+        font-size: 8rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -46vw;
+        top: 15vh;
+    }
+    .aboutmearticle p {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 40px;
+        position: absolute;
+        top: 23vh;
+        right: -45vw;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .aboutmearticle h2 {
+        font-size: 4rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -42vw;
+        top: 13vh;
+    }
+    .aboutmearticle p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 25px;
+        position: absolute;
+        top: 17vh;
+        right: -36vw;
+        width: 60vw;
+    }
+    .aboutmearticle {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .AboutMeDiv {
+        height: 60vh;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 360px) {
+    .aboutmearticle h2 {
+        font-size: 4rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -47vw;
+        top: 13vh;
+    }
+    .aboutmearticle p {
+        font-size: 1.1rem;
+        font-weight: 300;
+        line-height: 25px;
+        position: absolute;
+        top: 17vh;
+        right: -49vw;
+        width: 70vw;
+    }
 }

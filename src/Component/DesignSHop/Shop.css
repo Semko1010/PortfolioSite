@@ -304,6 +304,7 @@
         transition: transform 0.2s ease-out 0s;
     }
 }
+
 @media (max-width: 768px) {
     .shop {
         width: 100vw;

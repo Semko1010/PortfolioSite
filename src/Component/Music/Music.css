@@ -232,6 +232,7 @@
         transition: transform 0.2s ease-out 0s;
     }
 }
+
 @media (max-width: 768px) {
     .music h2 {
         font-size: 3.5rem;

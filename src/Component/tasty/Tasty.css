@@ -234,6 +234,7 @@
         z-index: 3;
     }
 }
+
 @media (max-width: 768px) {
     .tasty h2 {
         font-size: 3.5rem;

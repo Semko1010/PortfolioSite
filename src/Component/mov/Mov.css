@@ -210,6 +210,7 @@
         top: 228vh;
     }
 }
+
 @media (max-width: 768px) {
     .mov h2 {
         font-size: 3.5rem;

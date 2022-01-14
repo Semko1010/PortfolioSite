@@ -1,547 +1,509 @@
 @media (max-width: 2560px) {
-.skills {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    
-    
+    .skills {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
-    .skills h2{
-    font-size: 20rem;
-    position: absolute;
-    color:gray;
-    opacity: 0.5;
-    left: -172vw;
-    top: 20vh;
-    transition: transform 0.2s ease-out 0s;
+    .skills h2 {
+        font-size: 20rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -172vw;
+        top: 20vh;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p{
-    font-weight: 300;
-    font-size: 3rem;
-    
+    .skills p {
+        font-weight: 300;
+        font-size: 3rem;
     }
-    .skills p:nth-last-of-type(1){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 30vh;
-    right: -245vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.2s ease-out 0s;
+    .skills p:nth-last-of-type(1) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 30vh;
+        right: -245vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p:nth-last-of-type(2){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 35vh;
-    right: -245vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.4s ease-out 0s;
+    .skills p:nth-last-of-type(2) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 35vh;
+        right: -245vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.4s ease-out 0s;
     }
-    .skills p:nth-last-of-type(3){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 40vh;
-    right: -245vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.6s ease-out 0s;
+    .skills p:nth-last-of-type(3) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 40vh;
+        right: -245vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.6s ease-out 0s;
     }
-    .skills p:nth-last-of-type(4){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 40vh;
-    right: -230vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.2s ease-out 0s;
+    .skills p:nth-last-of-type(4) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 40vh;
+        right: -230vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p:nth-last-of-type(5){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 35vh;
-    right: -230vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.4s ease-out 0s;
+    .skills p:nth-last-of-type(5) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 35vh;
+        right: -230vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.4s ease-out 0s;
     }
-    .skills p:nth-last-of-type(6){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 30vh;
-    right: -230vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.6s ease-out 0s;
+    .skills p:nth-last-of-type(6) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 30vh;
+        right: -230vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.6s ease-out 0s;
     }
-    
-    .skillsDiv{
-      height:100vh;
-     z-index: 20;
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
     }
-  }
+}
+
 @media (max-width: 1920px) {
-.skills {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    
-    
+    .skills {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
-    .skills h2{
-    font-size: 20rem;
-    position: absolute;
-    color:gray;
-    opacity: 0.5;
-    left: -173vw;
-    top: 20vh;
-    transition: transform 0.2s ease-out 0s;
+    .skills h2 {
+        font-size: 20rem;
+        position: absolute;
+        color: gray;
+        opacity: 0.5;
+        left: -173vw;
+        top: 20vh;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p{
-    font-weight: 300;
-    font-size: 3rem;
-    
+    .skills p {
+        font-weight: 300;
+        font-size: 3rem;
     }
-    .skills p:nth-last-of-type(1){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 40vh;
-    right: -237vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.2s ease-out 0s;
+    .skills p:nth-last-of-type(1) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 40vh;
+        right: -237vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p:nth-last-of-type(2){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 35vh;
-    right: -237vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.4s ease-out 0s;
+    .skills p:nth-last-of-type(2) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 35vh;
+        right: -237vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.4s ease-out 0s;
     }
-    .skills p:nth-last-of-type(3){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 30vh;
-    right: -237vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.6s ease-out 0s;
+    .skills p:nth-last-of-type(3) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 30vh;
+        right: -237vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.6s ease-out 0s;
     }
-    .skills p:nth-last-of-type(4){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 40vh;
-    right: -215vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.2s ease-out 0s;
+    .skills p:nth-last-of-type(4) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 40vh;
+        right: -215vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .skills p:nth-last-of-type(5){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 35vh;
-    right: -215vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.4s ease-out 0s;
+    .skills p:nth-last-of-type(5) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 35vh;
+        right: -215vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.4s ease-out 0s;
     }
-    .skills p:nth-last-of-type(6){
-    font-size: 3rem;
-    font-weight: 300;
-    position: absolute;
-    top: 30vh;
-    right: -215vw;
-    width:70vw;
-    font-size: 3rem;
-    transition: transform 0.6s ease-out 0s;
+    .skills p:nth-last-of-type(6) {
+        font-size: 3rem;
+        font-weight: 300;
+        position: absolute;
+        top: 30vh;
+        right: -215vw;
+        width: 70vw;
+        font-size: 3rem;
+        transition: transform 0.6s ease-out 0s;
     }
-    
-    .skillsDiv{
-      height:100vh;
-     z-index: 20;
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
     }
-  }
+}
+
 @media (max-width: 1680px) {
     .skills {
         height: 100vh;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        
-        
-        }
-        .skills h2{
+    }
+    .skills h2 {
         font-size: 20rem;
         position: absolute;
-        color:gray;
+        color: gray;
         opacity: 0.5;
         left: -200vw;
         top: 90vh;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p{
+    }
+    .skills p {
         font-weight: 300;
         font-size: 3rem;
-        
-        }
-        .skills p:nth-last-of-type(1){
+    }
+    .skills p:nth-last-of-type(1) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 90vh;
         right: -260vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(2){
+    }
+    .skills p:nth-last-of-type(2) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 95vh;
         right: -260vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(3){
+    }
+    .skills p:nth-last-of-type(3) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 100vh;
         right: -255vw;
-        width:65vw;
+        width: 65vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(4){
+    }
+    .skills p:nth-last-of-type(4) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 100vh;
         right: -240vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
+    }
+    .skills p:nth-last-of-type(5) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 95vh;
         right: -240vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(6){
+    }
+    .skills p:nth-last-of-type(6) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 90vh;
         right: -240vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
-
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }
+
 @media (max-width: 1440px) {
-   
     .skills {
         height: 100vh;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        
-        
-        }
-        .skills h2{
+    }
+    .skills h2 {
         font-size: 14rem;
         position: absolute;
-        color:gray;
+        color: gray;
         opacity: 0.5;
         left: -194vw;
         top: 90vh;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p{
+    }
+    .skills p {
         font-weight: 300;
         font-size: 3rem;
-        
-        }
-        .skills p:nth-last-of-type(1){
+    }
+    .skills p:nth-last-of-type(1) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 90vh;
         right: -250vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(2){
+    }
+    .skills p:nth-last-of-type(2) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 95vh;
         right: -250vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(3){
+    }
+    .skills p:nth-last-of-type(3) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 100vh;
         right: -250vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(4){
+    }
+    .skills p:nth-last-of-type(4) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 90vh;
         right: -225vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
+    }
+    .skills p:nth-last-of-type(5) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 95vh;
         right: -225vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(6){
+    }
+    .skills p:nth-last-of-type(6) {
         font-size: 3rem;
         font-weight: 300;
         position: absolute;
         top: 100vh;
         right: -225vw;
-        width:70vw;
+        width: 70vw;
         font-size: 3rem;
         transition: transform 0.6s ease-out 0s;
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
-
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }
+
 @media (max-width: 1024px) {
-   
     .skills {
         height: 100vh;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        
-        
-        }
-        .skills h2{
+    }
+    .skills h2 {
         font-size: 8rem;
         position: absolute;
-        color:gray;
+        color: gray;
         opacity: 0.5;
         left: -410vw;
         top: 85vh;
         transition: transform 0.2s ease-out 0s;
-        }
-      
-        .skills p:nth-last-of-type(1){
+    }
+    .skills p:nth-last-of-type(1) {
         font-weight: 300;
         font-size: 2rem;
         position: absolute;
         top: 95vh;
         right: -460vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(2){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(2) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 90vh;
         right: -460vw;
-        width:70vw;
-        
+        width: 70vw;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(3){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(3) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 85vh;
         right: -460vw;
-        width:70vw;
-        
+        width: 70vw;
         transition: transform 0.6s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(4){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(4) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 95vh;
         right: -435vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(5) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 90vh;
         right: -435vw;
-        width:70vw;
-      
+        width: 70vw;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(6){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(6) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 85vh;
         right: -435vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.6s ease-out 0s;
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
-
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }
+
 @media (max-width: 768px) {
-   
     .skills {
         height: 100vh;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        
-        
-        }
-        .skills h2{
+    }
+    .skills h2 {
         font-size: 8rem;
         position: absolute;
-        color:gray;
+        color: gray;
         opacity: 0.5;
         left: -410vw;
         top: 85vh;
         transition: transform 0.2s ease-out 0s;
-        }
-      
-        .skills p:nth-last-of-type(1){
+    }
+    .skills p:nth-last-of-type(1) {
         font-weight: 300;
         font-size: 2rem;
         position: absolute;
         top: 95vh;
         right: -460vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(2){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(2) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 90vh;
         right: -460vw;
-        width:70vw;
-        
+        width: 70vw;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(3){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(3) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 85vh;
         right: -460vw;
-        width:70vw;
-        
+        width: 70vw;
         transition: transform 0.6s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(4){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(4) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 95vh;
         right: -435vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(5) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 90vh;
         right: -435vw;
-        width:70vw;
-      
+        width: 70vw;
         transition: transform 0.4s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(6){
-          font-weight: 300;
-          font-size: 2rem;
+    }
+    .skills p:nth-last-of-type(6) {
+        font-weight: 300;
+        font-size: 2rem;
         position: absolute;
         top: 85vh;
         right: -435vw;
-        width:70vw;
-       
+        width: 70vw;
         transition: transform 0.6s ease-out 0s;
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
-
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }
+
 @media (max-width: 375px) {
-   
     .skills {
         height: 100vh;
-        width:100vw;
+        width: 100vw;
         position: static;
         display: flex;
         justify-content: center;
@@ -549,180 +511,171 @@
         flex-direction: column;
         text-align: center;
         margin: 20vh 0 0 0;
-}
- 
-        .skills h2{
+    }
+    .skills h2 {
         font-size: 4rem;
         position: static;
-        color:gray;
+        color: gray;
         opacity: 0.5;
         left: 0;
         right: 0;
         top: 80vh;
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 60vh;
         transition: transform 0.2s ease-out 0s;
-        }
-      
-        .skills p:nth-last-of-type(1){
+    }
+    .skills p:nth-last-of-type(1) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 90vh;
         right: -30vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.2s ease-out 0s;
-        margin:5px
-        }
-        .skills p:nth-last-of-type(2){
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(2) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 95vh;
         right: -30vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.4s ease-out 0s;
-        margin:5px
-        }
-        .skills p:nth-last-of-type(3){
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(3) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 100vh;
         right: -30vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.6s ease-out 0s;
-        margin:5px
-        }
-        .skills p:nth-last-of-type(4){
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(4) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 90vh;
         right: 6vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
+    }
+    .skills p:nth-last-of-type(5) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 95vh;
         right: 6vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.4s ease-out 0s;
-        margin:5px
-        }
-        .skills p:nth-last-of-type(6){
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(6) {
         font-weight: 300;
         font-size: 1.5rem;
         position: static;
         top: 100vh;
         right: 6vw;
-        width:100vw;
+        width: 100vw;
         transition: transform 0.6s ease-out 0s;
-        margin:5px
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
-
+        margin: 5px
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }
-@media (max-width: 360px) {
-   
-    .skills {
-      height: 100vh;
-      width:100vw;
-      position: static;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-      margin: 20vh 0 0 0;
-        
-        
-        }
-        .skills h2{
-          font-size: 4rem;
-          position: static;
-          color:gray;
-          opacity: 0.5;
-          left: 0;
-          right: 0;
-          top: 80vh;
-          margin-left:auto;
-          margin-right:auto;
-          padding-top: 60vh;
-          transition: transform 0.2s ease-out 0s;
-        }
-      
-        .skills p:nth-last-of-type(1){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 90vh;
-          right: -30vw;
-          width:100vw;
-          transition: transform 0.2s ease-out 0s;
-          margin:5px
-        }
-        .skills p:nth-last-of-type(2){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 95vh;
-          right: -30vw;
-          width:100vw;
-          transition: transform 0.4s ease-out 0s;
-          margin:5px
-        }
-        .skills p:nth-last-of-type(3){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 100vh;
-          right: -30vw;
-          width:100vw;
-          transition: transform 0.6s ease-out 0s;
-          margin:5px
-        }
-        .skills p:nth-last-of-type(4){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 90vh;
-          right: 6vw;
-          width:100vw;
-          transition: transform 0.2s ease-out 0s;
-        }
-        .skills p:nth-last-of-type(5){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 95vh;
-          right: 6vw;
-          width:100vw;
-          transition: transform 0.4s ease-out 0s;
-          margin:5px
-        }
-        .skills p:nth-last-of-type(6){
-          font-weight: 300;
-          font-size: 1.5rem;
-          position: static;
-          top: 100vh;
-          right: 6vw;
-          width:100vw;
-          transition: transform 0.6s ease-out 0s;
-          margin:5px
-        }
-        
-        .skillsDiv{
-          height:100vh;
-         z-index: 20;
-        }
 
+@media (max-width: 360px) {
+    .skills {
+        height: 100vh;
+        width: 100vw;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 20vh 0 0 0;
+    }
+    .skills h2 {
+        font-size: 4rem;
+        position: static;
+        color: gray;
+        opacity: 0.5;
+        left: 0;
+        right: 0;
+        top: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .skills p:nth-last-of-type(1) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 90vh;
+        right: -30vw;
+        width: 100vw;
+        transition: transform 0.2s ease-out 0s;
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(2) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 95vh;
+        right: -30vw;
+        width: 100vw;
+        transition: transform 0.4s ease-out 0s;
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(3) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 100vh;
+        right: -30vw;
+        width: 100vw;
+        transition: transform 0.6s ease-out 0s;
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(4) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 90vh;
+        right: 6vw;
+        width: 100vw;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .skills p:nth-last-of-type(5) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 95vh;
+        right: 6vw;
+        width: 100vw;
+        transition: transform 0.4s ease-out 0s;
+        margin: 5px
+    }
+    .skills p:nth-last-of-type(6) {
+        font-weight: 300;
+        font-size: 1.5rem;
+        position: static;
+        top: 100vh;
+        right: 6vw;
+        width: 100vw;
+        transition: transform 0.6s ease-out 0s;
+        margin: 5px
+    }
+    .skillsDiv {
+        height: 100vh;
+        z-index: 20;
+    }
 }

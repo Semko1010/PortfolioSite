@@ -1,0 +1,99 @@
+@media (max-width: 2560px) {
+    .header {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 300;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1.5s linear;
+    }
+    h1 {
+        font-size: 7rem;
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1s linear;
+    }
+}
+@media (max-width: 1920px) {
+    .header {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header h2 {
+        font-size: 3rem;
+        font-weight: 300;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1.5s linear;
+    }
+    h1 {
+        font-size: 7rem;
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1s linear;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1.5s linear;
+    }
+    h1 {
+        font-size: 6rem;
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1s linear;
+    }
+}
+
+@media (max-width: 768px) {
+    .header h2 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1.5s linear;
+    }
+    h1 {
+        font-size: 4.5rem;
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1s linear;
+    }
+}
+
+@media (max-width: 375px) {
+    /*########## Header ##########*/
+    .header h2 {
+        font-size: 1rem;
+        font-weight: 300;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1.5s linear;
+    }
+    h1 {
+        font-size: 2.5rem;
+        font-family: 'Kaushan Script', cursive;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 1s linear;
+    }
+}

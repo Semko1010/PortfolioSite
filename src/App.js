@@ -1,4 +1,4 @@
-
+import Header from "./Component/Header/Header"
 import Mov from "./Component/mov/Mov"
 import AboutMe from "./Component/AboutMe/AbotMe"
 import Tasty from "./Component/tasty/Tasty"
@@ -22,9 +22,8 @@ window.scrollTo(0,0);
     <div className="App">
       <main>
       <div className="header">
-        
-      <h1>Semir Hamidovic</h1>
-      <h2>Front End & Back End Developer</h2>
+        <Header/>
+      
       
       </div>
       <div className="AboutMeDiv">

@@ -113,6 +113,27 @@
       }
 
 }
+@media (max-width: 1024px) {
+   
+  .aboutmearticle h2{
+      font-size: 8rem;
+      position: absolute;
+      color:gray;
+      opacity: 0.5;
+      left: -22vw;
+      top: 17vh;
+      }
+      .aboutmearticle p{
+      font-size: 2rem;
+      font-weight: 300;
+      line-height:40px;
+      position: absolute;
+      top: 23vh;
+      right: -45vw;
+      width:70vw;
+      }
+
+}
 @media (max-width: 768px) {
    
   .aboutmearticle h2{

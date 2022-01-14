@@ -247,6 +247,63 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .shop {
+        width: 100vw;
+        height: 100vh;
+        margin: 0vh 0 0 0;
+        position: relative;
+        z-index: 10;
+    }
+    .shopDiv {
+        position: relative;
+        height: 100vh;
+    }
+    .shop a {
+        color: black;
+        text-decoration: none;
+    }
+    .shop h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .shop h2 {
+        font-size: 3.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .shop h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .shop p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+        width: 350px;
+    }
+    .shop img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        right: 1vw;
+        top: 104vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .shop img:nth-of-type(2) {
+        width: 40%;
+        position: absolute;
+        right: 21vw;
+        top: 315vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .shop img:nth-of-type(3) {
+        width: 90%;
+        position: absolute;
+        right: 0vw;
+        top: 500vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+}
 @media (max-width: 768px) {
     .shop {
         width: 100vw;

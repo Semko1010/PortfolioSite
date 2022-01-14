@@ -191,6 +191,49 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .tasty h2 {
+        font-size: 3.5rem;
+    }
+    .tasty h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        margin: 0vh 0 0 0;
+    }
+    .tasty p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tastyText {
+        margin: 0 0 0 5vw;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        right: 1vw;
+        top: 66vh;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 40%;
+        position: absolute;
+        right: 21vw;
+        top: 197vh;
+        z-index: 3;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 90%;
+        position: absolute;
+        right: 5vw;
+        top: 323vh;
+        z-index: 3;
+    }
+}
 @media (max-width: 768px) {
     .tasty h2 {
         font-size: 3.5rem;

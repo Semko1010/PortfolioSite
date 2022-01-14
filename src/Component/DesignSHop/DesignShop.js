@@ -31,6 +31,13 @@ class DesignShop extends Component {
     }
    
 }
+        else if(window.matchMedia("(max-width: 1024px)").matches){
+        if(this.state.data >3100 && this.state.data <9800){
+        this.setState({scroll:this.state.data})
+        
+    }
+   
+}
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >3100 && this.state.data <6800){
         this.setState({scroll:this.state.data})

@@ -30,6 +30,13 @@ class Mov extends Component {
         
 
     }
+        else if(window.matchMedia("(max-width: 1024px)").matches){
+        if(this.state.data >700 && this.state.data <5000){
+        this.setState({scroll:this.state.data})
+        }
+        
+
+    }
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >700 && this.state.data <3500){
         this.setState({scroll:this.state.data})

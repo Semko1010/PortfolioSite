@@ -34,6 +34,13 @@ class Music extends Component {
 }
 
 }
+        else if(window.matchMedia("(max-width: 1024px)").matches){
+        if(this.state.data >1500 && this.state.data <10050){
+        this.setState({scroll:this.state.data})
+
+}
+
+}
         else if(window.matchMedia("(max-width: 1440px)").matches){
         if(this.state.data >1500 && this.state.data <8050){
         this.setState({scroll:this.state.data})

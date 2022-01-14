@@ -29,6 +29,12 @@ class AboutMe extends Component {
             console.log("768");
         }
     }
+            else if(window.matchMedia("(max-width: 1024px)").matches){
+             if(this.state.data >2000 && this.state.data <11000){
+            this.setState({scroll:this.state.data})
+            console.log("1440");
+        }
+    }
             else if(window.matchMedia("(max-width: 1440px)").matches){
              if(this.state.data >2000 && this.state.data <8800){
             this.setState({scroll:this.state.data})

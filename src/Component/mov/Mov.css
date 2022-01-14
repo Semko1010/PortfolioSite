@@ -39,6 +39,8 @@
     }
     .mov h2:hover {
         transform: translateX(50px);
+        opacity: 0.5;
+        cursor: pointer;
     }
     .mov a {
         color: black;
@@ -72,47 +74,20 @@
 }
 
 @media (max-width: 1920px) {
-    .mov {
-        height: 100vh;
-        width: 100vw;
-        position: relative;
-    }
-    .movDiv {
-        height: 100vh;
-        position: relative;
-    }
     .movText {
         margin: 0 0 0 10vw;
     }
     .mov h3 {
-        /* position: absolute;
-  left: -4vw;
-  top: 15vh; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .mov p {
-        /* position: absolute;
-  left: -4vw;
-  top: 18vh; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
     .mov h2 {
-        /* position: absolute;
-left: -5vw;
-top: 3vh; */
         font-size: 7rem;
-        /* font-family: 'IM Fell English SC', serif; */
         transition: transform 0.2s ease-out 0s;
-    }
-    .mov a {
-        color: black;
-        text-decoration: none;
-    }
-    .mov h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
     }
     .mov img:nth-of-type(1) {
         width: 15%;
@@ -181,13 +156,6 @@ top: 3vh; */
     .mov h2 {
         font-size: 5rem;
     }
-    .movDiv {
-        height: 100vh;
-        position: relative;
-    }
-    .movText {
-        margin: 0 0 0 10vw;
-    }
     .mov img:nth-of-type(1) {
         width: 13%;
         position: absolute;
@@ -244,9 +212,6 @@ top: 3vh; */
 }
 
 @media (max-width: 375px) {
-    .movText {
-        margin: 0 0 0 5vw;
-    }
     .mov h2 {
         font-size: 2.5rem;
     }
@@ -260,10 +225,6 @@ top: 3vh; */
         width: 290px;
         font-size: 1rem;
         transition: transform 0.2s ease-out 0s;
-    }
-    .movDiv {
-        height: 100vh;
-        position: relative;
     }
     .mov img:nth-of-type(1) {
         width: 35%;
@@ -289,10 +250,6 @@ top: 3vh; */
 }
 
 @media (max-width: 360px) {
-    .movDiv {
-        height: 100vh;
-        position: relative;
-    }
     .mov h2 {
         font-size: 2rem;
     }

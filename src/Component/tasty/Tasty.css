@@ -29,6 +29,7 @@
         text-decoration: none;
     }
     .tasty h2:hover {
+        transform: translateX(50px);
         opacity: 0.5;
         cursor: pointer;
     }
@@ -36,9 +37,6 @@
         display: inline-block;
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
-    }
-    .tasty h2:hover {
-        transform: translateX(50px);
     }
     .tasty h3 {
         font-size: 4rem;
@@ -74,47 +72,19 @@
 }
 
 @media (max-width: 1920px) {
-    .tasty {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        z-index: 10;
-        margin: 20vh 0 0 0;
-    }
-    .tastyDiv {
-        height: 100vh;
-        position: relative;
-    }
-    .tastyText {
-        margin: 0 0 0 5vw;
-    }
-    .tasty a {
-        color: black;
-        text-decoration: none;
-    }
     .tasty h2:hover {
         opacity: 0.5;
         cursor: pointer;
     }
     .tasty h2 {
-        /* position: absolute;
-    right: -10vw;
-    top: -8vh; */
         font-size: 7rem;
-        /* font-family: 'IM Fell English SC', serif; */
         transition: transform 0.2s ease-out 0s;
     }
     .tasty h3 {
-        /* position: absolute;
-    top: 5vh;
-    right: 2vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .tasty p {
-        /* position: absolute;
-    top: 8vh;
-    right: 0.5vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -269,10 +239,6 @@
     .tastyText {
         margin: 0 0 0 5vw;
     }
-    .tastyDiv {
-        height: 100vh;
-        position: relative;
-    }
     .tasty h2 {
         font-size: 2.5rem;
     }
@@ -311,10 +277,6 @@
 }
 
 @media (max-width: 360px) {
-    .tastyDiv {
-        height: 100vh;
-        position: relative;
-    }
     .tasty h2 {
         font-size: 2rem;
     }

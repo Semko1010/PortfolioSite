@@ -57,7 +57,7 @@ class AboutMe extends Component {
         
         return ( <article className="aboutmearticle">
                            <h2 style={{transform: `translateX(${this.state.scroll * 0.5}px)`}}>About Me</h2>
-                            <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>Front-end developer who is passionate about developing projects and getting to know new technologies</p>
+                            <p style={{transform: `translateX(${-this.state.scroll * 0.5}px)`}}>Front-End developer who is passionate about developing projects and getting to know new technologies</p>
                         </article> );
     }
 }

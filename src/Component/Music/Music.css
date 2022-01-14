@@ -29,8 +29,9 @@
         text-decoration: none;
     }
     .music h2:hover {
-        opacity: 0.5;
         transform: translateX(50px);
+        opacity: 0.5;
+        cursor: pointer;
     }
     .music h2 {
         font-size: 10rem;
@@ -71,47 +72,15 @@
 }
 
 @media (max-width: 1920px) {
-    .music {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        margin: 20vh 0 0 0;
-        z-index: 10;
-    }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .music h2 {
-        /* position: absolute;
-    left: -15vw;
-    top: -22vh; */
         font-size: 7rem;
-        /* font-family: 'IM Fell English SC', serif; */
         transition: transform 0.2s ease-out 0s;
     }
     .music h3 {
-        /* position: absolute;
-    top: -8vh;
-    left: -14.5vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music p {
-        /* position: absolute;
-    top: -5vh;
-    left: -14.5vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -148,39 +117,15 @@
         z-index: 10;
         margin: 10vh 0 0 0;
     }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .music h2 {
-        /* position: absolute;
-        left: -15vw;
-        top: -35vh; */
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music h3 {
-        /* position: absolute;
-        top: -21vh;
-        left: -14.5vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music p {
-        /* position: absolute;
-        top: -18vh;
-        left: -14.5vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -210,45 +155,18 @@
 }
 
 @media (max-width: 1440px) {
-    .music {
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        z-index: 10;
-    }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
     .musicText {
         margin: 0 0 0 10vw;
     }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .music h2 {
-        /* position: absolute;
-        left: -15vw;
-        top: -32vh; */
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music h3 {
-        /* position: absolute;
-        top: -21vh;
-        left: -14.5vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music p {
-        /* position: absolute;
-        top: -18vh;
-        left: -14.5vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -278,46 +196,15 @@
 }
 
 @media (max-width: 768px) {
-    .music {
-        width: 100vw;
-        height: 100vh;
-        margin: 0vh 0 0 0;
-        position: relative;
-        z-index: 1;
-    }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .music h2 {
-        /* position: absolute;
-    left: -46vw;
-    top: -35vh; */
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music h3 {
-        /* position: absolute;
-    top: -28vh;
-    left: -45.5vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .music p {
-        /* position: absolute;
-    top: -25vh;
-    left: -45.5vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -347,24 +234,6 @@
 }
 
 @media (max-width: 375px) {
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .music h2 {
         font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -376,10 +245,6 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music p {
-        /* position: absolute;
-    
-    top: -31vh;
-    left: -66.5vw; */
         width: 290px;
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
@@ -418,21 +283,6 @@
         height: 100vh;
         position: relative;
         z-index: -15;
-    }
-    .musicDiv {
-        position: relative;
-        height: 100vh;
-    }
-    .musicText {
-        margin: 0 0 0 5vw;
-    }
-    .music a {
-        color: black;
-        text-decoration: none;
-    }
-    .music h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
     }
     .music h2 {
         font-size: 2rem;

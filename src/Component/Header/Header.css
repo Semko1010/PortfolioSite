@@ -22,6 +22,7 @@
         transition: visibility 0s, opacity 1s linear;
     }
 }
+
 @media (max-width: 1920px) {
     .header {
         height: 100vh;

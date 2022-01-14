@@ -28,35 +28,35 @@ class Music extends Component {
 
 }
         else if(window.matchMedia("(max-width: 768px)").matches){
-        if(this.state.data >4150 && this.state.data <8050){
+        if(this.state.data >1500 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
 
 }
         else if(window.matchMedia("(max-width: 1440px)").matches){
-        if(this.state.data >4150 && this.state.data <8050){
+        if(this.state.data >1500 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
 
 }
         else if(window.matchMedia("(max-width: 1680px)").matches){
-        if(this.state.data >4150 && this.state.data <8050){
+        if(this.state.data >1600 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
 
 }
         else if(window.matchMedia("(max-width: 1920px)").matches){
-        if(this.state.data >4150 && this.state.data <8050){
+        if(this.state.data >1560 && this.state.data <8050){
         this.setState({scroll:this.state.data})
 
 }
 
 }
         else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >4150 && this.state.data <11550){
+        if(this.state.data >1500 && this.state.data <11550){
         this.setState({scroll:this.state.data})
 
 }

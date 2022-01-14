@@ -1,56 +1,4 @@
-    @media (min-width: 2560px) {
-.contact {
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    
-    
-    }
-    .contact h2{
-    font-size: 25rem;
-    position: absolute;
-    color:rgb(121, 4, 4);
-    opacity: 0.5;
-    right: -205vw;
-    top: 20vh;
-    transition: transform 0.2s ease-out 0s;
-    }
-  
-  
-    .contact a:nth-of-type(1){
-        position: absolute;
-        top: 40vh;
-        right: 300vw;
-        width: 10%;
-        opacity: 0.8;
-        transition: transform 0.2s ease-out 0s;
-    }
-    .contact a:nth-of-type(2){
-        opacity: 0.8;
-        position: absolute;
-        top: 40vh;
-        right: 277vw;
-        width:10%;
-        
-        transition: transform 0.2s ease-out 0s;
-    }
-    .contact a:nth-of-type(3){
-    
-        opacity: 0.8;
-        position: absolute;
-        top: 40vh;
-        right: 255vw;
-        width:10%;
-        transition: transform 0.2s ease-out 0s;
-    }
-    
-    .contactDiv{
-    height:60vh;
-    z-index: 20;
-    }
-}
+
     @media (max-width: 2560px) {
 .contact {
     height: 100vh;
@@ -67,35 +15,40 @@
     color:gray;
     opacity: 0.5;
     right: -205vw;
-    top: 20vh;
+    top: 25vh;
     transition: transform 0.2s ease-out 0s;
     }
   
-  
+    .contact div{
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
+       
+}
     .contact a:nth-of-type(1){
-        position: absolute;
+        position: static;
         top: 40vh;
         right: 300vw;
-        width: 10%;
+        width: 7%;
         opacity: 0.8;
         transition: transform 0.2s ease-out 0s;
     }
     .contact a:nth-of-type(2){
         opacity: 0.8;
-        position: absolute;
+        position: static;
         top: 40vh;
         right: 277vw;
-        width:10%;
+        width:7%;
         
         transition: transform 0.2s ease-out 0s;
     }
     .contact a:nth-of-type(3){
     
         opacity: 0.8;
-        position: absolute;
+        position: static;
         top: 40vh;
         right: 255vw;
-        width:10%;
+        width:7%;
         transition: transform 0.2s ease-out 0s;
     }
     
@@ -111,49 +64,53 @@
     justify-content:center;
     align-items:center;
     position: relative;
-    
-    
-    }
+}
+  
     .contact h2{
     font-size: 20rem;
     position: absolute;
     color:gray;
     opacity: 0.5;
     right: -210vw;
-    top: 20vh;
+    top: 25vh;
     transition: transform 0.2s ease-out 0s;
     }
   
-  
+    .contact div{
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
+       margin-top: 0vh;
+}
     .contact a:nth-of-type(1){
-        position: absolute;
+        position: static;
         top: 42vh;
         right: 300vw;
-        width: 10%;
+        width: 6%;
         opacity: 0.8;
         transition: transform 0.2s ease-out 0s;
     }
     .contact a:nth-of-type(2){
         opacity: 0.8;
-        position: absolute;
+        position: static;
         top: 42vh;
         right: 274vw;
-        width:10%;
+        width:6%;
         
         transition: transform 0.2s ease-out 0s;
     }
     .contact a:nth-of-type(3){
     
         opacity: 0.8;
-        position: absolute;
+        position: static;
         top: 42vh;
         right: 250vw;
-        width:10%;
+        width:6%;
         transition: transform 0.2s ease-out 0s;
     }
     
     .contactDiv{
-    height:70vh;
+    height:60vh;
     z-index: 20;
     }
 }
@@ -162,22 +119,28 @@
             height: 100vh;
             display: flex;
             justify-content:center;
-            align-items:center;
+            align-items:flex-end;
             position: relative;
+}
+.contact div{
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+   margin-top:70vh;
 }
             .contact h2{
             font-size: 20rem;
             position: absolute;
             color:gray;
             opacity: 0.5;
-            right: -217vw;
-            top: 60vh;
+            right: -210vw;
+            top: 55vh;
             transition: transform 0.2s ease-out 0s;
             }
           
           
             .contact a:nth-of-type(1){
-                position: absolute;
+                position: static;
                 top: 83vh;
                 right: 295vw;
                 width: 10%;
@@ -186,7 +149,7 @@
             }
             .contact a:nth-of-type(2){
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 83vh;
                 right: 270vw;
                 width:10%;
@@ -196,7 +159,7 @@
             .contact a:nth-of-type(3){
             
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 83vh;
                 right: 246vw;
                 width:10%;
@@ -214,10 +177,16 @@
             height: 100vh;
             display: flex;
             justify-content:center;
-            align-items:center;
+            align-items:flex-end;
             position: relative;
             
             
+            }
+            .contact div{
+                width: 100vw;
+                display: flex;
+                justify-content:space-evenly;
+               margin-top:0vh;
             }
             .contact h2{
             font-size: 14rem;
@@ -225,13 +194,13 @@
             color:gray;
             opacity: 0.5;
             right: -203vw;
-            top: 55vh;
+            top: 70vh;
             transition: transform 0.2s ease-out 0s;
             }
           
           
             .contact a:nth-of-type(1){
-                position: absolute;
+                position: static;
                 top: 75vh;
                 right: 289vw;
                 width: 7%;
@@ -240,7 +209,7 @@
             }
             .contact a:nth-of-type(2){
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 75vh;
                 right: 268vw;
                 width:7%;
@@ -250,7 +219,7 @@
             .contact a:nth-of-type(3){
             
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 75vh;
                 right: 245vw;
                 width:7%;
@@ -258,7 +227,7 @@
             }
             
             .contactDiv{
-              height:90vh;
+              height:100vh;
              z-index: 25;
             }
         
@@ -280,14 +249,14 @@
             color:gray;
             opacity: 0.5;
             right: -415vw;
-            top: 33vh;
+            top: 35vh;
             transition: transform 0.2s ease-out 0s;
             z-index: -1;
             }
           
           
             .contact a:nth-of-type(1){
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 505vw;
                 width: 10%;
@@ -296,7 +265,7 @@
             }
             .contact a:nth-of-type(2){
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 480vw;
                 width:10%;
@@ -306,7 +275,7 @@
             .contact a:nth-of-type(3){
             
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 455vw;
                 width:10%;
@@ -314,7 +283,7 @@
             }
             
             .contactDiv{
-              height:50vh;
+              height:55vh;
              z-index: 20;
             }
         
@@ -336,14 +305,14 @@
             color:gray;
             opacity: 0.5;
             right: -420vw;
-            top: 30vh;
+            top: 35vh;
             transition: transform 0.2s ease-out 0s;
             z-index: -1;
             }
           
           
             .contact a:nth-of-type(1){
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 505vw;
                 width: 10%;
@@ -352,7 +321,7 @@
             }
             .contact a:nth-of-type(2){
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 480vw;
                 width:10%;
@@ -362,7 +331,7 @@
             .contact a:nth-of-type(3){
             
                 opacity: 0.8;
-                position: absolute;
+                position: static;
                 top: 40vh;
                 right: 455vw;
                 width:10%;
@@ -370,7 +339,7 @@
             }
             
             .contactDiv{
-              height:50vh;
+              height:55vh;
              z-index: 20;
             }
         

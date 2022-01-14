@@ -1,384 +1,351 @@
-
 @media (max-width: 2560px) {
-.tasty{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    z-index: 10;
-    margin: 20vh 0 0 0;
-  }
-  .tastyDiv{
-    height: 100vh;
-    position: relative;
-}
-  .tastyText{
-    margin: 0 0 0 5vw;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1.5s, opacity 1.5s linear;
-    margin: 0 0 0 5vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
-  display: inline-block;
-  transition: all 1s ease-out;
-  border-radius: 10px;
-  transform: translateX(-20vw);
-  }
-  .tasty a{
-    color: black;
-    text-decoration:none;
-  }
-    .tasty h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    .tasty {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        margin: 20vh 0 0 0;
     }
-    
-  .tasty h2{
-   
-    font-size: 10rem;
-    transition: transform 0.2s ease-out 0s;}
+    .tastyDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .tastyText {
+        margin: 0 0 0 5vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1.5s, opacity 1.5s linear;
+        margin: 0 0 0 5vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+        display: inline-block;
+        transition: all 1s ease-out;
+        border-radius: 10px;
+        transform: translateX(-20vw);
+    }
+    .tasty a {
+        color: black;
+        text-decoration: none;
+    }
+    .tasty h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .tasty h2 {
+        display: inline-block;
+        font-size: 10rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty h2:hover {
+        transform: translateX(50px);
+    }
+    .tasty h3 {
+        font-size: 4rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 59vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 25%;
+        position: absolute;
+        right: 18vw;
+        top: 180vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 320vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+}
 
-    .tasty h2:hover{
-      transform: translateX(50px);
-      }
-  .tasty h3{
-    
-    font-size: 4rem;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty p{
-  font-size: 3rem;
-  transition: transform 0.2s ease-out 0s;
-}
-  .tasty img:nth-of-type(1){
-    width: 13%;
-    position: absolute;
-    right: 3vw;
-    top: 59vh;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty img:nth-of-type(2){
-    width: 25%;
-    position: absolute;
-    right: 18vw;
-    top: 180vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty img:nth-of-type(3){
-    width: 65%;
-    position: absolute;
-    right: 5vw;
-    top: 320vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-}
 @media (max-width: 1920px) {
-.tasty{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    z-index: 10;
-    margin: 20vh 0 0 0;
-  }
-  .tastyDiv{
-    height: 100vh;
-    position: relative;
-}
-  .tastyText{
-    margin: 0 0 0 5vw;
-    
-  }
-  .tasty a{
-    color: black;
-    text-decoration:none;
-  }
-    .tasty h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    .tasty {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        margin: 20vh 0 0 0;
     }
-    
-  .tasty h2{
-    /* position: absolute;
+    .tastyDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .tastyText {
+        margin: 0 0 0 5vw;
+    }
+    .tasty a {
+        color: black;
+        text-decoration: none;
+    }
+    .tasty h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .tasty h2 {
+        /* position: absolute;
     right: -10vw;
     top: -8vh; */
-    
-    font-size: 7rem;
-    /* font-family: 'IM Fell English SC', serif; */
-    transition: transform 0.2s ease-out 0s;
-    
-   }
-   .tasty h3{
-    /* position: absolute;
+        font-size: 7rem;
+        /* font-family: 'IM Fell English SC', serif; */
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty h3 {
+        /* position: absolute;
     top: 5vh;
     right: 2vw; */
-    font-size: 1.5rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty p{
-    /* position: absolute;
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        /* position: absolute;
     top: 8vh;
     right: 0.5vw; */
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty img:nth-of-type(1){
-    width: 15%;
-    position: absolute;
-    right: 3vw;
-    top: 59vh;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty img:nth-of-type(2){
-    width: 30%;
-    position: absolute;
-    right: 18vw;
-    top: 182vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty img:nth-of-type(3){
-    width: 65%;
-    position: absolute;
-    right: 5vw;
-    top: 335vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 15%;
+        position: absolute;
+        right: 3vw;
+        top: 59vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 30%;
+        position: absolute;
+        right: 18vw;
+        top: 182vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 335vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
 }
+
 @media (max-width: 1680px) {
-    .tasty h2{
-    font-size: 7rem;
-}
-.tasty{
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  z-index: 10;
-  margin: 10vh 0 0 0;
+    .tasty h2 {
+        font-size: 7rem;
+    }
+    .tasty {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        margin: 10vh 0 0 0;
+    }
+    .tasty h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 60vh;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 27%;
+        position: absolute;
+        right: 16vw;
+        top: 182vh;
+        z-index: 3;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 60%;
+        position: absolute;
+        right: 1vw;
+        top: 316vh;
+        z-index: 3;
+    }
 }
 
-      .tasty h3{
-     
-       font-size: 1.5rem;
-       
-       transition: transform 0.2s ease-out 0s;
-     }
-     .tasty p{
-       
-       font-size: 1.2rem;
-       
-       transition: transform 0.2s ease-out 0s;
-     }
-     .tasty img:nth-of-type(1){
-       width: 13%;
-       position: absolute;
-       right: 3vw;
-       top: 60vh;
-       
-     }
-     .tasty img:nth-of-type(2){
-       width: 27%;
-       position: absolute;
-       right: 16vw;
-       top: 182vh;
-       z-index: 3;
-     }
-     .tasty img:nth-of-type(3){
-       width: 60%;
-       position: absolute;
-       right: 1vw;
-       top: 316vh;
-       z-index: 3;
-     }
-}
 @media (max-width: 1440px) {
-  .tasty h2{
-  font-size: 5rem;
- 
+    .tasty h2 {
+        font-size: 5rem;
+    }
+    .tasty h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tastyText {
+        margin: 0 0 0 10vw;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 56vh;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 27%;
+        position: absolute;
+        right: 16vw;
+        top: 182vh;
+        z-index: 3;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 60%;
+        position: absolute;
+        right: 1vw;
+        top: 318vh;
+        z-index: 3;
+    }
 }
 
-  .tasty h3{
-  
-    font-size: 1.5rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tasty p{
-  
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .tastyText{
-    margin: 0 0 0 10vw;
-  }
- .tasty img:nth-of-type(1){
-   width: 13%;
-   position: absolute;
-   right: 3vw;
-   top: 56vh;
-   
- }
- .tasty img:nth-of-type(2){
-   width: 27%;
-   position: absolute;
-   right: 16vw;
-   top: 182vh;
-   z-index: 3;
- }
- .tasty img:nth-of-type(3){
-   width: 60%;
-   position: absolute;
-   right: 1vw;
-   top: 318vh;
-   z-index: 3;
- }
- 
-}
 @media (max-width: 768px) {
-    .tasty h2{
-    font-size: 3.5rem;
-}
-    .tasty h3{
-      
-      font-size: 1.5rem;
-      transition: transform 0.2s ease-out 0s;
+    .tasty h2 {
+        font-size: 3.5rem;
     }
-    .tasty{
-      width: 100vw;
-      height: 100vh;
-      position: relative;
-      z-index: 10;
-      margin: 0vh 0 0 0;
+    .tasty h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .tasty p{
-      
-      font-size: 1.2rem;
-      transition: transform 0.2s ease-out 0s;
-    
+    .tasty {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        margin: 0vh 0 0 0;
     }
-    .tastyText{
-      margin: 0 0 0 5vw;
+    .tasty p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
     }
-   .tasty img:nth-of-type(1){
-     width: 20%;
-     position: absolute;
-     right: 1vw;
-     top: 66vh;
-     
-   }
-   .tasty img:nth-of-type(2){
-    width: 40%;
-    position: absolute;
-    right: 21vw;
-    top: 197vh;
-    z-index: 3;
-  }
-  .tasty img:nth-of-type(3){
-  width: 90%;
-  position: absolute;
-  right: 5vw;
-  top: 323vh;
-  z-index: 3;
-  }
+    .tastyText {
+        margin: 0 0 0 5vw;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        right: 1vw;
+        top: 66vh;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 40%;
+        position: absolute;
+        right: 21vw;
+        top: 197vh;
+        z-index: 3;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 90%;
+        position: absolute;
+        right: 5vw;
+        top: 323vh;
+        z-index: 3;
+    }
 }
 
 @media (max-width: 375px) {
-  .tastyText{
-    margin: 0 0 0 5vw;
-    
-  }
-  .tastyDiv{
-    height: 100vh;
-    position: relative;
+    .tastyText {
+        margin: 0 0 0 5vw;
+    }
+    .tastyDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .tasty h2 {
+        font-size: 2.5rem;
+    }
+    .tasty h3 {
+        margin: 2vh 0 0 0;
+        width: 350px;
+        font-size: 1.3rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        width: 290px;
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        left: 2vw;
+        top: 74vh;
+        z-index: 100;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        left: 37vw;
+        top: 193vh;
+        z-index: 100;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        left: 0vw;
+        top: 308vh;
+        z-index: 100;
+    }
 }
-  .tasty h2{
-    
-    font-size: 2.5rem;
-}
-.tasty h3{
-  margin:2vh 0 0 0;
-  width:350px;
-  font-size: 1.3rem;
-  transition: transform 0.2s ease-out 0s;
-}
-.tasty p{
- 
-  width:290px;
-  font-size: 1.2rem;
-  transition: transform 0.2s ease-out 0s;
 
-}
-   .tasty img:nth-of-type(1){
-     width: 35%;
-     position: absolute;
-     left: 2vw;
-     top: 74vh;
-     z-index: 100;
-   }
-   .tasty img:nth-of-type(2){
-     width: 60%;
-     position: absolute;
-     left: 37vw;
-     top: 193vh;
-     z-index: 100;
-   }
-   .tasty img:nth-of-type(3){
-     width: 100%;
-     position: absolute;
-     left: 0vw;
-     top: 308vh;
-     z-index: 100;
-   }
-
-}
 @media (max-width: 360px) {
-  .tastyDiv{
-    height: 100vh;
-    position: relative;
+    .tastyDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .tasty h2 {
+        font-size: 2rem;
+    }
+    .tasty h3 {
+        width: 290px;
+        font-size: 1rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty p {
+        width: 290px;
+        font-size: 0.9rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .tasty img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        left: 2vw;
+        top: 70vh;
+    }
+    .tasty img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        left: 37vw;
+        top: 188vh;
+        z-index: 3;
+    }
+    .tasty img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        left: 0vw;
+        top: 305vh;
+        z-index: 103;
+    }
 }
-   .tasty h2{
-    font-size: 2rem;
-}
-.tasty h3{
-  width:290px;
-  font-size: 1rem;
-  transition: transform 0.2s ease-out 0s;
-}
-.tasty p{
-  width:290px;
-  font-size: 0.9rem;
-  transition: transform 0.2s ease-out 0s;
-
-}
-   .tasty img:nth-of-type(1){
-     width: 35%;
-     position: absolute;
-     left: 2vw;
-     top: 70vh;
-     
-   }
-   .tasty img:nth-of-type(2){
-     width: 60%;
-     position: absolute;
-     left: 37vw;
-     top: 188vh;
-     z-index: 3;
-   }
-   .tasty img:nth-of-type(3){
-     width: 100%;
-     position: absolute;
-     left: 0vw;
-     top: 305vh;
-     z-index: 103;
-   }
-
-}
-
-
-  

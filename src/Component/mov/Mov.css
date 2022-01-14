@@ -1,380 +1,327 @@
 @media (max-width: 2560px) {
-.mov{
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  text-align: start;
-  
-}
-.movDiv{
-  height: 100vh;
-  position: relative;
-  
-}
-.movText{
-  margin: 0 0 0 5vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
-  display: inline-block;
-  /* background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
+    .mov {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        text-align: start;
+    }
+    .movDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .movText {
+        margin: 0 0 0 5vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+        display: inline-block;
+        /* background: linear-gradient(to bottom, rgb(0, 0, 0) 50%, rgb(239, 239, 239) 50%);
   background-size: 100% 200%;
   background-position: top left;
   transition: all 1s ease-out; */
-  transition: all 1s ease-out;
-  border-radius: 10px;
- 
-  transform: translateX(-20vw);
+        transition: all 1s ease-out;
+        border-radius: 10px;
+        transform: translateX(-20vw);
+    }
+    .mov h3 {
+        font-size: 4rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov p {
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov h2 {
+        font-size: 10rem;
+        transition: transform 0.2s ease-out 0s;
+        margin-right: 0vw;
+        display: inline-block;
+    }
+    .mov h2:hover {
+        transform: translateX(50px);
+    }
+    .mov a {
+        color: black;
+        text-decoration: none;
+    }
+    .mov h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .mov img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 35vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov img:nth-of-type(2) {
+        width: 25%;
+        position: absolute;
+        right: 18vw;
+        top: 110vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 215vh;
+        transition: transform 0.2s ease-out 0s;
+    }
 }
-.mov h3{
-  
-  font-size: 4rem;
-  transition: transform 0.2s ease-out 0s;
-}
-.mov p{
- 
-  font-size: 3rem;
-  transition: transform 0.2s ease-out 0s;
 
-}
-.mov h2{
-font-size: 10rem;
-transition: transform 0.2s ease-out 0s;
-margin-right: 0vw;
-}
-.mov h2:hover{
-transform: translateX(50px);
-}
-.mov a{
-color: black;
-text-decoration:none;
-}
-.mov h2:hover{
-opacity: 0.5;
-cursor: pointer;
-}
-
-.mov img:nth-of-type(1){
-  width: 13%;
-  position: absolute;
-  right: 3vw;
-  top: 35vh;
-  transition: transform 0.2s ease-out 0s;
- 
-}
-.mov img:nth-of-type(2){
-  width: 25%;
-  position: absolute;
-  right: 18vw;
-  top: 110vh;
-  transition: transform 0.2s ease-out 0s;
-}
-.mov img:nth-of-type(3){
-  width: 65%;
-  position: absolute;
-  right: 5vw;
-  top: 215vh;
-  transition: transform 0.2s ease-out 0s;
-} 
-}
 @media (max-width: 1920px) {
-.mov{
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  
-}
-.movDiv{
-  height: 100vh;
-  position: relative;
-  
-}
-.movText{
-  margin: 0 0 0 10vw;
- 
-  
-}
-
-.mov h3{
-  /* position: absolute;
+    .mov {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+    .movDiv {
+        height: 100vh;
+        position: relative;
+    }
+    .movText {
+        margin: 0 0 0 10vw;
+    }
+    .mov h3 {
+        /* position: absolute;
   left: -4vw;
   top: 15vh; */
-  font-size: 1.5rem;
-  transition: transform 0.2s ease-out 0s;
-}
-.mov p{
-  /* position: absolute;
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov p {
+        /* position: absolute;
   left: -4vw;
   top: 18vh; */
-  font-size: 1.2rem;
-  transition: transform 0.2s ease-out 0s;
-
-}
-.mov h2{
-/* position: absolute;
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov h2 {
+        /* position: absolute;
 left: -5vw;
 top: 3vh; */
-font-size: 7rem;
-/* font-family: 'IM Fell English SC', serif; */
-transition: transform 0.2s ease-out 0s;
+        font-size: 7rem;
+        /* font-family: 'IM Fell English SC', serif; */
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov a {
+        color: black;
+        text-decoration: none;
+    }
+    .mov h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .mov img:nth-of-type(1) {
+        width: 15%;
+        position: absolute;
+        right: 3vw;
+        top: 35vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov img:nth-of-type(2) {
+        width: 30%;
+        position: absolute;
+        right: 18vw;
+        top: 118vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 236vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+}
 
-}
-.mov a{
-color: black;
-text-decoration:none;
-}
-.mov h2:hover{
-opacity: 0.5;
-cursor: pointer;
-}
-
-.mov img:nth-of-type(1){
-  width: 15%;
-  position: absolute;
-  right: 3vw;
-  top: 35vh;
-  transition: transform 0.2s ease-out 0s;
- 
-}
-.mov img:nth-of-type(2){
-  width: 30%;
-  position: absolute;
-  right: 18vw;
-  top: 118vh;
-  transition: transform 0.2s ease-out 0s;
-}
-.mov img:nth-of-type(3){
-  width: 65%;
-  position: absolute;
-  right: 5vw;
-  top: 236vh;
-  transition: transform 0.2s ease-out 0s;
-} 
-}
 @media (max-width: 1680px) {
+    .mov h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .mov h2 {
+        font-size: 7rem;
+    }
+    .mov img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 35vh;
+    }
+    .mov img:nth-of-type(2) {
+        width: 27%;
+        position: absolute;
+        right: 16vw;
+        top: 118vh;
+    }
+    .mov img:nth-of-type(3) {
+        width: 60%;
+        position: absolute;
+        right: 1vw;
+        top: 224vh;
+    }
+}
 
-
-  .mov h3{
-  font-size: 1.5rem;
-  transition: transform 0.2s ease-out 0s;
-}
-.mov p{
-  font-size: 1.2rem;
-  transition: transform 0.2s ease-out 0s;
-
-}
-.mov h2{
-font-size: 7rem;
-}
-
-
-.mov img:nth-of-type(1){
-  width: 13%;
-  position: absolute;
-  right: 3vw;
-  top: 35vh;
-  
-}
-.mov img:nth-of-type(2){
-  width: 27%;
-  position: absolute;
-  right: 16vw;
-  top: 118vh;
-  
-}
-.mov img:nth-of-type(3){
-  width: 60%;
-  position: absolute;
-  right: 1vw;
-  top: 224vh;
-  
-}
-}
 @media (max-width: 1440px) {
-  .mov h3{
-    font-size: 1.5rem;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .mov p{
-    font-size: 1.2rem;
-    transition: transform 0.2s ease-out 0s;
-  
-  }
-
-  .mov h2{
-    font-size: 5rem;
-  
+    .mov h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .movDiv{
-      height: 100vh;
-      position: relative;
-      
+    .mov p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .movText{
-      margin: 0 0 0 10vw;
-      
+    .mov h2 {
+        font-size: 5rem;
     }
-    .mov img:nth-of-type(1){
-      width: 13%;
-      position: absolute;
-      right: 3vw;
-      top: 35vh;
-      
+    .movDiv {
+        height: 100vh;
+        position: relative;
     }
-    .mov img:nth-of-type(2){
-      width: 27%;
-      position: absolute;
-      right: 16vw;
-      top: 118vh;
-      
+    .movText {
+        margin: 0 0 0 10vw;
     }
-    .mov img:nth-of-type(3){
-      width: 60%;
-      position: absolute;
-      right: 1vw;
-      top: 223vh;
-      
+    .mov img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 35vh;
+    }
+    .mov img:nth-of-type(2) {
+        width: 27%;
+        position: absolute;
+        right: 16vw;
+        top: 118vh;
+    }
+    .mov img:nth-of-type(3) {
+        width: 60%;
+        position: absolute;
+        right: 1vw;
+        top: 223vh;
     }
 }
-
-
 
 @media (max-width: 768px) {
-  .mov h2{
-    
-    font-size: 3.5rem;
-   
-    
+    .mov h2 {
+        font-size: 3.5rem;
     }
-    .mov h3{
-     
-     font-size: 1.5rem;
-     transition: transform 0.2s ease-out 0s;
-   }
-   .mov p{
-     
-     font-size: 1.2rem;
-     transition: transform 0.2s ease-out 0s;
-   
-   }
-   .movText{
-    margin: 0 0 0 5vw;
-}
-    
-    .mov img:nth-of-type(1){
-      width: 20%;
-      position: absolute;
-      right: 1vw;
-      top: 45vh;
-      
+    .mov h3 {
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .mov img:nth-of-type(2){
-      width: 40%;
-      position: absolute;
-      right: 21vw;
-      top: 133vh;
-      
+    .mov p {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .mov img:nth-of-type(3){
-      width: 90%;
-      position: absolute;
-      right: 5vw;
-      top: 228vh;
-      
+    .movText {
+        margin: 0 0 0 5vw;
     }
-
+    .mov img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        right: 1vw;
+        top: 45vh;
+    }
+    .mov img:nth-of-type(2) {
+        width: 40%;
+        position: absolute;
+        right: 21vw;
+        top: 133vh;
+    }
+    .mov img:nth-of-type(3) {
+        width: 90%;
+        position: absolute;
+        right: 5vw;
+        top: 228vh;
+    }
 }
 
 @media (max-width: 375px) {
-  .movText{
-  margin: 0 0 0 5vw;
-    
-}
-  .mov h2{
-    font-size: 2.5rem;
-}
-    .mov h3{
-      margin:2vh 0 0 0;
-      width:350px;
-      font-size: 1.3rem;
-      transition: transform 0.2s ease-out 0s;
+    .movText {
+        margin: 0 0 0 5vw;
     }
-    .mov p{
-    width:290px;
-    font-size: 1rem;
-    transition: transform 0.2s ease-out 0s;
-    
+    .mov h2 {
+        font-size: 2.5rem;
     }
-    .movDiv{
-    height: 100vh;
-    position: relative;
+    .mov h3 {
+        margin: 2vh 0 0 0;
+        width: 350px;
+        font-size: 1.3rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .mov img:nth-of-type(1){
-      width: 35%;
-      position: absolute;
-      right: 2vw;
-      top: 50vh;
-      z-index: 100;
+    .mov p {
+        width: 290px;
+        font-size: 1rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .mov img:nth-of-type(2){
-      width: 60%;
-      position: absolute;
-      left: 2vw;
-      top: 130vh;
-      z-index: 100;
+    .movDiv {
+        height: 100vh;
+        position: relative;
     }
-    .mov img:nth-of-type(3){
-      width: 100%;
-      position: absolute;
-      right: 0vw;
-      top: 215vh;
-      z-index: 100;
+    .mov img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        right: 2vw;
+        top: 50vh;
+        z-index: 100;
+    }
+    .mov img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        left: 2vw;
+        top: 130vh;
+        z-index: 100;
+    }
+    .mov img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        right: 0vw;
+        top: 215vh;
+        z-index: 100;
     }
 }
+
 @media (max-width: 360px) {
-  .movDiv{
-    height: 100vh;
-    position: relative;
+    .movDiv {
+        height: 100vh;
+        position: relative;
     }
-  .mov h2{
-  font-size: 2rem;
-  }
-    .mov h3{
-    width:290px;
-    font-size: 1rem;
-    transition: transform 0.2s ease-out 0s;
+    .mov h2 {
+        font-size: 2rem;
     }
-    .mov p{
-      
-      width:290px;
-      
-      font-size: 0.9rem;
-      transition: transform 0.2s ease-out 0s;
-    
+    .mov h3 {
+        width: 290px;
+        font-size: 1rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    
-    .mov img:nth-of-type(1){
-      width: 35%;
-      position: absolute;
-      right: 2vw;
-      top: 50vh;
-      
+    .mov p {
+        width: 290px;
+        font-size: 0.9rem;
+        transition: transform 0.2s ease-out 0s;
     }
-    .mov img:nth-of-type(2){
-      width: 60%;
-      position: absolute;
-      left: 2vw;
-      top: 128vh;
-      
+    .mov img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        right: 2vw;
+        top: 50vh;
     }
-    .mov img:nth-of-type(3){
-      width: 100%;
-      position: absolute;
-      right: 0vw;
-      top: 215vh;
-      
+    .mov img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        left: 2vw;
+        top: 128vh;
+    }
+    .mov img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        right: 0vw;
+        top: 215vh;
     }
 }
-
-
-

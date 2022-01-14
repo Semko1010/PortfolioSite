@@ -1,503 +1,475 @@
 @media (max-width: 2560px) {
-.music{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    margin: 20vh 0 0 0;
-    z-index: 10;
-  }
-   .musicDiv{
-    position: relative;
-    height: 100vh;
-   
-  }
-  .musicText{
-    margin: 0 0 0 5vw;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1.5s, opacity 1.5s linear;
-    margin: 0 0 0 5vw;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
-  display: inline-block;
-  transition: all 1s ease-out;
-  border-radius: 10px;
-  transform: translateX(-20vw);
-  }
-  .music a{
-    color: black;
-    text-decoration:none;
-  }
-    .music h2:hover{
-      opacity: 0.5;
-      transform: translateX(50px);
+    .music {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        margin: 20vh 0 0 0;
+        z-index: 10;
     }
-  
-  .music h2{
-  font-size: 10rem;
-  transition: transform 0.2s ease-out 0s;
+    .musicDiv {
+        position: relative;
+        height: 100vh;
+    }
+    .musicText {
+        margin: 0 0 0 5vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1.5s, opacity 1.5s linear;
+        margin: 0 0 0 5vw;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+        display: inline-block;
+        transition: all 1s ease-out;
+        border-radius: 10px;
+        transform: translateX(-20vw);
+    }
+    .music a {
+        color: black;
+        text-decoration: none;
+    }
+    .music h2:hover {
+        opacity: 0.5;
+        transform: translateX(50px);
+    }
+    .music h2 {
+        font-size: 10rem;
+        transition: transform 0.2s ease-out 0s;
+        display: inline-block;
+    }
+    .music h3 {
+        font-size: 4rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music p {
+        font-size: 3rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(1) {
+        width: 13%;
+        position: absolute;
+        right: 3vw;
+        top: 83vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(2) {
+        width: 25%;
+        position: absolute;
+        right: 17vw;
+        top: 254vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 430vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
 }
-  .music h3{
-  
-    font-size: 4rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music p{
-  font-size: 3rem;
-  transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(1){
-    width: 13%;
-    position: absolute;
-    right: 3vw;
-    top: 83vh;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(2){
-    width: 25%;
-    position: absolute;
-    right: 17vw;
-    top: 254vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(3){
-    width: 65%;
-    position: absolute;
-    right: 5vw;
-    top: 430vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-}
+
 @media (max-width: 1920px) {
-.music{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    margin: 20vh 0 0 0;
-    z-index: 10;
-  }
-   .musicDiv{
-    position: relative;
-    height: 100vh;
-   
-  }
-  .musicText{
-    margin: 0 0 0 5vw;
-   
-  }
-  .music a{
-    color: black;
-    text-decoration:none;
-  }
-    .music h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    .music {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        margin: 20vh 0 0 0;
+        z-index: 10;
     }
-  .music h2{
-   /* position: absolute;
+    .musicDiv {
+        position: relative;
+        height: 100vh;
+    }
+    .musicText {
+        margin: 0 0 0 5vw;
+    }
+    .music a {
+        color: black;
+        text-decoration: none;
+    }
+    .music h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .music h2 {
+        /* position: absolute;
     left: -15vw;
     top: -22vh; */
-    font-size: 7rem;
-    /* font-family: 'IM Fell English SC', serif; */
-    transition: transform 0.2s ease-out 0s;
-   }
-   .music h3{
-    /* position: absolute;
+        font-size: 7rem;
+        /* font-family: 'IM Fell English SC', serif; */
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music h3 {
+        /* position: absolute;
     top: -8vh;
     left: -14.5vw; */
-    font-size: 1.5rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music p{
-    /* position: absolute;
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music p {
+        /* position: absolute;
     top: -5vh;
     left: -14.5vw; */
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(1){
-    width: 15%;
-    position: absolute;
-    right: 3vw;
-    top: 83vh;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(2){
-    width: 30%;
-    position: absolute;
-    right: 18vw;
-    top: 254vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(3){
-    width: 65%;
-    position: absolute;
-    right: 5vw;
-    top: 442vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(1) {
+        width: 15%;
+        position: absolute;
+        right: 3vw;
+        top: 83vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(2) {
+        width: 30%;
+        position: absolute;
+        right: 18vw;
+        top: 254vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(3) {
+        width: 65%;
+        position: absolute;
+        right: 5vw;
+        top: 442vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
 }
-  @media (max-width: 1680px) {
-    .music{
+
+@media (max-width: 1680px) {
+    .music {
         width: 100vw;
         height: 100vh;
         position: relative;
         z-index: 10;
         margin: 10vh 0 0 0;
-      }
-       .musicDiv{
+    }
+    .musicDiv {
         position: relative;
         height: 100vh;
-       
-      }
-      .musicText{
+    }
+    .musicText {
         margin: 0 0 0 5vw;
-      }
-      .music a{
+    }
+    .music a {
         color: black;
-        text-decoration:none;
-      }
-        .music h2:hover{
+        text-decoration: none;
+    }
+    .music h2:hover {
         opacity: 0.5;
         cursor: pointer;
-        }
-      .music h2{
-       /* position: absolute;
+    }
+    .music h2 {
+        /* position: absolute;
         left: -15vw;
         top: -35vh; */
-        
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
-       }
-       .music h3{
+    }
+    .music h3 {
         /* position: absolute;
         top: -21vh;
         left: -14.5vw; */
         font-size: 1.5rem;
-        
         transition: transform 0.2s ease-out 0s;
-      }
-      .music p{
+    }
+    .music p {
         /* position: absolute;
         top: -18vh;
         left: -14.5vw; */
         font-size: 1.2rem;
-        
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(1){
+    }
+    .music img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
         top: 84vh;
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(2){
+    }
+    .music img:nth-of-type(2) {
         width: 27%;
         position: absolute;
         right: 16vw;
         top: 255vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(3){
+    }
+    .music img:nth-of-type(3) {
         width: 60%;
         position: absolute;
         right: 5vw;
         top: 425vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-      }
-  }
-  @media (max-width: 1440px) {
-    .music{
+    }
+}
+
+@media (max-width: 1440px) {
+    .music {
         width: 100vw;
         height: 100vh;
-        
         position: relative;
-        
         z-index: 10;
-      }
-       .musicDiv{
+    }
+    .musicDiv {
         position: relative;
         height: 100vh;
-       
-      }
-      .musicText{
+    }
+    .musicText {
         margin: 0 0 0 10vw;
-      }
-      .music a{
+    }
+    .music a {
         color: black;
-        text-decoration:none;
-      }
-        .music h2:hover{
+        text-decoration: none;
+    }
+    .music h2:hover {
         opacity: 0.5;
         cursor: pointer;
-        }
-      .music h2{
-       /* position: absolute;
+    }
+    .music h2 {
+        /* position: absolute;
         left: -15vw;
         top: -32vh; */
-        
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
-       }
-       .music h3{
+    }
+    .music h3 {
         /* position: absolute;
         top: -21vh;
         left: -14.5vw; */
         font-size: 1.5rem;
-        
         transition: transform 0.2s ease-out 0s;
-      }
-      .music p{
+    }
+    .music p {
         /* position: absolute;
         top: -18vh;
         left: -14.5vw; */
         font-size: 1.2rem;
-        
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(1){
+    }
+    .music img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
         top: 82vh;
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(2){
+    }
+    .music img:nth-of-type(2) {
         width: 27%;
         position: absolute;
         right: 16vw;
         top: 253vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-      }
-      .music img:nth-of-type(3){
+    }
+    .music img:nth-of-type(3) {
         width: 60%;
         position: absolute;
         right: 1vw;
         top: 423vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-      }
-  }
-
-
-  @media (max-width: 768px) {
-  .music{
-    width: 100vw;
-    height: 100vh;
-    margin: 0vh 0 0 0;
-    position: relative;
-    
-    z-index: 1;
-  }
-   .musicDiv{
-    position: relative;
-    height: 100vh;
-   
-  }
-  .musicText{
-    margin: 0 0 0 5vw;
-  }
-  .music a{
-    color: black;
-    text-decoration:none;
-  }
-    .music h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
     }
-  .music h2{
-   /* position: absolute;
+}
+
+@media (max-width: 768px) {
+    .music {
+        width: 100vw;
+        height: 100vh;
+        margin: 0vh 0 0 0;
+        position: relative;
+        z-index: 1;
+    }
+    .musicDiv {
+        position: relative;
+        height: 100vh;
+    }
+    .musicText {
+        margin: 0 0 0 5vw;
+    }
+    .music a {
+        color: black;
+        text-decoration: none;
+    }
+    .music h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .music h2 {
+        /* position: absolute;
     left: -46vw;
     top: -35vh; */
-    
-    font-size: 3.5rem;
-    transition: transform 0.2s ease-out 0s;
-   }
-   .music h3{
-    /* position: absolute;
+        font-size: 3.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music h3 {
+        /* position: absolute;
     top: -28vh;
     left: -45.5vw; */
-    font-size: 1.5rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music p{
-    /* position: absolute;
+        font-size: 1.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music p {
+        /* position: absolute;
     top: -25vh;
     left: -45.5vw; */
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(1){
-    width: 20%;
-    position: absolute;
-    right: 1vw;
-    top: 84vh;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(2){
-    width: 40%;
-    position: absolute;
-    right: 21vw;
-    top: 254vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(3){
-    width: 90%;
-    position: absolute;
-    right: 1vw;
-    top: 410vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(1) {
+        width: 20%;
+        position: absolute;
+        right: 1vw;
+        top: 84vh;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(2) {
+        width: 40%;
+        position: absolute;
+        right: 21vw;
+        top: 254vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(3) {
+        width: 90%;
+        position: absolute;
+        right: 1vw;
+        top: 410vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
 }
-  @media (max-width: 375px) {
-    .musicText{
-      margin: 0 0 0 5vw;
-     
+
+@media (max-width: 375px) {
+    .musicText {
+        margin: 0 0 0 5vw;
     }
-   .musicDiv{
-    position: relative;
-    height: 100vh;
- 
-  }
-  .musicText{
-    margin: 0 0 0 5vw;
-  }
-  .music a{
-    color: black;
-    text-decoration:none;
-  }
-    .music h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    .musicDiv {
+        position: relative;
+        height: 100vh;
     }
-  .music h2{
-   
-    
-    font-size: 2.5rem;
-    transition: transform 0.2s ease-out 0s;
-   }
-   .music h3{
-    margin:2vh 0 0 0;
-    width:350px;
-    font-size: 1.3rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music p{
-    /* position: absolute;
+    .musicText {
+        margin: 0 0 0 5vw;
+    }
+    .music a {
+        color: black;
+        text-decoration: none;
+    }
+    .music h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .music h2 {
+        font-size: 2.5rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music h3 {
+        margin: 2vh 0 0 0;
+        width: 350px;
+        font-size: 1.3rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music p {
+        /* position: absolute;
     
     top: -31vh;
     left: -66.5vw; */
-    width:290px;
-    font-size: 1.2rem;
-    
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(1){
-    width: 35%;
-    position: absolute;
-    right: 1vw;
-    top: 91vh;
-    transition: transform 0.2s ease-out 0s;
-    z-index: 20;
-  }
-  .music img:nth-of-type(2){
-    width: 60%;
-    position: absolute;
-    right: 37vw;
-    top: 250vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-    z-index: 20;
-  }
-  .music img:nth-of-type(3){
-    width: 100%;
-    position: absolute;
-    right: 0vw;
-    top: 396vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-    z-index: 20;
-  }
-}
-  @media (max-width: 360px) {
-  .music{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    
-    z-index: -15;
-  }
-   .musicDiv{
-    position: relative;
-    height: 100vh;
-   
-  }
-  .musicText{
-    margin: 0 0 0 5vw;
-  }
-  .music a{
-    color: black;
-    text-decoration:none;
-  }
-    .music h2:hover{
-    opacity: 0.5;
-    cursor: pointer;
+        width: 290px;
+        font-size: 1.2rem;
+        transition: transform 0.2s ease-out 0s;
     }
-  .music h2{
-    font-size: 2rem;
-    transition: transform 0.2s ease-out 0s;
+    .music img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        right: 1vw;
+        top: 91vh;
+        transition: transform 0.2s ease-out 0s;
+        z-index: 20;
+    }
+    .music img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        right: 37vw;
+        top: 250vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+        z-index: 20;
+    }
+    .music img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        right: 0vw;
+        top: 396vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+        z-index: 20;
+    }
 }
-  .music h3{
-    font-size: 1rem;
-    width:290px;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music p{
-    
-    font-size: 0.9rem;
-    
-    width:290px;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(1){
-    width: 35%;
-    position: absolute;
-    right: 1vw;
-    top: 88vh;
-    transition: transform 0.2s ease-out 0s;
-    z-index: 2;
-  }
-  .music img:nth-of-type(2){
-    width: 60%;
-    position: absolute;
-    right: 37vw;
-    top: 248vh;
-    z-index: 3;
-    transition: transform 0.2s ease-out 0s;
-  }
-  .music img:nth-of-type(3){
-    width: 100%;
-    position: absolute;
-    right: 0vw;
-    top: 395vh;
-    z-index: 10;
-    transition: transform 0.2s ease-out 0s;
-  }
+
+@media (max-width: 360px) {
+    .music {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        z-index: -15;
+    }
+    .musicDiv {
+        position: relative;
+        height: 100vh;
+    }
+    .musicText {
+        margin: 0 0 0 5vw;
+    }
+    .music a {
+        color: black;
+        text-decoration: none;
+    }
+    .music h2:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .music h2 {
+        font-size: 2rem;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music h3 {
+        font-size: 1rem;
+        width: 290px;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music p {
+        font-size: 0.9rem;
+        width: 290px;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(1) {
+        width: 35%;
+        position: absolute;
+        right: 1vw;
+        top: 88vh;
+        transition: transform 0.2s ease-out 0s;
+        z-index: 2;
+    }
+    .music img:nth-of-type(2) {
+        width: 60%;
+        position: absolute;
+        right: 37vw;
+        top: 248vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .music img:nth-of-type(3) {
+        width: 100%;
+        position: absolute;
+        right: 0vw;
+        top: 395vh;
+        z-index: 10;
+        transition: transform 0.2s ease-out 0s;
+    }
 }

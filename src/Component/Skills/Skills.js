@@ -64,7 +64,7 @@ class AboutMe extends Component {
             else if(window.matchMedia("(max-width: 2560px)").matches){
                 if(this.state.data >5600 && this.state.data <13050){
                     this.setState({scroll:this.state.data})
-                    console.log("1920");
+                    
                     
                 }
             }

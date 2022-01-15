@@ -61,7 +61,7 @@ class Tasty extends Component {
         let elPosition = el.getBoundingClientRect();
         let screenPosition = window.innerHeight;
 
-        if(elPosition.top < screenPosition){
+        if(elPosition.top + 200 < screenPosition){
             console.log("test");
             document.querySelector(".tastyText").style ="visibility:visible;opacity:1;transform: translateX(0);"
         }

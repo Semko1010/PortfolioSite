@@ -74,7 +74,7 @@ handleScroll1 = () =>{
     let elPosition = el.getBoundingClientRect();
     let screenPosition = window.innerHeight;
 
-    if(elPosition.top < screenPosition){
+    if(elPosition.top + 200 < screenPosition){
         
         document.querySelector(".musicText").style ="visibility:visible;opacity:1;transform: translateX(0);"
     }

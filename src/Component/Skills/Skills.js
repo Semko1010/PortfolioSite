@@ -27,28 +27,28 @@ class AboutMe extends Component {
                 }
             }
             else if(window.matchMedia("(max-width: 768px)").matches){
-                if(this.state.data >5700 && this.state.data <7100){
+                if(this.state.data >1500 && this.state.data <7100){
                     this.setState({scroll:this.state.data})
                     console.log("768");
                     
                 }
             }
             else if(window.matchMedia("(max-width: 1024px)").matches){
-                if(this.state.data >5500 && this.state.data <10000){
+                if(this.state.data >1950 && this.state.data <10000){
                     this.setState({scroll:this.state.data})
                     console.log("1440");
                     
                 }
             }
             else if(window.matchMedia("(max-width: 1440px)").matches){
-                if(this.state.data >5500 && this.state.data <6950){
+                if(this.state.data >2000 && this.state.data <6950){
                     this.setState({scroll:this.state.data})
                     console.log("1440");
                     
                 }
             }
              else if(window.matchMedia("(max-width: 1680px)").matches){
-                if(this.state.data >5600 && this.state.data <8050){
+                if(this.state.data >2500 && this.state.data <8050){
                     this.setState({scroll:this.state.data})
                     console.log("1680");
                     
@@ -75,12 +75,7 @@ class AboutMe extends Component {
 
     componentDidMount() {
     window.addEventListener("scroll", this.handleScroll)
-    setTimeout(() => {
-    let h1 = document.querySelector(".header h1")
-    let h2 = document.querySelector(".header h2")
-    h1.style = `visibility:visible;opacity:1`
-    h2.style = `visibility:visible;opacity:1`
-},500)
+   
     }
 
   

@@ -24,21 +24,59 @@
         border-radius: 10px;
         transform: translateX(-20vw);
     }
-    .shop a {
-        color: black;
+    .shop-flip {
+        opacity: 1;
+        outline: 0;
+        color: #fff;
+        line-height: 40px;
+        position: relative;
+        text-align: center;
+        letter-spacing: 1px;
+        display: inline-block;
         text-decoration: none;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        margin: 10px 0 0 0;
     }
-    .shop h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
+    .shop-flip:hover:after {
+        opacity: 1;
+        transform: translateY(0) rotateX(0);
+    }
+    .shop-flip:hover:before {
+        opacity: 0;
+        transform: translateY(50%) rotateX(90deg);
+    }
+    .shop-flip:after {
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        color: #323237;
+        display: block;
+        transition: 0.5s;
+        position: absolute;
+        background: #adadaf;
+        content: attr(data-back);
+        transform: translateY(-50%) rotateX(90deg);
+    }
+    .shop-flip:before {
+        top: 0;
+        left: 0;
+        opacity: 1;
+        color: #adadaf;
+        display: block;
+        padding: 0 30px;
+        line-height: 40px;
+        transition: 0.5s;
+        position: relative;
+        background: #323237;
+        content: attr(data-front);
+        transform: translateY(0) rotateX(0);
     }
     .shop h2 {
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
         display: inline-block;
-    }
-    .shop h2:hover {
-        transform: translateX(50px);
     }
     .shop h3 {
         font-size: 4rem;
@@ -88,33 +126,15 @@
     .shopText {
         margin: 0 0 0 5vw;
     }
-    .shop a {
-        color: black;
-        text-decoration: none;
-    }
-    .shop h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
     .shop h2 {
-        /* position: absolute;
-    right: -17vw;
-    top: -37vh; */
         font-size: 7rem;
-        /* font-family: 'IM Fell English SC', serif; */
         transition: transform 0.2s ease-out 0s;
     }
     .shop h3 {
-        /* position: absolute;
-    top: -25vh;
-    right: -11vw; */
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .shop p {
-        /* position: absolute;
-    top: -22vh;
-    right: -0.1vw; */
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
@@ -202,14 +222,7 @@
     .shopText {
         margin: 0 0 0 10vw;
     }
-    .shop a {
-        color: black;
-        text-decoration: none;
-    }
-    .shop h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+  
     .shop h2 {
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
@@ -403,7 +416,7 @@
     .shop img:nth-of-type(1) {
         width: 35%;
         position: absolute;
-        left: 1vw;
+        right: 1vw;
         top: 115vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 50;
@@ -411,7 +424,7 @@
     .shop img:nth-of-type(2) {
         width: 60%;
         position: absolute;
-        left: 36vw;
+        right: 36vw;
         top: 313vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -420,7 +433,7 @@
     .shop img:nth-of-type(3) {
         width: 100%;
         position: absolute;
-        left: 0vw;
+        right: 0vw;
         top: 487vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -464,7 +477,7 @@
     .shop img:nth-of-type(1) {
         width: 35%;
         position: absolute;
-        left: 1vw;
+        right: 1vw;
         top: 110vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 4;
@@ -472,7 +485,7 @@
     .shop img:nth-of-type(2) {
         width: 60%;
         position: absolute;
-        left: 36vw;
+        right: 36vw;
         top: 309vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -480,7 +493,7 @@
     .shop img:nth-of-type(3) {
         width: 100%;
         position: absolute;
-        left: 0vw;
+        right: 0vw;
         top: 485vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;

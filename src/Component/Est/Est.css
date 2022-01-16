@@ -25,22 +25,61 @@
         border-radius: 10px;
         transform: translateX(-20vw);
     }
-    .est a {
-        color: black;
+    .est-flip {
+        opacity: 1;
+        outline: 0;
+        color: #fff;
+        line-height: 40px;
+        position: relative;
+        text-align: center;
+        letter-spacing: 1px;
+        display: inline-block;
         text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        margin: 10px 0 0 0;
+   }
+    .est-flip:hover:after {
+        opacity: 1;
+        transform: translateY(0) rotateX(0);
+   }
+    .est-flip:hover:before {
+        opacity: 0;
+        transform: translateY(50%) rotateX(90deg);
+   }
+    .est-flip:after {
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        color: #323237;
+        display: block;
+        transition: 0.5s;
+        position: absolute;
+        background: #adadaf;
+        content: attr(data-back);
+        transform: translateY(-50%) rotateX(90deg);
+   }
+    .est-flip:before {
+        top: 0;
+        left: 0;
+        opacity: 1;
+        color: #adadaf;
+        display: block;
+        padding: 0 30px;
+        line-height: 40px;
+        transition: 0.5s;
+        position: relative;
+        background: #323237;
+        content: attr(data-front);
+        transform: translateY(0) rotateX(0);
+   }
     .est h2 {
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
         display: inline-block;
     }
-    .est h2:hover {
-        transform: translateX(50px);
-    }
+    
     .est h3 {
         width: 50vw;
         font-size: 4rem;
@@ -91,14 +130,8 @@
     .estText {
         margin: 0 0 0 5vw;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+    
+    
     .est h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
@@ -148,14 +181,7 @@
         position: relative;
         z-index: 9;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+    
     .est h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
@@ -203,14 +229,7 @@
         position: relative;
         z-index: 9;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+    
     .est h2 {
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
@@ -259,14 +278,7 @@
         position: relative;
         z-index: 9;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+    
     .est h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -315,14 +327,7 @@
         position: relative;
         z-index: 9;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+    
     .est h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -373,14 +378,7 @@
         position: relative;
         z-index: -4;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+   
     .est h2 {
         font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -430,14 +428,7 @@
         position: relative;
         z-index: 9;
     }
-    .est a {
-        color: black;
-        text-decoration: none;
-    }
-    .est h2:hover {
-        opacity: 0.5;
-        cursor: pointer;
-    }
+   
     .est h2 {
         font-size: 2rem;
         transition: transform 0.2s ease-out 0s;

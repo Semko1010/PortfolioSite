@@ -11,15 +11,17 @@
         font-size: 3rem;
         font-weight: 300;
         opacity: 0;
-        visibility: hidden;
+        visibility: visible;
         transition: visibility 0s, opacity 1.5s linear;
+        
     }
     h1 {
         font-size: 7rem;
         font-family: 'Kaushan Script', cursive;
         opacity: 0;
-        visibility: hidden;
+        visibility: visible;
         transition: visibility 0s, opacity 1s linear;
+        
     }
 }
 

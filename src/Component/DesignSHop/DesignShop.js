@@ -10,70 +10,70 @@ class DesignShop extends Component {
         }
     }
 
-    handleScroll = () => {
-        this.setState({data:window.pageYOffset})
-        if(window.matchMedia("(max-width: 360px)").matches){
-        if(this.state.data >0 && this.state.data <5800){
-        this.setState({scroll:this.state.data})
-    }
+//     handleScroll = () => {
+//         this.setState({data:window.pageYOffset})
+//         if(window.matchMedia("(max-width: 360px)").matches){
+//         if(this.state.data >0 && this.state.data <5800){
+//         this.setState({scroll:this.state.data})
+//     }
     
-}
-        else if(window.matchMedia("(max-width: 375px)").matches){
-        if(this.state.data >1000 && this.state.data <5800){
-        this.setState({scroll:this.state.data})
-    }
+// }
+//         else if(window.matchMedia("(max-width: 375px)").matches){
+//         if(this.state.data >1000 && this.state.data <5800){
+//         this.setState({scroll:this.state.data})
+//     }
     
-}
-        else if(window.matchMedia("(max-width: 768px)").matches){
-        if(this.state.data >3100 && this.state.data <6800){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 768px)").matches){
+//         if(this.state.data >3100 && this.state.data <6800){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
    
-}
-        else if(window.matchMedia("(max-width: 1024px)").matches){
-        if(this.state.data >3100 && this.state.data <9800){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1024px)").matches){
+//         if(this.state.data >3100 && this.state.data <9800){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
    
-}
-        else if(window.matchMedia("(max-width: 1440px)").matches){
-        if(this.state.data >3100 && this.state.data <6800){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1440px)").matches){
+//         if(this.state.data >3100 && this.state.data <6800){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
     
-}
-        else if(window.matchMedia("(max-width: 1680px)").matches){
-        if(this.state.data >3100 && this.state.data <6800){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1680px)").matches){
+//         if(this.state.data >3100 && this.state.data <6800){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
     
-}
-        else if(window.matchMedia("(max-width: 1920px)").matches){
-        if(this.state.data >3100 && this.state.data <6800){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1920px)").matches){
+//         if(this.state.data >3100 && this.state.data <6800){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
     
-}
-        else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >3100 && this.state.data <10000){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 2560px)").matches){
+//         if(this.state.data >3100 && this.state.data <10000){
+//         this.setState({scroll:this.state.data})
         
-    }
+//     }
     
-}
-    }
+// }
+//     }
     handleScroll1 = () =>{
         let el = document.querySelector(".shopDiv")
         let elPosition = el.getBoundingClientRect();
         let screenPosition = window.innerHeight;
     
-        if(elPosition.top + 200 < screenPosition){
-            
+        if(elPosition.top + 100 < screenPosition){
+            this.setState({scroll:window.pageYOffset})
             document.querySelector(".shopText").style ="visibility:visible;opacity:1;transform: translateX(0);"
         }
         if(elPosition.top > screenPosition){
@@ -96,9 +96,10 @@ class DesignShop extends Component {
         
         return ( <div className="shop">
             <div className="shopText">
-        <h2 ><a href="https://semko1010.github.io/designShop/" target="_blank" rel="noreferrer">Design Shop</a></h2>
+        <h2 >Design Shop</h2>
         <h3 >Front-End Developer • Created with HTML/CSS</h3>
         <p >Find your favorite cloths and gadgets</p>
+        <a href="https://semko1010.github.io/designShop/" target="_blank" rel="noreferrer" class="shop-flip" data-back="Design Shop" data-front="Show Me"></a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/DesignShop/iphone-1766253.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/DesignShop/ipad-147691.png" alt="" />

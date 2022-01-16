@@ -10,73 +10,73 @@ class Music extends Component {
         }
     }
 
-    handleScroll = () => {
-        this.setState({data:window.pageYOffset})
-        if(window.matchMedia("(max-width: 360px)").matches){
-        if(this.state.data >0 && this.state.data <7050){
-        this.setState({scroll:this.state.data})
+//     handleScroll = () => {
+//         this.setState({data:window.pageYOffset})
+//         if(window.matchMedia("(max-width: 360px)").matches){
+//         if(this.state.data >0 && this.state.data <7050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 375px)").matches){
-        if(this.state.data >2000 && this.state.data <7050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 375px)").matches){
+//         if(this.state.data >2000 && this.state.data <7050){
+//         this.setState({scroll:this.state.data})
 
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 768px)").matches){
-        if(this.state.data >1500 && this.state.data <8050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 768px)").matches){
+//         if(this.state.data >1500 && this.state.data <8050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 1024px)").matches){
-        if(this.state.data >1500 && this.state.data <10050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1024px)").matches){
+//         if(this.state.data >1500 && this.state.data <10050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 1440px)").matches){
-        if(this.state.data >1500 && this.state.data <8050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1440px)").matches){
+//         if(this.state.data >1500 && this.state.data <8050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 1680px)").matches){
-        if(this.state.data >1600 && this.state.data <8050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1680px)").matches){
+//         if(this.state.data >1600 && this.state.data <8050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 1920px)").matches){
-        if(this.state.data >1560 && this.state.data <8050){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 1920px)").matches){
+//         if(this.state.data >1560 && this.state.data <8050){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-        else if(window.matchMedia("(max-width: 2560px)").matches){
-        if(this.state.data >1500 && this.state.data <11550){
-        this.setState({scroll:this.state.data})
+// }
+//         else if(window.matchMedia("(max-width: 2560px)").matches){
+//         if(this.state.data >1500 && this.state.data <11550){
+//         this.setState({scroll:this.state.data})
 
-}
+// }
 
-}
-}
+// }
+// }
 handleScroll1 = () =>{
     let el = document.querySelector(".est")
     let elPosition = el.getBoundingClientRect();
     let screenPosition = window.innerHeight;
 
-    if(elPosition.top + 200< screenPosition){
-       
+    if(elPosition.top + 100< screenPosition){
+        this.setState({scroll:window.pageYOffset})
         document.querySelector(".estText").style ="visibility:visible;opacity:1;transform: translateX(0);"
 }   
     if(elPosition.top > screenPosition){
@@ -98,9 +98,10 @@ if(elPosition.bottom < screenPosition){
         
         return ( <div className="est">
             <div className="estText">
-        <h2 ><a href="https://semko1010.github.io/einkommensSteuer/" target="_blank" rel="noreferrer">Tax calculator</a></h2>
+        <h2 >Tax calculator</h2>
         <h3 >Front-End Developer • Created with HTML/SASS/Javascript</h3>
         <p >Calculate your tax</p>
+        <a href="https://semko1010.github.io/einkommensSteuer/" target="_blank" rel="noreferrer" class="est-flip" data-back="Calculator" data-front="Show Me"></a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/Est/iphone-1766253.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/Est/ipad-147691.png" alt="" />

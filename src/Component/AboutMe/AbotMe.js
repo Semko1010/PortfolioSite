@@ -31,13 +31,13 @@ class AboutMe extends Component {
             this.setState({scroll:this.state.data})
             }
 }
-           else if(window.matchMedia("(max-width: 1920px)").matches){
-             if(this.state.data >0 && this.state.data <1520){
+          else if(window.matchMedia("(max-width: 1920px)").matches){
+          if(this.state.data >0 && this.state.data <1520){
             this.setState({scroll:this.state.data})
             }
 }
-           else if(window.matchMedia("(max-width: 2560px)").matches){
-             if(this.state.data >0){
+          else if(window.matchMedia("(max-width: 2560px)").matches){
+          if(this.state.data >0){
             this.setState({scroll:this.state.data})
             }
 }
@@ -47,13 +47,7 @@ class AboutMe extends Component {
 
     componentDidMount() {
     window.addEventListener("scroll", this.handleScroll)
-    setTimeout(() => {
-    let h1 = document.querySelector(".header h1")
-    let h2 = document.querySelector(".header h2")
-    h1.style = `visibility:visible;opacity:1`
-    h2.style = `visibility:visible;opacity:1`
-},500)
-    }
+  }
 
   
 

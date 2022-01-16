@@ -101,7 +101,7 @@ if(elPosition.bottom < screenPosition){
         <h2 >Tax calculator</h2>
         <h3 >Front-End Developer • Created with HTML/SASS/Javascript</h3>
         <p >Calculate your tax</p>
-        <a href="https://semko1010.github.io/einkommensSteuer/" target="_blank" rel="noreferrer" class="est-flip" data-back="Calculator" data-front="Show Me"></a>
+        <a href="https://semko1010.github.io/einkommensSteuer/" target="_blank" rel="noreferrer" class="est-flip" data-back="Calculator" data-front="Show Me"> </a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/Est/iphone-1766253.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/Est/ipad-147691.png" alt="" />

@@ -104,7 +104,7 @@ class Mov extends Component {
         <h3 >Front-End Developer • Created with React</h3>
         <p >Find your favorite movies and enjoy them with your friends</p>
     
-        <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" class="movie-flip" data-back="Movie App" data-front="Show Me"></a>
+        <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" class="movie-flip" data-back="Movie App" data-front="Show Me"> </a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/mov/Bildschirmfoto 2021-12-29 um 09.59.27.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/mov/Bildschirmfoto 2021-12-29 um 09.58.07.png" alt="" />

@@ -396,7 +396,7 @@
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 372vh;
+        top: 378vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -404,7 +404,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 577vh;
+        top: 585vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -437,14 +437,14 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 128vh;
+        top: 130vh;
         transition: transform 0.2s ease-out 0s;
     }
     .est img:nth-of-type(2) {
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 366vh;
+        top: 374vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -452,7 +452,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 573vh;
+        top: 583vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

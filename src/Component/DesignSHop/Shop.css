@@ -424,7 +424,7 @@
         width: 60%;
         position: absolute;
         right: 36vw;
-        top: 313vh;
+        top: 318vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
         z-index: 50;
@@ -433,7 +433,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 487vh;
+        top: 496vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
         z-index: 50;
@@ -485,7 +485,7 @@
         width: 60%;
         position: absolute;
         right: 36vw;
-        top: 309vh;
+        top: 313vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -493,7 +493,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 485vh;
+        top: 492vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

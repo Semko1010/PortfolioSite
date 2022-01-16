@@ -274,6 +274,9 @@
 }
 
 @media (max-width: 768px) {
+    .musicText {
+        margin: 0 0 0 5vw;
+    }
     .music h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -331,7 +334,7 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 91vh;
+        top: 94vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 20;
     }
@@ -339,7 +342,7 @@
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 250vh;
+        top: 257vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
         z-index: 20;
@@ -348,7 +351,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 396vh;
+        top: 406vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
         z-index: 20;
@@ -380,7 +383,7 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 88vh;
+        top: 90vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 2;
     }
@@ -388,7 +391,7 @@
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 248vh;
+        top: 255vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -396,7 +399,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 395vh;
+        top: 403vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

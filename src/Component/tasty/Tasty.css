@@ -337,21 +337,21 @@
         width: 35%;
         position: absolute;
         right: 2vw;
-        top: 74vh;
+        top: 72vh;
         z-index: 100;
     }
     .tasty img:nth-of-type(2) {
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 193vh;
+        top: 191vh;
         z-index: 100;
     }
     .tasty img:nth-of-type(3) {
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 308vh;
+        top: 306vh;
         z-index: 100;
     }
 }

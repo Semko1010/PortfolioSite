@@ -14,10 +14,6 @@
         margin: 0 0 0 5vw;
         visibility: hidden;
         opacity: 0;
-        transition: visibility 1.5s, opacity 1.5s linear;
-        margin: 0 0 0 5vw;
-        visibility: hidden;
-        opacity: 0;
         transition: visibility 1s, opacity 1s linear;
         display: inline-block;
         transition: all 1s ease-out;
@@ -34,7 +30,6 @@
         letter-spacing: 1px;
         display: inline-block;
         text-decoration: none;
-        font-family: 'Open Sans';
         text-transform: uppercase;
         margin: 10px 0 0 0;
     }

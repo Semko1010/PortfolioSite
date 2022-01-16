@@ -351,7 +351,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 406vh;
+        top: 404vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
         z-index: 20;
@@ -383,7 +383,7 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 90vh;
+        top: 92vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 2;
     }

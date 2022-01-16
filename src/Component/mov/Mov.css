@@ -297,7 +297,7 @@
         width: 35%;
         position: absolute;
         right: 2vw;
-        top: 50vh;
+        top: 52vh;
         z-index: 100;
     }
     .mov img:nth-of-type(2) {
@@ -334,7 +334,7 @@
         width: 35%;
         position: absolute;
         right: 2vw;
-        top: 50vh;
+        top: 52vh;
     }
     .mov img:nth-of-type(2) {
         width: 60%;

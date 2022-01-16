@@ -437,7 +437,7 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 130vh;
+        top: 132vh;
         transition: transform 0.2s ease-out 0s;
     }
     .est img:nth-of-type(2) {

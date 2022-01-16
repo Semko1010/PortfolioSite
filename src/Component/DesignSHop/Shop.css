@@ -477,7 +477,7 @@
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 110vh;
+        top: 113vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 4;
     }
@@ -493,7 +493,7 @@
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 492vh;
+        top: 493vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

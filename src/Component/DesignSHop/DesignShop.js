@@ -99,7 +99,7 @@ class DesignShop extends Component {
         <h2 >Design Shop</h2>
         <h3 >Front-End Developer • Created with HTML/CSS</h3>
         <p >Find your favorite cloths and gadgets</p>
-        <a href="https://semko1010.github.io/designShop/" target="_blank" rel="noreferrer" class="shop-flip" data-back="Design Shop" data-front="Show Me"></a>
+        <a href="https://semko1010.github.io/designShop/" target="_blank" rel="noreferrer" class="shop-flip" data-back="Design Shop" data-front="Show Me"> </a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/DesignShop/iphone-1766253.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/DesignShop/ipad-147691.png" alt="" />

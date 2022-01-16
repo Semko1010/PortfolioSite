@@ -112,7 +112,6 @@
 }
 
 @media (max-width: 1920px) {
-    
     .tasty h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;

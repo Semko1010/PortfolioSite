@@ -38,15 +38,15 @@
         font-family: 'Open Sans';
         text-transform: uppercase;
         margin: 10px 0 0 0;
-   }
+    }
     .est-flip:hover:after {
         opacity: 1;
         transform: translateY(0) rotateX(0);
-   }
+    }
     .est-flip:hover:before {
         opacity: 0;
         transform: translateY(50%) rotateX(90deg);
-   }
+    }
     .est-flip:after {
         top: 0;
         left: 0;
@@ -59,7 +59,7 @@
         background: #adadaf;
         content: attr(data-back);
         transform: translateY(-50%) rotateX(90deg);
-   }
+    }
     .est-flip:before {
         top: 0;
         left: 0;
@@ -73,13 +73,12 @@
         background: #323237;
         content: attr(data-front);
         transform: translateY(0) rotateX(0);
-   }
+    }
     .est h2 {
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
         display: inline-block;
     }
-    
     .est h3 {
         width: 50vw;
         font-size: 4rem;
@@ -130,8 +129,6 @@
     .estText {
         margin: 0 0 0 5vw;
     }
-    
-    
     .est h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
@@ -181,7 +178,6 @@
         position: relative;
         z-index: 9;
     }
-    
     .est h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
@@ -229,7 +225,6 @@
         position: relative;
         z-index: 9;
     }
-    
     .est h2 {
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
@@ -278,7 +273,6 @@
         position: relative;
         z-index: 9;
     }
-    
     .est h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -327,7 +321,6 @@
         position: relative;
         z-index: 9;
     }
-    
     .est h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -378,7 +371,6 @@
         position: relative;
         z-index: -4;
     }
-   
     .est h2 {
         font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
@@ -428,7 +420,6 @@
         position: relative;
         z-index: 9;
     }
-   
     .est h2 {
         font-size: 2rem;
         transition: transform 0.2s ease-out 0s;

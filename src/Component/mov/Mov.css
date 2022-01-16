@@ -33,10 +33,6 @@
         margin-right: 0vw;
         display: inline-block;
     }
-    
-    
-    
-
     .movie-flip {
         opacity: 1;
         outline: 0;
@@ -50,15 +46,15 @@
         font-family: 'Open Sans';
         text-transform: uppercase;
         margin: 10px 0 0 0;
-   }
+    }
     .movie-flip:hover:after {
         opacity: 1;
         transform: translateY(0) rotateX(0);
-   }
+    }
     .movie-flip:hover:before {
         opacity: 0;
         transform: translateY(50%) rotateX(90deg);
-   }
+    }
     .movie-flip:after {
         top: 0;
         left: 0;
@@ -71,7 +67,7 @@
         background: #adadaf;
         content: attr(data-back);
         transform: translateY(-50%) rotateX(90deg);
-   }
+    }
     .movie-flip:before {
         top: 0;
         left: 0;
@@ -85,9 +81,7 @@
         background: #323237;
         content: attr(data-front);
         transform: translateY(0) rotateX(0);
-   }
-    
-    
+    }
     .mov img:nth-of-type(1) {
         width: 13%;
         position: absolute;

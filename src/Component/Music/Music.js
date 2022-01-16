@@ -100,7 +100,7 @@ handleScroll1 = () =>{
         <h2 >Beyond Music</h2>
         <h3 >Front-End Developer • Created with HTML/CSS</h3>
         <p >Find your passion and inspiration in music</p>
-        <a href="https://semko1010.github.io/musikProject/assets/html/inspiration.html" target="_blank" rel="noreferrer" class="music-flip" data-back="Music Beyond" data-front="Show Me"></a>
+        <a href="https://semko1010.github.io/musikProject/assets/html/inspiration.html" target="_blank" rel="noreferrer" class="music-flip" data-back="Music Beyond" data-front="Show Me"> </a>
         </div>
         <img style={{transform: `translateY(${- this.state.scroll * 0.2}px)`}} id="img1" src="./img/music/iphone-1766253.png" alt="" />
         <img  style={{transform: `translateY(${- this.state.scroll * 0.6}px)`}} id="img2" src="./img/music/ipad-147691.png" alt="" />

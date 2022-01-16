@@ -85,7 +85,7 @@ componentDidMount() {
     <h2 >The Tasty App</h2>
     <h3 >Front-End Developer • Created with React</h3>
     <p >cook your favorite dishes with your friends</p>
-    <a href="https://the-tasty-app.netlify.app/" target="_blank" rel="noreferrer" class="tasty-flip" data-back="Tasty App" data-front="Show Me"></a>
+    <a href="https://the-tasty-app.netlify.app/" target="_blank" rel="noreferrer" class="tasty-flip" data-back="Tasty App" data-front="Show Me"> </a>
     </div>
     <img style={{transform: `translateY(${-this.state.scroll *0.2}px)`}}  src="/img/tasty/tasty1.png" alt="" />
     <img  style={{transform: `translateY(${-this.state.scroll * 0.6}px)`}} src="img/tasty/tasty2.png" alt="" />

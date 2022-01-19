@@ -100,7 +100,7 @@
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 540vh;
+        top: 555vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }

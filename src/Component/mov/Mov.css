@@ -100,7 +100,7 @@
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 215vh;
+        top: 230vh;
         transition: transform 0.2s ease-out 0s;
     }
 }

@@ -5,71 +5,12 @@ import "./Est.css"
 class Music extends Component {
     constructor(props) {
         super(props);
-        this.state = {data:0,
-                    scroll:0
+        this.state = {
+        scroll:0
         }
     }
 
-//     handleScroll = () => {
-//         this.setState({data:window.pageYOffset})
-//         if(window.matchMedia("(max-width: 360px)").matches){
-//         if(this.state.data >0 && this.state.data <7050){
-//         this.setState({scroll:this.state.data})
 
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 375px)").matches){
-//         if(this.state.data >2000 && this.state.data <7050){
-//         this.setState({scroll:this.state.data})
-
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 768px)").matches){
-//         if(this.state.data >1500 && this.state.data <8050){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 1024px)").matches){
-//         if(this.state.data >1500 && this.state.data <10050){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 1440px)").matches){
-//         if(this.state.data >1500 && this.state.data <8050){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 1680px)").matches){
-//         if(this.state.data >1600 && this.state.data <8050){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 1920px)").matches){
-//         if(this.state.data >1560 && this.state.data <8050){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-//         else if(window.matchMedia("(max-width: 2560px)").matches){
-//         if(this.state.data >1500 && this.state.data <11550){
-//         this.setState({scroll:this.state.data})
-
-// }
-
-// }
-// }
 handleScroll1 = () =>{
     let el = document.querySelector(".est")
     let elPosition = el.getBoundingClientRect();

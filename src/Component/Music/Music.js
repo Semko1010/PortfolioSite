@@ -5,70 +5,12 @@ import "./Music.css"
 class Music extends Component {
     constructor(props) {
         super(props);
-        this.state = {data:0,
-                    scroll:0
+        this.state = {
+        scroll:0
         }
     }
 
-//     handleScroll = () => {
-//         this.setState({data:window.pageYOffset})
-//         if(window.matchMedia("(max-width: 360px)").matches){
-//         if(this.state.data >0 && this.state.data <4750){
-//         this.setState({scroll:this.state.data})
-        
-//         }
-       
-//     }
-//         else if(window.matchMedia("(max-width: 375px)").matches){
-//         if(this.state.data >0 && this.state.data <4750){
-//         this.setState({scroll:this.state.data})
-        
-//         }
-       
-//     }
-//         else if(window.matchMedia("(max-width: 768px)").matches){
-//         if(this.state.data >1500 && this.state.data <5750){
-//         this.setState({scroll:this.state.data})
-        
-//         }
 
-// }
-//         else if(window.matchMedia("(max-width: 1024px)").matches){
-//         if(this.state.data >1500 && this.state.data <10750){
-//         this.setState({scroll:this.state.data})
-        
-//         }
-
-// }
-//         else if(window.matchMedia("(max-width: 1440px)").matches){
-//         if(this.state.data >2500 && this.state.data <5750){
-//         this.setState({scroll:this.state.data})
-       
-//         }
-
-// }
-//         else if(window.matchMedia("(max-width: 1680px)").matches){
-//         if(this.state.data >2500 && this.state.data <5750){
-//         this.setState({scroll:this.state.data})
-       
-//         }
-//     }
-//         else if(window.matchMedia("(max-width: 1920px)").matches){
-//         if(this.state.data >2500 && this.state.data <5750){
-//         this.setState({scroll:this.state.data})
-        
-//         }
-
-// }
-//         else if(window.matchMedia("(max-width: 2560px)").matches){
-//         if(this.state.data >2500 && this.state.data <8750){
-//         this.setState({scroll:this.state.data})
-       
-//         }
-
-// }
-
-// }
 handleScroll1 = () =>{
     let el = document.querySelector(".musicDiv")
     let elPosition = el.getBoundingClientRect();

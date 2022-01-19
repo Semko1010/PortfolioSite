@@ -97,7 +97,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 65%;
+        width: 60%;
         position: absolute;
         right: 5vw;
         top: 430vh;

@@ -5,68 +5,12 @@ import "./Shop.css"
 class DesignShop extends Component {
     constructor(props) {
         super(props);
-        this.state = {data:0,
-                    scroll:0
+        this.state = {
+        scroll:0
         }
     }
 
-//     handleScroll = () => {
-//         this.setState({data:window.pageYOffset})
-//         if(window.matchMedia("(max-width: 360px)").matches){
-//         if(this.state.data >0 && this.state.data <5800){
-//         this.setState({scroll:this.state.data})
-//     }
-    
-// }
-//         else if(window.matchMedia("(max-width: 375px)").matches){
-//         if(this.state.data >1000 && this.state.data <5800){
-//         this.setState({scroll:this.state.data})
-//     }
-    
-// }
-//         else if(window.matchMedia("(max-width: 768px)").matches){
-//         if(this.state.data >3100 && this.state.data <6800){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-   
-// }
-//         else if(window.matchMedia("(max-width: 1024px)").matches){
-//         if(this.state.data >3100 && this.state.data <9800){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-   
-// }
-//         else if(window.matchMedia("(max-width: 1440px)").matches){
-//         if(this.state.data >3100 && this.state.data <6800){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-    
-// }
-//         else if(window.matchMedia("(max-width: 1680px)").matches){
-//         if(this.state.data >3100 && this.state.data <6800){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-    
-// }
-//         else if(window.matchMedia("(max-width: 1920px)").matches){
-//         if(this.state.data >3100 && this.state.data <6800){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-    
-// }
-//         else if(window.matchMedia("(max-width: 2560px)").matches){
-//         if(this.state.data >3100 && this.state.data <10000){
-//         this.setState({scroll:this.state.data})
-        
-//     }
-    
-// }
-//     }
+
     handleScroll1 = () =>{
         let el = document.querySelector(".shopDiv")
         let elPosition = el.getBoundingClientRect();

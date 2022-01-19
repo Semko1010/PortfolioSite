@@ -1,3 +1,4 @@
+
 @media (max-width: 2560px) {
     .mov {
         height: 100vh;
@@ -96,7 +97,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(3) {
-        width: 65%;
+        width: 60%;
         position: absolute;
         right: 5vw;
         top: 215vh;

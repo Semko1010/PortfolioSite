@@ -21,7 +21,7 @@
         transform: translateX(-20vw);
     }
     .mov h3 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .mov p {

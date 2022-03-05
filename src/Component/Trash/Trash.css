@@ -1,16 +1,17 @@
 @media (max-width: 2560px) {
-    .music {
+    .trash {
         width: 100vw;
         height: 100vh;
+        margin-top: 20vh;
         position: relative;
-        margin: 20vh 0 0 0;
-        z-index: 10;
+        z-index: 9;
     }
-    .musicDiv {
-        position: relative;
+    .trashDiv {
         height: 100vh;
+        position: relative;
+        z-index: 9;
     }
-    .musicText {
+    .trashText {
         margin: 0 0 0 5vw;
         visibility: hidden;
         opacity: 0;
@@ -20,7 +21,7 @@
         border-radius: 10px;
         transform: translateX(-20vw);
     }
-    .music-flip {
+    .trash-flip {
         opacity: 1;
         outline: 0;
         color: #fff;
@@ -33,15 +34,15 @@
         text-transform: uppercase;
         margin: 10px 0 0 0;
     }
-    .music-flip:hover:after {
+    .trash-flip:hover:after {
         opacity: 1;
         transform: translateY(0) rotateX(0);
     }
-    .music-flip:hover:before {
+    .trash-flip:hover:before {
         opacity: 0;
         transform: translateY(50%) rotateX(90deg);
     }
-    .music-flip:after {
+    .trash-flip:after {
         top: 0;
         left: 0;
         opacity: 0;
@@ -54,7 +55,7 @@
         content: attr(data-back);
         transform: translateY(-50%) rotateX(90deg);
     }
-    .music-flip:before {
+    .trash-flip:before {
         top: 0;
         left: 0;
         opacity: 1;
@@ -68,333 +69,385 @@
         content: attr(data-front);
         transform: translateY(0) rotateX(0);
     }
-    .music h2 {
+    .trash h2 {
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
         display: inline-block;
     }
-    .music h3 {
+    .trash h3 {
+        width: 50vw;
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 83vh;
+        top: 158vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 25%;
         position: absolute;
-        right: 17vw;
-        top: 254vh;
+        right: 18vw;
+        top: 475vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 445vh;
+        top: 770vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1920px) {
-    .music h2 {
+    .trash {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 20vh;
+        position: relative;
+        z-index: 9;
+    }
+    .trashDiv {
+        height: 100vh;
+        position: relative;
+        z-index: 9;
+    }
+    .trashText {
+        margin: 0 0 0 5vw;
+    }
+    .trash h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 15%;
         position: absolute;
         right: 3vw;
-        top: 83vh;
+        top: 150vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 30%;
         position: absolute;
         right: 18vw;
-        top: 254vh;
+        top: 464vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 65%;
         position: absolute;
         right: 5vw;
-        top: 442vh;
+        top: 758vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1680px) {
-    .music {
+    .trash {
         width: 100vw;
-        height: 100vh;
         position: relative;
-        z-index: 10;
+        z-index: 9;
         margin: 10vh 0 0 0;
     }
-    .music h2 {
+    .trashDiv {
+        height: 20vh;
+        position: relative;
+        z-index: 9;
+    }
+    .trash h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 84vh;
+        top: 144vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 27%;
         position: absolute;
         right: 16vw;
-        top: 255vh;
+        top: 434vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 60%;
         position: absolute;
         right: 5vw;
-        top: 425vh;
+        top: 700vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1440px) {
-    .musicText {
-        margin: 0 0 0 10vw;
+    .trash {
+        width: 100vw;
+        position: relative;
+        z-index: 9;
     }
-    .music h2 {
+    .trashDiv {
+        position: relative;
+        z-index: 9;
+    }
+    .trash h2 {
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 82vh;
+        top: 150vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 27%;
         position: absolute;
         right: 16vw;
-        top: 253vh;
+        top: 450vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 60%;
         position: absolute;
-        right: 1vw;
-        top: 423vh;
+        right: 5vw;
+        top: 719vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1024px) {
-    .music h2 {
+    .trash {
+        width: 100vw;
+        margin: 0vh 0 0 0;
+        position: relative;
+        z-index: 9;
+    }
+    .trashDiv {
+        position: relative;
+        z-index: 9;
+    }
+    .trash h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 84vh;
+        top: 130vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 254vh;
+        top: 377vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 90%;
         position: absolute;
-        right: 1vw;
-        top: 410vh;
+        right: 5vw;
+        top: 593vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 768px) {
-    .musicText {
-        margin: 0 0 0 5vw;
+    .trash {
+        width: 100vw;
+        margin: 0vh 0 0 0;
+        position: relative;
+        z-index: 9;
     }
-    .music h2 {
+    .trashDiv {
+        position: relative;
+        z-index: 9;
+    }
+    .trash h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 84vh;
+        top: 130vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 254vh;
+        top: 377vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 90%;
         position: absolute;
-        right: 1vw;
-        top: 410vh;
+        right: 5vw;
+        top: 593vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 375px) {
-    .music h2 {
+    .trashText {
+        margin: 0 0 0 5vw;
+    }
+    .trash {
+        width: 100vw;
+        position: relative;
+        z-index: -4;
+    }
+    .trashDiv {
+        position: relative;
+        z-index: -4;
+    }
+    .trash h2 {
         font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
         margin: 2vh 0 0 0;
         width: 350px;
         font-size: 1.3rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
-        width: 290px;
+    .trash p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 94vh;
+        top: 153vh;
         transition: transform 0.2s ease-out 0s;
-        z-index: 20;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 257vh;
+        top: 437vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-        z-index: 20;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 404vh;
+        top: 673vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
-        z-index: 20;
     }
 }
 
 @media (max-width: 360px) {
-    .music {
+    .trash {
         width: 100vw;
-        height: 100vh;
         position: relative;
-        z-index: -15;
+        z-index: 9;
     }
-    .music h2 {
+    .trashDiv {
+        position: relative;
+        z-index: 9;
+    }
+    .trash h2 {
         font-size: 2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .music h3 {
+    .trash h3 {
+        width: 290px;
         font-size: 1rem;
-        width: 290px;
         transition: transform 0.2s ease-out 0s;
     }
-    .music p {
+    .trash p {
         font-size: 0.9rem;
-        width: 290px;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(1) {
+    .trash img:nth-of-type(1) {
         width: 35%;
         position: absolute;
         right: 1vw;
-        top: 92vh;
+        top: 151vh;
         transition: transform 0.2s ease-out 0s;
-        z-index: 2;
     }
-    .music img:nth-of-type(2) {
+    .trash img:nth-of-type(2) {
         width: 60%;
         position: absolute;
         right: 37vw;
-        top: 255vh;
+        top: 432vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .music img:nth-of-type(3) {
+    .trash img:nth-of-type(3) {
         width: 100%;
         position: absolute;
         right: 0vw;
-        top: 403vh;
+        top: 670vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

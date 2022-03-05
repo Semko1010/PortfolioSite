@@ -74,7 +74,7 @@
         display: inline-block;
     }
     .shop h3 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .shop p {
@@ -319,6 +319,9 @@
         margin: 0vh 0 0 0;
         position: relative;
         z-index: 10;
+    }
+    .shopText {
+        margin: 0 0 0 5vw;
     }
     .shopDiv {
         position: relative;

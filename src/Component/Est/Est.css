@@ -76,7 +76,7 @@
     }
     .est h3 {
         width: 50vw;
-        font-size: 4rem;
+        font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
     .est p {
@@ -169,7 +169,7 @@
         margin: 10vh 0 0 0;
     }
     .estDiv {
-        height: 20vh;
+        
         position: relative;
         z-index: 9;
     }

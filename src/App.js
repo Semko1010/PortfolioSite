@@ -6,6 +6,7 @@ import Music from "./Component/Music/Music";
 import DesignShop from "./Component/DesignSHop/DesignShop";
 import Est from "./Component/Est/Est";
 import Trash from "./Component/Trash/Trash";
+import Expensee from "./Component/Expensee/Expensee";
 import Skills from "./Component/Skills/Skills";
 import Contact from "./Component/Contact/Contact";
 
@@ -43,6 +44,9 @@ function App() {
 				</div>
 				<div className='trashDiv'>
 					<Trash />
+				</div>
+				<div className='expenseeDiv'>
+					<Expensee />
 				</div>
 				<div className='skillsDiv'>
 					<Skills />

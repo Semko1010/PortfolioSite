@@ -1,17 +1,17 @@
 @media (max-width: 2560px) {
-    .trash {
+    .expensee {
         width: 100vw;
         height: 100vh;
         margin-top: 20vh;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         height: 100vh;
         position: relative;
         z-index: 9;
     }
-    .trashText {
+    .expenseeText {
         margin: 0 0 0 5vw;
         visibility: hidden;
         opacity: 0;
@@ -21,7 +21,7 @@
         border-radius: 10px;
         transform: translateX(-20vw);
     }
-    .trash-flip {
+    .expensee-flip {
         opacity: 1;
         outline: 0;
         color: #fff;
@@ -34,15 +34,15 @@
         text-transform: uppercase;
         margin: 10px 0 0 0;
     }
-    .trash-flip:hover:after {
+    .expensee-flip:hover:after {
         opacity: 1;
         transform: translateY(0) rotateX(0);
     }
-    .trash-flip:hover:before {
+    .expensee-flip:hover:before {
         opacity: 0;
         transform: translateY(50%) rotateX(90deg);
     }
-    .trash-flip:after {
+    .expensee-flip:after {
         top: 0;
         left: 0;
         opacity: 0;
@@ -55,7 +55,7 @@
         content: attr(data-back);
         transform: translateY(-50%) rotateX(90deg);
     }
-    .trash-flip:before {
+    .expensee-flip:before {
         top: 0;
         left: 0;
         opacity: 1;
@@ -69,225 +69,257 @@
         content: attr(data-front);
         transform: translateY(0) rotateX(0);
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 10rem;
         transition: transform 0.2s ease-out 0s;
         display: inline-block;
     }
-    .trash h3 {
+    .expensee h3 {
         width: 50vw;
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
+    .expensee img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 158vh;
+        top: 202vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 25%;
+    .expensee img:nth-of-type(2) {
+        width: 13%;
         position: absolute;
         right: 18vw;
-        top: 475vh;
+        top: 565vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 60%;
+    .expensee img:nth-of-type(3) {
+        width: 13%;
         position: absolute;
         right: 5vw;
-        top: 770vh;
+        top: 880vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 13%;
+        position: absolute;
+        right: 20vw;
+        top: 1080vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1920px) {
-    .trash {
+    .expensee {
         width: 100vw;
         height: 100vh;
         margin-top: 20vh;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         height: 100vh;
         position: relative;
         z-index: 9;
     }
-    .trashText {
+    .expenseeText {
         margin: 0 0 0 5vw;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
-        width: 15%;
+    .expensee img:nth-of-type(1) {
+        width: 13%;
         position: absolute;
         right: 3vw;
-        top: 150vh;
+        top: 178vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 30%;
+    .expensee img:nth-of-type(2) {
+        width: 13%;
         position: absolute;
         right: 18vw;
-        top: 464vh;
+        top: 527vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 65%;
+    .expensee img:nth-of-type(3) {
+        width: 13%;
         position: absolute;
         right: 5vw;
-        top: 758vh;
+        top: 838vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 13%;
+        position: absolute;
+        right: 20vw;
+        top: 1025vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1680px) {
-    .trash {
+    .expensee {
         width: 100vw;
         position: relative;
         z-index: 9;
         margin: 10vh 0 0 0;
     }
-    .trashDiv {
-        height: 100vh;
+    .expenseeDiv {
+        height: 20vh;
         position: relative;
         z-index: 9;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 7rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
+    .expensee img:nth-of-type(1) {
         width: 13%;
         position: absolute;
         right: 3vw;
-        top: 144vh;
+        top: 163vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 27%;
+    .expensee img:nth-of-type(2) {
+        width: 13%;
         position: absolute;
-        right: 16vw;
-        top: 434vh;
+        right: 18vw;
+        top: 495vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 60%;
+    .expensee img:nth-of-type(3) {
+        width: 13%;
         position: absolute;
         right: 5vw;
-        top: 700vh;
+        top: 780vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 13%;
+        position: absolute;
+        right: 20vw;
+        top: 957vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1440px) {
-    .trash {
+    .expensee {
         width: 100vw;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         position: relative;
         z-index: 9;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
-        width: 13%;
+    .expensee img:nth-of-type(1) {
+        width: 15%;
         position: absolute;
         right: 3vw;
-        top: 150vh;
+        top: 163vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 27%;
+    .expensee img:nth-of-type(2) {
+        width: 15%;
         position: absolute;
-        right: 16vw;
-        top: 450vh;
+        right: 18vw;
+        top: 502vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 60%;
+    .expensee img:nth-of-type(3) {
+        width: 15%;
         position: absolute;
-        right: 5vw;
-        top: 719vh;
+        right: 4vw;
+        top: 782vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 15%;
+        position: absolute;
+        right: 20vw;
+        top: 960vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 1024px) {
-    .trash {
+    .expensee {
         width: 100vw;
         margin: 0vh 0 0 0;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         position: relative;
         z-index: 9;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
+    .expensee img:nth-of-type(1) {
         width: 20%;
         position: absolute;
         right: 1vw;
         top: 130vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
+    .expensee img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
@@ -295,7 +327,7 @@
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
+    .expensee img:nth-of-type(3) {
         width: 90%;
         position: absolute;
         right: 5vw;
@@ -306,36 +338,36 @@
 }
 
 @media (max-width: 768px) {
-    .trash {
+    .expensee {
         width: 100vw;
         margin: 0vh 0 0 0;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         position: relative;
         z-index: 9;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 3.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         font-size: 1.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
+    .expensee img:nth-of-type(1) {
         width: 20%;
         position: absolute;
         right: 1vw;
         top: 130vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
+    .expensee img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
@@ -343,7 +375,7 @@
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
+    .expensee img:nth-of-type(3) {
         width: 90%;
         position: absolute;
         right: 5vw;
@@ -354,100 +386,116 @@
 }
 
 @media (max-width: 375px) {
-    .trashText {
+    .expenseeText {
         margin: 0 0 0 5vw;
     }
-    .trash {
+    .expensee {
         width: 100vw;
         position: relative;
         z-index: -4;
     }
-    .trashDiv {
+    .expenseeDiv {
         position: relative;
         z-index: -4;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 2.5rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         margin: 2vh 0 0 0;
         width: 350px;
         font-size: 1.3rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 1.2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
+    .expensee img:nth-of-type(1) {
         width: 35%;
         position: absolute;
-        right: 1vw;
-        top: 153vh;
+        right: 5vw;
+        top: 175vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 60%;
+    .expensee img:nth-of-type(2) {
+        width: 35%;
         position: absolute;
-        right: 37vw;
-        top: 437vh;
+        right: 55vw;
+        top: 493vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 100%;
+    .expensee img:nth-of-type(3) {
+        width: 35%;
         position: absolute;
-        right: 0vw;
-        top: 673vh;
+        right: 5vw;
+        top: 750vh;
+        z-index: 3;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 35%;
+        position: absolute;
+        right: 50vw;
+        top: 916vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
 }
 
 @media (max-width: 360px) {
-    .trash {
+    .expensee {
         width: 100vw;
         position: relative;
         z-index: 9;
     }
-    .trashDiv {
+    .expenseeDiv {
         position: relative;
         z-index: 9;
     }
-    .trash h2 {
+    .expensee h2 {
         font-size: 2rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash h3 {
+    .expensee h3 {
         width: 290px;
         font-size: 1rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash p {
+    .expensee p {
         font-size: 0.9rem;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(1) {
-        width: 35%;
+    .expensee img:nth-of-type(1) {
+        width: 40%;
         position: absolute;
-        right: 1vw;
-        top: 151vh;
+        right: 5vw;
+        top: 170vh;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(2) {
-        width: 60%;
+    .expensee img:nth-of-type(2) {
+        width: 40%;
         position: absolute;
-        right: 37vw;
-        top: 432vh;
+        right: 50vw;
+        top: 490vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
-    .trash img:nth-of-type(3) {
-        width: 100%;
+    .expensee img:nth-of-type(3) {
+        width: 40%;
         position: absolute;
-        right: 0vw;
-        top: 670vh;
+        right: 5vw;
+        top: 755vh;
+        z-index: 10;
+        transition: transform 0.2s ease-out 0s;
+    }
+    .expensee img:nth-of-type(4) {
+        width: 40%;
+        position: absolute;
+        right: 50vw;
+        top: 920vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;
     }

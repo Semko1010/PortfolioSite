@@ -40,7 +40,7 @@ class Expensee extends Component {
 				<div className='expenseeText'>
 					<h2>Expensee</h2>
 					<h3>Full-Stack Developer • Created with React Native/Nodejs</h3>
-					<p>set your own money in the app</p>
+					<p>Calculate your expenses and be the master of your money</p>
 					<a
 						href='https://github.com/Semko1010/Expensee-React-Native'
 						target='_blank'

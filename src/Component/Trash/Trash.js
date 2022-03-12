@@ -46,7 +46,7 @@ class Trash extends Component {
 						target='_blank'
 						rel='noreferrer'
 						class='est-flip'
-						data-back='Calculator'
+						data-back='Trash'
 						data-front='Show Me'>
 						{" "}
 					</a>

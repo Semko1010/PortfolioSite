@@ -198,7 +198,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tastyText {
-        margin: 0 0 0 10vw;
+        margin: 0 0 0 5vw;
     }
     .tasty img:nth-of-type(1) {
         width: 13%;

@@ -288,22 +288,22 @@
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 84vh;
+        top: 90vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 254vh;
+        top: 266vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
         width: 90%;
         position: absolute;
-        right: 1vw;
-        top: 410vh;
+        right: 5vw;
+        top: 428vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }

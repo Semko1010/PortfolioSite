@@ -352,22 +352,22 @@
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 104vh;
+        top: 110vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 315vh;
+        top: 325vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
         width: 90%;
         position: absolute;
-        right: 0vw;
-        top: 500vh;
+        right: 5vw;
+        top: 515vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }

@@ -332,14 +332,14 @@
         width: 20%;
         position: absolute;
         right: 1vw;
-        top: 130vh;
+        top: 152vh;
         transition: transform 0.2s ease-out 0s;
     }
     .trash img:nth-of-type(2) {
         width: 40%;
         position: absolute;
         right: 21vw;
-        top: 377vh;
+        top: 447vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -347,7 +347,7 @@
         width: 90%;
         position: absolute;
         right: 5vw;
-        top: 593vh;
+        top: 697vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }

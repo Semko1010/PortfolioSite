@@ -42,7 +42,7 @@ class Expensee extends Component {
 					<h3>Full-Stack Developer • Created with React Native/Nodejs</h3>
 					<p>set your own money in the app</p>
 					<a
-						href='https://nothing2trash.herokuapp.com/'
+						href='https://github.com/Semko1010/Expensee-React-Native'
 						target='_blank'
 						rel='noreferrer'
 						class='est-flip'

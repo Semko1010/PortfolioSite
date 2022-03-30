@@ -82,14 +82,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 83vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 25%;
+        height:60vh;
         position: absolute;
         right: 17vw;
         top: 254vh;
@@ -97,7 +97,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 445vh;
@@ -120,14 +120,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 15%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 83vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 30%;
+        height:60vh;
         position: absolute;
         right: 18vw;
         top: 254vh;
@@ -135,7 +135,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 65%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 442vh;
@@ -165,25 +165,25 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 84vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
-        top: 255vh;
+        right: 20vw;
+        top: 252vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
-        top: 425vh;
+        top: 432vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -206,25 +206,25 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 82vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
+        right: 20vw;
         top: 253vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 1vw;
-        top: 423vh;
+        top: 433vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -244,25 +244,25 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 20%;
+        height:40vh;
         position: absolute;
         right: 1vw;
         top: 84vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 40%;
+        height:50vh;
         position: absolute;
         right: 21vw;
-        top: 254vh;
+        top: 258vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 90%;
+        height:50vh;
         position: absolute;
-        right: 1vw;
-        top: 410vh;
+        right: 5vw;
+        top: 427vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -285,24 +285,24 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 20%;
+        height:35vh;
         position: absolute;
         right: 1vw;
         top: 90vh;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(2) {
-        width: 40%;
+        height:40vh;
         position: absolute;
-        right: 21vw;
+        right: 25vw;
         top: 266vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 90%;
+        height:40vh;
         position: absolute;
-        right: 5vw;
+        right: 1vw;
         top: 428vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -326,15 +326,15 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
-        right: 1vw;
+        right: 2vw;
         top: 94vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 20;
     }
     .music img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 37vw;
         top: 257vh;
@@ -343,9 +343,9 @@
         z-index: 20;
     }
     .music img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 1vw;
         top: 404vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -375,15 +375,15 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
-        right: 1vw;
+        right: 2vw;
         top: 92vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 2;
     }
     .music img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 37vw;
         top: 255vh;
@@ -391,9 +391,9 @@
         transition: transform 0.2s ease-out 0s;
     }
     .music img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 2vw;
         top: 403vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;

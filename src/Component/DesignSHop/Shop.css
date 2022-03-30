@@ -82,14 +82,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 109vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 25%;
+        height:60vh;
         position: absolute;
         right: 17vw;
         top: 327vh;
@@ -97,7 +97,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 555vh;
@@ -134,14 +134,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(1) {
-        width: 15%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 109vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 30%;
+        height:60vh;
         position: absolute;
         right: 18vw;
         top: 327vh;
@@ -149,7 +149,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 65%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 552vh;
@@ -179,25 +179,25 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 107vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
-        top: 326vh;
+        right: 20vw;
+        top: 323vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
-        top: 532vh;
+        top: 537vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -230,25 +230,25 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 104vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
-        top: 320vh;
+        right: 20vw;
+        top: 317vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
-        top: 524vh;
+        top: 530vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -288,25 +288,25 @@
         width: 350px;
     }
     .shop img:nth-of-type(1) {
-        width: 20%;
+        height:40vh;
         position: absolute;
         right: 1vw;
         top: 104vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 40%;
+        height:50vh;
         position: absolute;
         right: 21vw;
-        top: 315vh;
+        top: 320vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 90%;
+        height:50vh;
         position: absolute;
-        right: 0vw;
-        top: 500vh;
+        right: 5vw;
+        top: 517vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
@@ -349,24 +349,24 @@
         width: 350px;
     }
     .shop img:nth-of-type(1) {
-        width: 20%;
+        height:35vh;
         position: absolute;
         right: 1vw;
         top: 110vh;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(2) {
-        width: 40%;
+        height:40vh;
         position: absolute;
-        right: 21vw;
+        right: 25vw;
         top: 325vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 90%;
+        height:40vh;
         position: absolute;
-        right: 5vw;
+        right: 1vw;
         top: 515vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -411,15 +411,15 @@
         width: 290px;
     }
     .shop img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
-        right: 1vw;
+        right: 2vw;
         top: 115vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 50;
     }
     .shop img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 36vw;
         top: 318vh;
@@ -428,9 +428,9 @@
         z-index: 50;
     }
     .shop img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 1vw;
         top: 496vh;
         z-index: 3;
         transition: transform 0.2s ease-out 0s;
@@ -472,15 +472,15 @@
         width: 290px;
     }
     .shop img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
-        right: 1vw;
+        right: 2vw;
         top: 113vh;
         transition: transform 0.2s ease-out 0s;
         z-index: 4;
     }
     .shop img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 36vw;
         top: 313vh;
@@ -488,9 +488,9 @@
         transition: transform 0.2s ease-out 0s;
     }
     .shop img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 2vw;
         top: 493vh;
         z-index: 10;
         transition: transform 0.2s ease-out 0s;

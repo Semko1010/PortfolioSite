@@ -82,14 +82,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 59vh;
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(2) {
-        width: 25%;
+        height:60vh;
         position: absolute;
         right: 18vw;
         top: 180vh;
@@ -97,7 +97,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 335vh;
@@ -120,14 +120,14 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(1) {
-        width: 15%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 59vh;
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(2) {
-        width: 30%;
+        height:60vh;
         position: absolute;
         right: 18vw;
         top: 182vh;
@@ -135,7 +135,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(3) {
-        width: 65%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 335vh;
@@ -164,23 +164,23 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 60vh;
     }
     .tasty img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
+        right: 20vw;
         top: 182vh;
         z-index: 3;
     }
     .tasty img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 1vw;
-        top: 316vh;
+        top: 330vh;
         z-index: 3;
     }
 }
@@ -201,23 +201,23 @@
         margin: 0 0 0 5vw;
     }
     .tasty img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 56vh;
     }
     .tasty img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
+        right: 20vw;
         top: 182vh;
         z-index: 3;
     }
     .tasty img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 1vw;
-        top: 318vh;
+        top: 329vh;
         z-index: 3;
     }
 }
@@ -245,23 +245,23 @@
         margin: 0 0 0 5vw;
     }
     .tasty img:nth-of-type(1) {
-        width: 20%;
+        height:40vh;
         position: absolute;
         right: 1vw;
         top: 66vh;
     }
     .tasty img:nth-of-type(2) {
-        width: 40%;
+        height:50vh;
         position: absolute;
         right: 21vw;
         top: 197vh;
         z-index: 3;
     }
     .tasty img:nth-of-type(3) {
-        width: 90%;
+        height:50vh;
         position: absolute;
         right: 5vw;
-        top: 323vh;
+        top: 333vh;
         z-index: 3;
     }
 }
@@ -289,23 +289,23 @@
         margin: 0 0 0 5vw;
     }
     .tasty img:nth-of-type(1) {
-        width: 20%;
+        height:35vh;
         position: absolute;
         right: 1vw;
         top: 66vh;
     }
     .tasty img:nth-of-type(2) {
-        width: 40%;
+        height:40vh;
         position: absolute;
-        right: 21vw;
+        right: 25vw;
         top: 197vh;
         z-index: 3;
     }
     .tasty img:nth-of-type(3) {
-        width: 90%;
+        height:40vh;
         position: absolute;
-        right: 5vw;
-        top: 323vh;
+        right: 2vw;
+        top: 328vh;
         z-index: 3;
     }
 }
@@ -329,23 +329,23 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
         right: 2vw;
         top: 73vh;
         z-index: 100;
     }
     .tasty img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 37vw;
         top: 191vh;
         z-index: 100;
     }
     .tasty img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 1vw;
         top: 306vh;
         z-index: 100;
     }
@@ -366,22 +366,22 @@
         transition: transform 0.2s ease-out 0s;
     }
     .tasty img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
         right: 2vw;
         top: 70vh;
     }
     .tasty img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         right: 37vw;
         top: 188vh;
         z-index: 3;
     }
     .tasty img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 3vw;
         top: 305vh;
         z-index: 103;
     }

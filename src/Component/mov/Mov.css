@@ -83,21 +83,21 @@
         transform: translateY(0) rotateX(0);
     }
     .mov img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 35vh;
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(2) {
-        width: 25%;
+        height: 60vh;
         position: absolute;
         right: 18vw;
         top: 110vh;
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 230vh;
@@ -122,21 +122,21 @@
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(1) {
-        width: 15%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 35vh;
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(2) {
-        width: 30%;
+        height:60vh;
         position: absolute;
         right: 18vw;
         top: 118vh;
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(3) {
-        width: 65%;
+        height:70vh;
         position: absolute;
         right: 5vw;
         top: 236vh;
@@ -157,22 +157,22 @@
         font-size: 7rem;
     }
     .mov img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 35vh;
     }
     .mov img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
-        top: 118vh;
+        right: 20vw;
+        top: 115vh;
     }
     .mov img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 1vw;
-        top: 224vh;
+        top: 232vh;
     }
 }
 
@@ -189,22 +189,22 @@
         font-size: 5rem;
     }
     .mov img:nth-of-type(1) {
-        width: 13%;
+        height:50vh;
         position: absolute;
         right: 3vw;
         top: 35vh;
     }
     .mov img:nth-of-type(2) {
-        width: 27%;
+        height:60vh;
         position: absolute;
-        right: 16vw;
+        right: 20vw;
         top: 118vh;
     }
     .mov img:nth-of-type(3) {
-        width: 60%;
+        height:70vh;
         position: absolute;
         right: 1vw;
-        top: 223vh;
+        top: 232vh;
     }
 }
 
@@ -224,22 +224,22 @@
         margin: 0 0 0 5vw;
     }
     .mov img:nth-of-type(1) {
-        width: 20%;
+        height:40vh;
         position: absolute;
         right: 1vw;
         top: 45vh;
     }
     .mov img:nth-of-type(2) {
-        width: 40%;
+        height:50vh;
         position: absolute;
         right: 21vw;
-        top: 133vh;
+        top: 135vh;
     }
     .mov img:nth-of-type(3) {
-        width: 90%;
+        height:50vh;
         position: absolute;
         right: 5vw;
-        top: 228vh;
+        top: 238vh;
     }
 }
 
@@ -259,22 +259,22 @@
         margin: 0 0 0 5vw;
     }
     .mov img:nth-of-type(1) {
-        width: 20%;
+        height:35vh;
         position: absolute;
         right: 1vw;
         top: 45vh;
     }
     .mov img:nth-of-type(2) {
-        width: 40%;
+        height:40vh;
         position: absolute;
-        right: 21vw;
+        right: 25vw;
         top: 133vh;
     }
     .mov img:nth-of-type(3) {
-        width: 90%;
+        height:40vh;
         position: absolute;
-        right: 5vw;
-        top: 228vh;
+        right: 1vw;
+        top: 233vh;
     }
 }
 
@@ -294,23 +294,23 @@
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
         right: 2vw;
         top: 52vh;
         z-index: 100;
     }
     .mov img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         left: 2vw;
         top: 130vh;
         z-index: 100;
     }
     .mov img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 1vw;
         top: 215vh;
         z-index: 100;
     }
@@ -331,21 +331,21 @@
         transition: transform 0.2s ease-out 0s;
     }
     .mov img:nth-of-type(1) {
-        width: 35%;
+        height:30vh;
         position: absolute;
         right: 2vw;
         top: 52vh;
     }
     .mov img:nth-of-type(2) {
-        width: 60%;
+        height:35vh;
         position: absolute;
         left: 2vw;
         top: 128vh;
     }
     .mov img:nth-of-type(3) {
-        width: 100%;
+        height:25vh;
         position: absolute;
-        right: 0vw;
+        right: 2vw;
         top: 215vh;
     }
 }

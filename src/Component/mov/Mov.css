@@ -11,6 +11,7 @@
         position: relative;
     }
     .movText {
+        
         margin: 0 0 0 5vw;
         visibility: hidden;
         opacity: 0;
@@ -25,6 +26,7 @@
         transition: transform 0.2s ease-out 0s;
     }
     .mov p {
+        
         font-size: 3rem;
         transition: transform 0.2s ease-out 0s;
     }

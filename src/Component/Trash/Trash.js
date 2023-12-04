@@ -38,15 +38,15 @@ class Trash extends Component {
 		return (
 			<div className='trash'>
 				<div className='trashText'>
-					<h2>Nothing to Trash</h2>
-					<h3>Full-Stack Developer • Created with Reactjs/Nodejs</h3>
-					<p>Sell your second hand stuff</p>
+					<h2>Kukko</h2>
+					<h3>Front - End • Created with Typo 3</h3>
+					<p>Pull your Parts</p>
 					<a
-						href='https://nothing2trash.herokuapp.com/'
+						href='https://de.kukko.com/'
 						target='_blank'
 						rel='noreferrer'
 						class='est-flip'
-						data-back='Trash'
+						data-back='Kukko'
 						data-front='Show Me'>
 						{" "}
 					</a>
@@ -54,19 +54,19 @@ class Trash extends Component {
 				<img
 					style={{ transform: `translateY(${-this.state.scroll * 0.2}px)` }}
 					id='img1'
-					src='./img/Trash/iphone-1766253.png'
+					src='./img/Trash/kukoIphone.png'
 					alt=''
 				/>
 				<img
 					style={{ transform: `translateY(${-this.state.scroll * 0.6}px)` }}
 					id='img2'
-					src='/img/Trash/ipad-147691.png'
+					src='/img/Trash/kukkoIpad.png'
 					alt=''
 				/>
 				<img
 					style={{ transform: `translateY(${-this.state.scroll * 0.9}px)` }}
 					id='img3'
-					src='/img/Trash/macbook-562499.png'
+					src='/img/Trash/kukko.png'
 					alt=''
 				/>
 			</div>
